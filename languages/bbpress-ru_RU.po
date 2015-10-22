@@ -1,0 +1,5411 @@
+# Translation of Development (trunk) in Russian
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Development (trunk)\n"
+"POT-Creation-Date: 2015-10-22 16:44+0300\n"
+"PO-Revision-Date: 2015-10-22 16:51+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bbpress.php:134 bbpress.php:141
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"
+
+#: bbpress.php:418
+msgid "bbPress Default"
+msgstr "bbPress Default"
+
+#: bbpress.php:499
+msgid "bbPress Forums"
+msgstr "Форумы bbPress"
+
+#: bbpress.php:524
+msgid "bbPress Topics"
+msgstr "Темы bbPress"
+
+#: bbpress.php:549
+msgid "bbPress Replies"
+msgstr "bbPress Ответы"
+
+#: bbpress.php:723
+msgid "Most popular topics"
+msgstr "Самые популярные темы"
+
+#: bbpress.php:736
+msgid "Topics with no replies"
+msgstr "Темы без ответов"
+
+#: includes/admin/admin.php:205 includes/admin/functions.php:279
+#: includes/admin/tools.php:36 includes/admin/tools.php:268
+msgid "Repair Forums"
+msgstr "Восстановление форума"
+
+#: includes/admin/admin.php:206
+msgid "Forum Repair"
+msgstr "Восстановить форум"
+
+#: includes/admin/admin.php:215 includes/admin/functions.php:283
+msgid "Import Forums"
+msgstr "Импорт форумов"
+
+#: includes/admin/admin.php:216
+msgid "Forum Import"
+msgstr "Импорт форума"
+
+#: includes/admin/admin.php:225 includes/admin/functions.php:287
+#: includes/admin/tools.php:306 includes/admin/tools.php:2135
+msgid "Reset Forums"
+msgstr "Сброс форумов"
+
+#: includes/admin/admin.php:226
+msgid "Forum Reset"
+msgstr "Сброс форума"
+
+#: includes/admin/admin.php:240 includes/admin/admin.php:241
+#: includes/admin/admin.php:251 includes/admin/admin.php:252
+#: includes/common/widgets.php:667 includes/extend/buddypress/loader.php:42
+#: includes/extend/buddypress/loader.php:178
+#: includes/extend/buddypress/loader.php:285
+#: includes/extend/buddypress/loader.php:336 includes/forums/template.php:48
+#: includes/forums/template.php:49
+msgid "Forums"
+msgstr "Форумы"
+
+#: includes/admin/admin.php:264 includes/admin/admin.php:265
+#: includes/admin/admin.php:273 includes/admin/admin.php:274
+msgid "Welcome to bbPress"
+msgstr "Добро пожаловать в bbPress"
+
+#: includes/admin/admin.php:288 includes/admin/admin.php:289
+#: includes/admin/admin.php:311 includes/admin/admin.php:312
+msgid "Update Forums"
+msgstr "Обновление форумов"
+
+#: includes/admin/admin.php:1058
+#, php-format
+msgid ""
+"Warning! Problem updating %1$s. Your server may not be able to connect to sites "
+"running on it. Error message: <em>%2$s</em>"
+msgstr ""
+"Предупреждение! Проблемы обновления %1$s. Ваш сервер не сможет подключиться к "
+"сайтам, работающим на нем. Сообщение об ошибке: <em>%2$s</em>"
+
+#: includes/admin/converter.php:87 includes/admin/tools.php:346
+msgid "Database Settings"
+msgstr "Настройки базы данных"
+
+#: includes/admin/converter.php:90
+msgid "Select Platform"
+msgstr "Выбрать платформу"
+
+#: includes/admin/converter.php:94
+msgid "Database Server"
+msgstr "Сервер базы данных"
+
+#: includes/admin/converter.php:98
+msgid "Database Port"
+msgstr "Порт базы данных"
+
+#: includes/admin/converter.php:102
+msgid "Database Name"
+msgstr "Имя базы данных"
+
+#: includes/admin/converter.php:106
+msgid "Database User"
+msgstr "Пользователь базы данных"
+
+#: includes/admin/converter.php:110
+msgid "Database Password"
+msgstr "Пароль доступа к базе данных"
+
+#: includes/admin/converter.php:114
+msgid "Table Prefix"
+msgstr "Префикс таблиц"
+
+#: includes/admin/converter.php:118
+msgid "Options"
+msgstr "Опции"
+
+#: includes/admin/converter.php:121
+msgid "Rows Limit"
+msgstr "Лимит строк"
+
+#: includes/admin/converter.php:125
+msgid "Delay Time"
+msgstr "Задержка времени"
+
+#: includes/admin/converter.php:129
+msgid "Convert Users"
+msgstr "Конвертировать пользователей"
+
+#: includes/admin/converter.php:133
+msgid "Start Over"
+msgstr "Начать заново"
+
+#: includes/admin/converter.php:137
+msgid "Purge Previous Import"
+msgstr "Очистить предыдущий импорт"
+
+#: includes/admin/converter.php:352
+msgid "No data to clean"
+msgstr "Нет данных для очистки"
+
+#: includes/admin/converter.php:356
+#, php-format
+msgid "Deleting previously converted data (%1$s - %2$s)"
+msgstr "Удаление предыдущих конвертируемых данных (%1$s - %2$s)"
+
+#: includes/admin/converter.php:372
+msgid "No users to convert"
+msgstr "Нет пользователей для конвертации"
+
+#: includes/admin/converter.php:376
+#, php-format
+msgid "Converting users (%1$s - %2$s)"
+msgstr "Конвертировать пользователей  (%1$s - %2$s)"
+
+#: includes/admin/converter.php:392
+msgid "No passwords to clear"
+msgstr "Нет паролей для очистки"
+
+#: includes/admin/converter.php:396
+#, php-format
+msgid "Delete users WordPress default passwords (%1$s - %2$s)"
+msgstr "Удалить пароли пользователей WordPress по умолчанию (%1$s - %2$s)"
+
+#: includes/admin/converter.php:411
+msgid "No forums to convert"
+msgstr "Нет форумов для конвертирования"
+
+#: includes/admin/converter.php:415
+#, php-format
+msgid "Converting forums (%1$s - %2$s)"
+msgstr "Конвертировать форумы (%1$s - %2$s)"
+
+#: includes/admin/converter.php:426
+msgid "No forum parents to convert"
+msgstr "Нет родительских форумов для конвертирования"
+
+#: includes/admin/converter.php:430
+#, php-format
+msgid "Calculating forum hierarchy (%1$s - %2$s)"
+msgstr "Расчет иерархии форума  (%1$s - %2$s)"
+
+#: includes/admin/converter.php:441
+msgid "No forum subscriptions to convert"
+msgstr "Нет подписок на форумы для конвертации"
+
+#: includes/admin/converter.php:445
+#, php-format
+msgid "Converting forum subscriptions (%1$s - %2$s)"
+msgstr "Конвертация подписок на форумы (%1$s - %2$s)"
+
+#: includes/admin/converter.php:456
+msgid "No topics to convert"
+msgstr "Нет тем для конвертирования"
+
+#: includes/admin/converter.php:460
+#, php-format
+msgid "Converting topics (%1$s - %2$s)"
+msgstr "Преобразование тем (%1$s - %2$s)"
+
+#: includes/admin/converter.php:471
+msgid "No anonymous topic authors to convert"
+msgstr "Нет анонимных тем для преобразования."
+
+#: includes/admin/converter.php:475
+#, php-format
+msgid "Converting anonymous topic authors (%1$s - %2$s)"
+msgstr "Преобразование анонимных тем (%1$s - %2$s)"
+
+#: includes/admin/converter.php:486
+msgid "No stickies to stick"
+msgstr "Нет закрепленных"
+
+#: includes/admin/converter.php:490
+#, php-format
+msgid "Calculating topic stickies (%1$s - %2$s)"
+msgstr "Подсчет закрепленных тем (%1$s - %2$s)"
+
+#: includes/admin/converter.php:501
+msgid "No super stickies to stick"
+msgstr "Нет тем с пометкой \"важно\""
+
+#: includes/admin/converter.php:505
+#, php-format
+msgid "Calculating topic super stickies (%1$s - %2$s)"
+msgstr "Подсчет тем с пометкой \"важно\" (%1$s - %2$s)"
+
+#: includes/admin/converter.php:516
+msgid "No closed topics to close"
+msgstr "Нет тем для закрытия"
+
+#: includes/admin/converter.php:520
+#, php-format
+msgid "Calculating closed topics (%1$s - %2$s)"
+msgstr "Подсчет закрытых тем (%1$s - %2$s)"
+
+#: includes/admin/converter.php:531
+msgid "No topic tags to convert"
+msgstr "Нет меток тем для преобразования"
+
+#: includes/admin/converter.php:535
+#, php-format
+msgid "Converting topic tags (%1$s - %2$s)"
+msgstr "Преобразование меток тем (%1$s - %2$s)"
+
+#: includes/admin/converter.php:546
+msgid "No topic subscriptions to convert"
+msgstr "Нет подписок на темы для конвертации"
+
+#: includes/admin/converter.php:550
+#, php-format
+msgid "Converting topic subscriptions (%1$s - %2$s)"
+msgstr "Конвертация подписок на темы (%1$s - %2$s)"
+
+#: includes/admin/converter.php:561
+msgid "No favorites to convert"
+msgstr "Нет избранного для конвертации"
+
+#: includes/admin/converter.php:565
+#, php-format
+msgid "Converting favorites (%1$s - %2$s)"
+msgstr "Конвертация избранного (%1$s - %2$s)"
+
+#: includes/admin/converter.php:576
+msgid "No replies to convert"
+msgstr "Нет ответов для конвертации"
+
+#: includes/admin/converter.php:580
+#, php-format
+msgid "Converting replies (%1$s - %2$s)"
+msgstr "Преобразование ответов (%1$s - %2$s)"
+
+#: includes/admin/converter.php:591
+msgid "No anonymous reply authors to convert"
+msgstr "Нет анонимных сообщений для конвертации"
+
+#: includes/admin/converter.php:595
+#, php-format
+msgid "Converting anonymous reply authors (%1$s - %2$s)"
+msgstr "Конвертация анонимных ответов (%1$s - %2$s)"
+
+#: includes/admin/converter.php:606
+msgid "No threaded replies to convert"
+msgstr "Нет удаленных ответов для преобразования"
+
+#: includes/admin/converter.php:610
+#, php-format
+msgid "Calculating threaded replies parents (%1$s - %2$s)"
+msgstr "Подсчет родительских удаленных ответов (%1$s - %2$s)"
+
+#: includes/admin/converter.php:620
+msgid "Conversion Complete"
+msgstr "Преобразование завершено"
+
+#: includes/admin/forums.php:131 includes/admin/replies.php:135
+#: includes/admin/settings.php:1571 includes/admin/tools.php:337
+#: includes/admin/topics.php:136
+msgid "Overview"
+msgstr "Обзор"
+
+#: includes/admin/forums.php:133
+msgid ""
+"This screen displays the individual forums on your site. You can customize the "
+"display of this screen to suit your workflow."
+msgstr ""
+"Этот экран отображает отдельные форумы на вашем сайте. Вы можете настроить "
+"отображение этого экрана в соответствии с вашим рабочим процессом."
+
+#: includes/admin/forums.php:139 includes/admin/replies.php:143
+#: includes/admin/topics.php:144
+msgid "Screen Content"
+msgstr "Содержимое экрана"
+
+#: includes/admin/forums.php:141 includes/admin/replies.php:145
+#: includes/admin/topics.php:146
+msgid ""
+"You can customize the display of this screen&#8217;s contents in a number of ways:"
+msgstr ""
+"Вы можете настроить отображение содержимого этих окон в нескольких вариантах:"
+
+#: includes/admin/forums.php:143
+msgid ""
+"You can hide/display columns based on your needs and decide how many forums to "
+"list per screen using the Screen Options tab."
+msgstr ""
+"Вы можете скрывать / отображать столбцы в зависимости от потребностей и решить, "
+"какое количество форумов отображать в списке с помощью вкладки \"Настройки экрана."
+"\""
+
+#: includes/admin/forums.php:144
+msgid ""
+"You can filter the list of forums by forum status using the text links in the "
+"upper left to show All, Published, or Trashed forums. The default view is to show "
+"all forums."
+msgstr ""
+"Вы можете фильтровать список форумов по статусу с помощью текстовых ссылок в левом "
+"верхнем углу: показать все, опубликованное или удаленные в корзину. По умолчанию "
+"отображаются все форумы."
+
+#: includes/admin/forums.php:145
+msgid ""
+"You can refine the list to show only forums from a specific month by using the "
+"dropdown menus above the forums list. Click the Filter button after making your "
+"selection. You also can refine the list by clicking on the forum creator in the "
+"forums list."
+msgstr ""
+"Вы можете уточнить список, отобразив форумы только за определённый месяц с помощью "
+"выпадающих меню над списком форумов. Нажмите кнопку Фильтр и выберите нужный. Вы "
+"также можете упорядочить список по авторам, нажав на заголовок соответствующей "
+"колонки."
+
+#: includes/admin/forums.php:152 includes/admin/replies.php:157
+#: includes/admin/topics.php:158
+msgid "Available Actions"
+msgstr "Доступные действия"
+
+#: includes/admin/forums.php:154
+msgid ""
+"Hovering over a row in the forums list will display action links that allow you to "
+"manage your forum. You can perform the following actions:"
+msgstr ""
+"При наведении курсора на строку в списке форумов будет отображать ссылки на "
+"действия, которые позволяют вам управлять вашим форумом. Вы можете выполнять "
+"следующие действия:"
+
+#: includes/admin/forums.php:156
+msgid ""
+"<strong>Edit</strong> takes you to the editing screen for that forum. You can also "
+"reach that screen by clicking on the forum title."
+msgstr ""
+"<strong>Изменить</strong> приведет вас к экрану редактирования этого форума. Вы "
+"также можете достичь этого экрана, нажав на заголовок форума."
+
+#: includes/admin/forums.php:157
+msgid ""
+"<strong>Trash</strong> removes your forum from this list and places it in the "
+"trash, from which you can permanently delete it."
+msgstr ""
+"<strong>Корзина</strong> удаляет ваш форум из этого списка и помещает его в "
+"корзину, из которой его можно удалить навсегда."
+
+#: includes/admin/forums.php:158
+msgid ""
+"<strong>View</strong> will show you what your draft forum will look like if you "
+"publish it. View will take you to your live site to view the forum. Which link is "
+"available depends on your forum&#8217;s status."
+msgstr ""
+"<strong>Предпросмотр</strong> покажет вам, как будет выглядеть ваш форум, когда вы "
+"опубликуете его. Предпросмотр отобразит ваш сайт с новым форумом. Какая ссылка "
+"будет доступна - зависит от статуса вашего форума."
+
+#: includes/admin/forums.php:165 includes/admin/replies.php:173
+#: includes/admin/topics.php:176
+msgid "Bulk Actions"
+msgstr "Массовые действия"
+
+#: includes/admin/forums.php:167
+msgid ""
+"You can also edit or move multiple forums to the trash at once. Select the forums "
+"you want to act on using the checkboxes, then select the action you want to take "
+"from the Bulk Actions menu and click Apply."
+msgstr ""
+"Вы также можете изменить или переместить в корзину несколько форумов одновременно. "
+"Отметьте темы, с которыми необходимо произвести нужные действия, затем выберите "
+"нужное в меню действий и нажмите кнопку \"Применить\"."
+
+#: includes/admin/forums.php:168
+msgid ""
+"When using Bulk Edit, you can change the metadata (categories, author, etc.) for "
+"all selected forums at once. To remove a forum from the grouping, just click the x "
+"next to its name in the Bulk Edit area that appears."
+msgstr ""
+"При использовании опции массового изменения, вы можете изменить метаданные "
+"(категории, автор и т.д.) для всех выбранных форумов одновременно. Чтобы удалить "
+"форум из группы, просто нажмите на крестик рядом с его именем в появившейся "
+"области массового редактирования."
+
+#: includes/admin/forums.php:173 includes/admin/forums.php:234
+#: includes/admin/replies.php:181 includes/admin/replies.php:240
+#: includes/admin/settings.php:1617 includes/admin/tools.php:281
+#: includes/admin/tools.php:312 includes/admin/tools.php:371
+#: includes/admin/topics.php:184 includes/admin/topics.php:242
+msgid "For more information:"
+msgstr "Дополнительная информация:"
+
+#: includes/admin/forums.php:174 includes/admin/forums.php:235
+#: includes/admin/replies.php:182 includes/admin/replies.php:241
+#: includes/admin/settings.php:1618 includes/admin/tools.php:282
+#: includes/admin/tools.php:313 includes/admin/tools.php:372
+#: includes/admin/topics.php:185 includes/admin/topics.php:243
+msgid ""
+"<a href=\"https://codex.bbpress.org\" target=\"_blank\">bbPress Documentation</a>"
+msgstr ""
+"<a href=\"https://codex.bbpress.org\" target=\"_blank\">Документация bbPress</a>"
+
+#: includes/admin/forums.php:175 includes/admin/forums.php:236
+#: includes/admin/replies.php:183 includes/admin/replies.php:242
+#: includes/admin/settings.php:1619 includes/admin/tools.php:283
+#: includes/admin/tools.php:314 includes/admin/tools.php:373
+#: includes/admin/topics.php:186 includes/admin/topics.php:244
+msgid ""
+"<a href=\"https://bbpress.org/forums/\" target=\"_blank\">bbPress Support Forums</"
+"a>"
+msgstr ""
+"<a href=\"https://bbpress.org/forums/\" target=\"_blank\">Форумы поддержки "
+"bbPress</a>"
+
+#: includes/admin/forums.php:191
+msgid ""
+"The title field and the big forum editing Area are fixed in place, but you can "
+"reposition all the other boxes using drag and drop, and can minimize or expand "
+"them by clicking the title bar of each box. Use the Screen Options tab to unhide "
+"more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or "
+"to choose a 1- or 2-column layout for this screen."
+msgstr ""
+"Поле названия и большая площадь редактирования форума фиксируются на месте, но вы "
+"можете изменить все остальные блоки с помощью перетаскивания, а можно свернуть или "
+"развернуть их, щелкнув заголовок каждого окна. Щелкните на вкладке экрана, чтобы "
+"отобразить дополнительные поля (Цитата, Отправить обратные ссылки, Произвольные "
+"поля, Обсуждение, Ярлык, Автор) или выбрать 1 - или 2-колонки для этого экрана. "
+"или выбрать 1 - или 2-колонки для этого экрана."
+
+#: includes/admin/forums.php:195 includes/admin/replies.php:203
+#: includes/admin/topics.php:206
+msgid "Customizing This Display"
+msgstr "Настроить этот экран"
+
+#: includes/admin/forums.php:201
+msgid "Title and Forum Editor"
+msgstr "Редактор заголовков и форумов"
+
+#: includes/admin/forums.php:203
+msgid ""
+"<strong>Title</strong> - Enter a title for your forum. After you enter a title, "
+"you&#8217;ll see the permalink below, which you can edit."
+msgstr ""
+"<strong>Заголовок</strong> - Введите название вашего форума. После ввода названия, "
+"вы увидите постоянную ссылку ниже, которые можно редактировать."
+
+#: includes/admin/forums.php:204
+msgid ""
+"<strong>Forum Editor</strong> - Enter the text for your forum. There are two modes "
+"of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. "
+"Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a "
+"second row of controls. The HTML mode allows you to enter raw HTML along with your "
+"forum text. You can insert media files by clicking the icons above the forum "
+"editor and following the directions. You can go to the distraction-free writing "
+"screen via the Fullscreen icon in Visual mode (second to last in the top row) or "
+"the Fullscreen button in HTML mode (last in the row). Once there, you can make "
+"buttons visible by hovering over the top area. Exit Fullscreen back to the regular "
+"forum editor."
+msgstr ""
+"<strong>Редактор форума</strong> - Введите текст вашего форума. Есть два режима "
+"редактирования: визуальный и HTML. Выберите режим, нажав на соответствующую "
+"вкладку. Визуальный режим предоставит вам WYSIWYG редактор. Нажмите на последнюю "
+"иконку в строке, чтобы получить вторую строку элементов управления.Режим HTML "
+"позволяет ввести чистый HTML вместе с текстом вашего форума. Вы можете вставить "
+"мультимедийные файлы, нажав на значки над редактором форума и следуя инструкциям. "
+"Вы можете перейти в полноэкранный режим, нажав на кнопку (вторая в верхнем ряду) "
+"или кнопкой на весь экран в режиме HTML (последняя в ряду). Оказавшись там, вы "
+"можете сделать видимыми кнопки, подведя курсор к верхней части. В обычный режим "
+"вернет вас обратно в редактор форума."
+
+#: includes/admin/forums.php:207
+msgid ""
+"<strong>Publish</strong> - You can set the terms of publishing your forum in the "
+"Publish box. For Status, Visibility, and Publish (immediately), click on the Edit "
+"link to reveal more options. Visibility includes options for password-protecting a "
+"forum or making it stay at the top of your blog indefinitely (sticky). Publish "
+"(immediately) allows you to set a future or past date and time, so you can "
+"schedule a forum to be published in the future or backdate a forum."
+msgstr ""
+"<strong> Публикация</strong> - Вы можете задать условия публикации вашего форума в "
+"окне публикации. Для изменения статуса, видимости, и публикации (сразу), нажмите "
+"на ссылку Изменить, чтобы отобразились дополнительные параметры. Видимость "
+"включает в себя варианты защиты паролем форума или закрепляет его в топе вашего "
+"блога на неопределенный срок (прикреплен). Публикация (сразу) позволяет установить "
+"будущее или прошлое дату и время, так что вы можете запланировать, будет ли форум "
+"опубликован в будущем, или задним числом."
+
+#: includes/admin/forums.php:210
+msgid ""
+"<strong>Featured Image</strong> - This allows you to associate an image with your "
+"forum without inserting it. This is usually useful only if your theme makes use of "
+"the featured image as a forum thumbnail on the home page, a custom header, etc."
+msgstr ""
+"<strong>Миниатюра</strong> - позволяет задать изображение для форума, не вставляя "
+"его. Как правило, это полезно, только если ваша тема поддерживает миниатюру для "
+"форума на главной странице, пользовательском заголовке и т.д."
+
+#: includes/admin/forums.php:215 includes/admin/forums.php:257
+msgid "Forum Attributes"
+msgstr "Параметры форума"
+
+#: includes/admin/forums.php:217
+msgid "Select the attributes that your forum should have:"
+msgstr "Выберите параметры, которые должен иметь ваш форум:"
+
+#: includes/admin/forums.php:219
+msgid ""
+"<strong>Type</strong> indicates if the forum is a category or forum. Categories "
+"generally contain other forums."
+msgstr ""
+"<strong>Тип</strong> указывается если форум является категорией или форумом. "
+"Категории, как правило, содержат другие форумы."
+
+#: includes/admin/forums.php:220
+msgid "<strong>Status</strong> allows you to close a forum to new topics and forums."
+msgstr "<strong>Статус</strong> позволяет закрыть форум для новых тем и форумов."
+
+#: includes/admin/forums.php:221
+msgid ""
+"<strong>Visibility</strong> lets you pick the scope of each forum and what users "
+"are allowed to access it."
+msgstr ""
+"<strong>Видимость</strong> позволяет выбрать ограничения для каждого форума и "
+"доступность его для определенных пользователей."
+
+#: includes/admin/forums.php:222
+msgid ""
+"<strong>Parent</strong> dropdown determines the parent forum. Select the forum or "
+"category from the dropdown, or leave the default \"No parent\" to create the forum "
+"at the root of your forums."
+msgstr ""
+"<strong>Родитель</strong> — определяет родительский форум. Выберите форум или "
+"категорию из списка или оставьте значение по умолчанию (вне форума), чтобы создать "
+"тему без привязки к форуму."
+
+#: includes/admin/forums.php:223
+msgid "<strong>Order</strong> allows you to order your forums numerically."
+msgstr "<strong>Порядок</strong> позволяет расположить форумы в числовом порядке."
+
+#: includes/admin/forums.php:229 includes/admin/replies.php:235
+#: includes/admin/topics.php:237
+msgid "Publish Box"
+msgstr "Окно публикаций"
+
+#: includes/admin/forums.php:525
+msgid "The forum was not found!"
+msgstr "Форум не найден!"
+
+#: includes/admin/forums.php:530 includes/admin/replies.php:490
+#: includes/admin/topics.php:566
+msgid "You do not have the permission to do that!"
+msgstr "У вас нет разрешения на это действие!"
+
+#: includes/admin/forums.php:605
+#, php-format
+msgid "There was a problem opening the forum \"%1$s\"."
+msgstr "Возникла ошибка при открытии форума \"%1$s\"."
+
+#: includes/admin/forums.php:606
+#, php-format
+msgid "Forum \"%1$s\" successfully opened."
+msgstr "Форум \"%1$s\" успешно открыт."
+
+#: includes/admin/forums.php:611
+#, php-format
+msgid "There was a problem closing the forum \"%1$s\"."
+msgstr "Возникла ошибка при закрытии форума \"%1$s\"."
+
+#: includes/admin/forums.php:612
+#, php-format
+msgid "Forum \"%1$s\" successfully closed."
+msgstr "Форум \"%1$s\" успешно закрыт."
+
+#: includes/admin/forums.php:648 includes/admin/replies.php:625
+#: includes/admin/settings.php:301 includes/admin/topics.php:771
+#: includes/extend/buddypress/groups.php:52 includes/extend/buddypress/groups.php:53
+#: includes/forums/template.php:50
+msgid "Forum"
+msgstr "Форум"
+
+#: includes/admin/forums.php:649 includes/admin/settings.php:230
+#: includes/admin/settings.php:251 includes/admin/topics.php:770
+#: includes/topics/template.php:47 includes/topics/template.php:48
+msgid "Topics"
+msgstr "Темы"
+
+#: includes/admin/forums.php:650 includes/admin/settings.php:238
+#: includes/admin/settings.php:259 includes/admin/topics.php:422
+#: includes/admin/topics.php:772 includes/core/theme-compat.php:660
+#: includes/replies/template.php:47 includes/replies/template.php:48
+msgid "Replies"
+msgstr "Ответы"
+
+#: includes/admin/forums.php:651
+msgid "Creator"
+msgstr "Автор"
+
+#: includes/admin/forums.php:652
+msgid "Moderators"
+msgstr "Модераторы"
+
+#: includes/admin/forums.php:653 includes/admin/replies.php:628
+#: includes/admin/topics.php:775
+msgid "Created"
+msgstr "Создано"
+
+#: includes/admin/forums.php:654 includes/admin/topics.php:776
+msgid "Freshness"
+msgstr "Свежесть"
+
+#: includes/admin/forums.php:809
+#, php-format
+msgid "Forum updated. <a href=\"%s\">View forum</a>"
+msgstr "Форум обновлён. <a href=\"%s\">Смотреть форум</a>"
+
+#: includes/admin/forums.php:812 includes/admin/replies.php:929
+#: includes/admin/topics.php:1082
+msgid "Custom field updated."
+msgstr "Произвольное поле обновлено."
+
+#: includes/admin/forums.php:815 includes/admin/replies.php:932
+#: includes/admin/topics.php:1085
+msgid "Custom field deleted."
+msgstr "Произвольное поле удалено."
+
+#: includes/admin/forums.php:818
+msgid "Forum updated."
+msgstr "Форум обновлён."
+
+#: includes/admin/forums.php:823
+#, php-format
+msgid "Forum restored to revision from %s"
+msgstr "Форум восстановлен до ревизии %s"
+
+#: includes/admin/forums.php:827
+#, php-format
+msgid "Forum created. <a href=\"%s\">View forum</a>"
+msgstr "Форум создан. <a href=\"%s\">Смотреть форум</a>"
+
+#: includes/admin/forums.php:830
+msgid "Forum saved."
+msgstr "Форум сохранён."
+
+#: includes/admin/forums.php:833
+#, php-format
+msgid "Forum submitted. <a target=\"_blank\" href=\"%s\">Preview forum</a>"
+msgstr "Форум создан. <a target=\"_blank\" href=\"%s\">Предварительный просмотр</a>"
+
+#: includes/admin/forums.php:836
+#, php-format
+msgid ""
+"Forum scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview forum</a>"
+msgstr ""
+"Форум запланирован: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Предварительный просмотр</a>"
+
+#: includes/admin/forums.php:838 includes/admin/replies.php:955
+#: includes/admin/topics.php:1108
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/admin/forums.php:843
+#, php-format
+msgid "Forum draft updated. <a target=\"_blank\" href=\"%s\">Preview forum</a>"
+msgstr ""
+"Форум обновлён. <a target=\"_blank\" href=\"%s\">Предварительный просмотр</a>"
+
+#: includes/admin/metaboxes.php:268
+#, php-format
+msgid "You are using <span class=\"b\">bbPress %s</span>."
+msgstr "Вы используете <span class=\"b\">bbPress %s</span>."
+
+#: includes/admin/metaboxes.php:359 includes/extend/buddypress/groups.php:297
+msgid "&mdash; No forum &mdash;"
+msgstr "&mdash; Нет форума &mdash; "
+
+#: includes/admin/metaboxes.php:442
+msgid "&mdash; No parent &mdash;"
+msgstr "&mdash; Нет родителя &mdash;"
+
+#: includes/admin/metaboxes.php:513
+msgid "&mdash; No reply &mdash;"
+msgstr "&mdash; Нет ответов &mdash; "
+
+#: includes/admin/replies.php:137
+msgid ""
+"This screen provides access to all of your replies. You can customize the display "
+"of this screen to suit your workflow."
+msgstr ""
+"Этот экран обеспечивает доступ ко всем вашим ответам. Вы можете настроить "
+"отображение этого экрана в соответствии с вашим рабочим процессом."
+
+#: includes/admin/replies.php:147
+msgid ""
+"You can hide/display columns based on your needs and decide how many replies to "
+"list per screen using the Screen Options tab."
+msgstr ""
+"Вы можете скрыть/показать столбцы, согласно вашим потребностям и выбрать "
+"количество ответов на экран с помощью вкладки Настройки экрана."
+
+#: includes/admin/replies.php:148
+msgid ""
+"You can filter the list of replies by reply status using the text links in the "
+"upper left to show All, Published, Draft, Pending, Trashed, or Spam replies. The "
+"default view is to show all replies."
+msgstr ""
+"Вы можете фильтровать список ответов по их статусу с помощью текстовых ссылок в "
+"верхнем левом углу: показать все, черновики, ожидающие проверки, удаленные в "
+"корзину и спам. По умолчанию отображаются все ответы."
+
+#: includes/admin/replies.php:149
+msgid ""
+"You can view replies in a simple title list or with an excerpt. Choose the view "
+"you prefer by clicking on the icons at the top of the list on the right."
+msgstr ""
+"Вы можете просматривать ответы в виде списка названия(простой список) или с "
+"цитированием содержания ответа(в развернутом виде). Выберите режим, который вы "
+"предпочитаете, нажав на иконку в верхней части списка справа."
+
+#: includes/admin/replies.php:150
+msgid ""
+"You can refine the list to show only replies in a specific forum or from a "
+"specific month by using the dropdown menus above the replies list. Click the "
+"Filter button after making your selection."
+msgstr ""
+"Вы можете персонализировать отображение списка, отобразив только ответы за "
+"определенный месяц с помощью выпадающих меню над списком ответов. Нажмите кнопку "
+"\"Фильтр\" после того, как сделаете свой выбор."
+
+#: includes/admin/replies.php:159
+msgid ""
+"Hovering over a row in the replies list will display action links that allow you "
+"to manage your reply. You can perform the following actions:"
+msgstr ""
+"При наведении курсора на строку в списке ответов будет отображать ссылки на "
+"действия, которые позволяют вам управлять вашим ответом. Вы можете выполнять "
+"следующие действия:"
+
+#: includes/admin/replies.php:161
+msgid ""
+"<strong>Edit</strong> takes you to the editing screen for that reply. You can also "
+"reach that screen by clicking on the reply title."
+msgstr ""
+"<strong>Изменить</strong> приведет вас к экрану редактирования этого ответа. Вы "
+"также можете достичь этого экрана, нажав на заголовок ответа."
+
+#: includes/admin/replies.php:163
+msgid ""
+"<strong>Trash</strong> removes your reply from this list and places it in the "
+"trash, from which you can permanently delete it."
+msgstr ""
+"<strong>Корзина</strong> удаляет ваш ответ из этого списка и помещает его в "
+"корзину, из которой его можно удалить навсегда."
+
+#: includes/admin/replies.php:164
+msgid ""
+"<strong>Spam</strong> removes your reply from this list and places it in the spam "
+"queue, from which you can permanently delete it."
+msgstr ""
+"<strong>Спам</strong> удаляет ваш ответ из этого списка и помещает его в очередь "
+"спама, из которой его можно удалить навсегда."
+
+#: includes/admin/replies.php:165
+msgid "<strong>View</strong> will take you to your live site to view the reply."
+msgstr "<strong>Просмотр</strong> перенаправит вас на ваш сайт для просмотра ответа."
+
+#: includes/admin/replies.php:166 includes/admin/topics.php:166
+msgid "<strong>Approve</strong> will change the status from pending to publish."
+msgstr "<strong>Одобрить</strong> изменит статус с ожидания на опубликовано."
+
+#: includes/admin/replies.php:175
+msgid ""
+"You can also edit or move multiple replies to the trash at once. Select the "
+"replies you want to act on using the checkboxes, then select the action you want "
+"to take from the Bulk Actions menu and click Apply."
+msgstr ""
+"Вы также можете изменить или переместить в корзину несколько ответов одновременно. "
+"Отметьте темы, с которыми необходимо произвести нужные действия, затем выберите "
+"нужное в меню действий и нажмите кнопку \"Применить\"."
+
+#: includes/admin/replies.php:176
+msgid ""
+"When using Bulk Edit, you can change the metadata (categories, author, etc.) for "
+"all selected replies at once. To remove a reply from the grouping, just click the "
+"x next to its name in the Bulk Edit area that appears."
+msgstr ""
+"При использовании опции массового изменения, вы можете изменить метаданные "
+"(категории, автор и т.д.) для всех выбранных ответов одновременно. Чтобы удалить "
+"ответ из группы, просто нажмите на крестик рядом с его именем в появившейся "
+"области массового редактирования."
+
+#: includes/admin/replies.php:199
+msgid ""
+"The title field and the big reply editing Area are fixed in place, but you can "
+"reposition all the other boxes using drag and drop, and can minimize or expand "
+"them by clicking the title bar of each box. Use the Screen Options tab to unhide "
+"more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or "
+"to choose a 1- or 2-column layout for this screen."
+msgstr ""
+"Поле названия и большая площадь редактирования ответа фиксируются на месте, но вы "
+"можете изменить все остальные блоки с помощью перетаскивания, а можно свернуть или "
+"развернуть их, щелкнув заголовок каждого окна. Щелкните на вкладке экрана, чтобы "
+"отобразить дополнительные поля (Цитата, Отправить обратные ссылки, Произвольные "
+"поля, Обсуждение, Ярлык, Автор) или выбрать 1 - или 2-колонки для этого экрана."
+
+#: includes/admin/replies.php:209
+msgid "Title and Reply Editor"
+msgstr "Редактор тем и ответов"
+
+#: includes/admin/replies.php:211
+msgid ""
+"<strong>Title</strong> - Enter a title for your reply. After you enter a title, "
+"you&#8217;ll see the permalink below, which you can edit."
+msgstr ""
+"<strong>Заголовок</strong> - Введите название вашего ответа. После ввода названия, "
+"вы увидите постоянную ссылку ниже, которые можно редактировать."
+
+#: includes/admin/replies.php:212
+msgid ""
+"<strong>Reply Editor</strong> - Enter the text for your reply. There are two modes "
+"of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. "
+"Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a "
+"second row of controls. The HTML mode allows you to enter raw HTML along with your "
+"reply text. You can insert media files by clicking the icons above the reply "
+"editor and following the directions. You can go to the distraction-free writing "
+"screen via the Fullscreen icon in Visual mode (second to last in the top row) or "
+"the Fullscreen button in HTML mode (last in the row). Once there, you can make "
+"buttons visible by hovering over the top area. Exit Fullscreen back to the regular "
+"reply editor."
+msgstr ""
+"<strong>Редактор ответа</strong> - Введите текст вашего ответа. Есть два режима "
+"редактирования: визуальный и HTML. Выберите режим, нажав на соответствующую "
+"вкладку. Визуальный режим предоставит вам WYSIWYG редактор. Нажмите на последнюю "
+"иконку в строке, чтобы получить вторую строку элементов управления.Режим HTML "
+"позволяет ввести чистый HTML вместе с текстом вашего ответа. Вы можете вставить "
+"мультимедийные файлы, нажав на значки над редактором ответа и следуя инструкциям. "
+"Вы можете перейти в полноэкранный режим, нажав на кнопку (вторая в верхнем ряду) "
+"или кнопкой на весь экран в режиме HTML (последняя в ряду). Оказавшись там, вы "
+"можете сделать видимыми кнопки, подведя курсор к верхней части. В обычный режим "
+"вернет вас обратно в редактор ответа."
+
+#: includes/admin/replies.php:215
+msgid ""
+"<strong>Publish</strong> - You can set the terms of publishing your reply in the "
+"Publish box. For Status, Visibility, and Publish (immediately), click on the Edit "
+"link to reveal more options. Visibility includes options for password-protecting a "
+"reply or making it stay at the top of your blog indefinitely (sticky). Publish "
+"(immediately) allows you to set a future or past date and time, so you can "
+"schedule a reply to be published in the future or backdate a reply."
+msgstr ""
+"<strong> Публикация</strong> - Вы можете задать условия публикации вашего ответа в "
+"окне публикации. Для изменения статуса, видимости, и публикации (сразу), нажмите "
+"на ссылку Изменить, чтобы отобразились дополнительные параметры. Видимость "
+"включает в себя варианты защиты паролем ответа или закрепляет его в топе вашего "
+"блога на неопределенный срок (прикреплен). Публикация (сразу) позволяет установить "
+"будущее или прошлое дату и время, так что вы можете запланировать, будет ли ответ "
+"опубликован в будущем, или задним числом."
+
+#: includes/admin/replies.php:218
+msgid ""
+"<strong>Featured Image</strong> - This allows you to associate an image with your "
+"reply without inserting it. This is usually useful only if your theme makes use of "
+"the featured image as a reply thumbnail on the home page, a custom header, etc."
+msgstr ""
+"<strong>Миниатюра</strong> - Позволяет связать изображение с вашим ответом, не "
+"вставляя его в тело сообщения. Как правило, это полезно только если ваша тема "
+"оформления способна использовать миниатюру ответа на домашней странице, в "
+"произвольном заголовке и т.д."
+
+#: includes/admin/replies.php:223 includes/admin/replies.php:263
+msgid "Reply Attributes"
+msgstr "Параметры ответа"
+
+#: includes/admin/replies.php:225
+msgid "Select the attributes that your reply should have:"
+msgstr "Выберите параметры, которые должен иметь ваш ответ:"
+
+#: includes/admin/replies.php:227
+msgid ""
+"<strong>Forum</strong> dropdown determines the parent forum that the reply belongs "
+"to. Select the forum, or leave the default (Use Forum of Topic) to post the reply "
+"in forum of the topic."
+msgstr ""
+"<strong>Форум</strong> выпадающий список определяет родительский форум, к которому "
+"принадлежит ответ. Выберите форум, или оставьте значение по умолчанию (используйте "
+"тему форума) для добавления ответа форума по данной теме."
+
+#: includes/admin/replies.php:228
+msgid "<strong>Topic</strong> determines the parent topic that the reply belongs to."
+msgstr "<strong>Тема</strong> определяет к какой теме будет добавлен ответ."
+
+#: includes/admin/replies.php:229
+msgid "<strong>Reply To</strong> determines the threading of the reply."
+msgstr "<strong>В ответ на</strong> определяет иерархию ответа."
+
+#: includes/admin/replies.php:365 includes/admin/topics.php:382
+msgid "Author Information"
+msgstr "Информация об авторе"
+
+#: includes/admin/replies.php:485
+msgid "The reply was not found!"
+msgstr "Ответ не найден!"
+
+#: includes/admin/replies.php:570
+#, php-format
+msgid "There was a problem marking the reply \"%1$s\" as spam."
+msgstr "Невозможно отметить ответ \"%1$s\" как спам."
+
+#: includes/admin/replies.php:571
+#, php-format
+msgid "Reply \"%1$s\" successfully marked as spam."
+msgstr "Ответ \"%1$s\" успешно отмечен как спам."
+
+#: includes/admin/replies.php:576
+#, php-format
+msgid "There was a problem unmarking the reply \"%1$s\" as spam."
+msgstr "Невозможно снять отметку спама с ответа \"%1$s\" ."
+
+#: includes/admin/replies.php:577
+#, php-format
+msgid "Reply \"%1$s\" successfully unmarked as spam."
+msgstr "Отметка спам успешно снята с ответа \"%1$s\"."
+
+#: includes/admin/replies.php:582
+#, php-format
+msgid "There was a problem approving the reply \"%1$s\"."
+msgstr "Возникла проблема при одобрении ответа \"%1$s\"."
+
+#: includes/admin/replies.php:583
+#, php-format
+msgid "Reply \"%1$s\" successfully approved."
+msgstr "Ответ \"%1$s\" одобрен."
+
+#: includes/admin/replies.php:588
+#, php-format
+msgid "There was a problem unapproving the reply \"%1$s\"."
+msgstr "Возникла проблема при отклонении ответа \"%1$s\"."
+
+#: includes/admin/replies.php:589
+#, php-format
+msgid "Reply \"%1$s\" successfully unapproved."
+msgstr "Ответ \"%1$s\" успешно отклонён."
+
+#: includes/admin/replies.php:624
+msgid "Title"
+msgstr "Название"
+
+#: includes/admin/replies.php:626 includes/admin/settings.php:309
+#: includes/topics/template.php:49
+msgid "Topic"
+msgstr "Тема"
+
+#: includes/admin/replies.php:627 includes/admin/topics.php:774
+msgid "Author"
+msgstr "Автор"
+
+#: includes/admin/replies.php:723
+msgid "No Forum"
+msgstr "Вне форума"
+
+#: includes/admin/replies.php:784 includes/admin/topics.php:918
+#: includes/admin/topics.php:931
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr "Просмотр &#8220;%s&#8221;"
+
+#: includes/admin/replies.php:861 includes/admin/topics.php:1014
+msgid "In all forums"
+msgstr "Во всех форумах"
+
+#: includes/admin/replies.php:926
+#, php-format
+msgid "Reply updated. <a href=\"%s\">View topic</a>"
+msgstr "Ответ обновлён. <a href=\"%s\">Смотреть тему</a>"
+
+#: includes/admin/replies.php:935
+msgid "Reply updated."
+msgstr "Ответ обновлён"
+
+#: includes/admin/replies.php:940
+#, php-format
+msgid "Reply restored to revision from %s"
+msgstr "Восстановить до ревизии %s"
+
+#: includes/admin/replies.php:944
+#, php-format
+msgid "Reply created. <a href=\"%s\">View topic</a>"
+msgstr "Ответ добавлен. <a href=\"%s\">Смотреть тему</a>"
+
+#: includes/admin/replies.php:947
+msgid "Reply saved."
+msgstr "Сохранено."
+
+#: includes/admin/replies.php:950
+#, php-format
+msgid "Reply submitted. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
+msgstr "Ответ добавлен. <a target=\"_blank\" href=\"%s\">Предпросмотр темы/a>"
+
+#: includes/admin/replies.php:953
+#, php-format
+msgid ""
+"Reply scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview topic</a>"
+msgstr ""
+"Ответ запланирован на: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Предпросмотр темы</a>"
+
+#: includes/admin/replies.php:960
+#, php-format
+msgid "Reply draft updated. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
+msgstr "Ответ обновлён. <a target=\"_blank\" href=\"%s\">Предпросмотр темы</a>"
+
+#: includes/admin/settings.php:24
+msgid "Forum User Settings"
+msgstr "Настройки пользователя форума"
+
+#: includes/admin/settings.php:29
+msgid "Forum Features"
+msgstr "Параметры форума"
+
+#: includes/admin/settings.php:34
+msgid "Forum Theme Packages"
+msgstr "Пакеты тем форума"
+
+#: includes/admin/settings.php:39
+msgid "Topics and Replies Per Page"
+msgstr "Тем и ответов на страницу"
+
+#: includes/admin/settings.php:44
+msgid "Topics and Replies Per RSS Page"
+msgstr "Тем и ответов на страницу RSS ленты"
+
+#: includes/admin/settings.php:49
+msgid "Forum Root Slug"
+msgstr "Корневой ярлык форума"
+
+#: includes/admin/settings.php:54
+msgid "Single Forum Slugs"
+msgstr "Ярлыки отдельных форумов"
+
+#: includes/admin/settings.php:59
+msgid "Forum User Slugs"
+msgstr "Ярлыки пользователя форума"
+
+#: includes/admin/settings.php:64
+msgid "BuddyPress Integration"
+msgstr "Интеграция с BuddyPress"
+
+#: includes/admin/settings.php:69
+msgid "Akismet Integration"
+msgstr "Интеграция с Akismet"
+
+#: includes/admin/settings.php:91
+msgid "Disallow editing after"
+msgstr "Запретить редактирование после"
+
+#: includes/admin/settings.php:99
+msgid "Throttle posting every"
+msgstr "Задержка публикации на"
+
+#: includes/admin/settings.php:107
+msgid "Anonymous posting"
+msgstr "Анонимная публикация"
+
+#: includes/admin/settings.php:115
+msgid "Auto role"
+msgstr "Автоматическая роль"
+
+#: includes/admin/settings.php:134 includes/admin/settings.php:1713
+msgid "Revisions"
+msgstr "Редакции"
+
+#: includes/admin/settings.php:142 includes/extend/buddypress/loader.php:223
+msgid "Favorites"
+msgstr "Избранное"
+
+#: includes/admin/settings.php:150 includes/admin/settings.php:386
+#: includes/extend/buddypress/loader.php:236
+msgid "Subscriptions"
+msgstr "Подписки"
+
+#: includes/admin/settings.php:158
+msgid "Topic tags"
+msgstr "Метки тем"
+
+#: includes/admin/settings.php:166 includes/forums/template.php:2256
+msgid "Forum Moderators"
+msgstr "Модераторы форума"
+
+#: includes/admin/settings.php:174 includes/admin/settings.php:341
+msgid "Search"
+msgstr "Поиск"
+
+#: includes/admin/settings.php:182
+msgid "Post Formatting"
+msgstr "Форматир. сообщений"
+
+#: includes/admin/settings.php:190
+msgid "Auto-embed links"
+msgstr "Авто-вставка ссылок"
+
+#: includes/admin/settings.php:198
+msgid "Reply Threading"
+msgstr "Древовидные ответы"
+
+#: includes/admin/settings.php:217
+msgid "Current Package"
+msgstr "Текущий пакет"
+
+#: includes/admin/settings.php:272
+msgid "Forum Root"
+msgstr "Корень форума"
+
+#: includes/admin/settings.php:280
+msgid "Forum Prefix"
+msgstr "Префикс Форума"
+
+#: includes/admin/settings.php:288
+msgid "Forum root should show"
+msgstr "На гл. странице форума должен отображаться"
+
+#: includes/admin/settings.php:317 includes/topics/template.php:3544
+#, fuzzy
+msgid "Topic Tag"
+msgstr "Метка темы"
+
+#: includes/admin/settings.php:325
+msgid "Topic View"
+msgstr "Просмотр темы"
+
+#: includes/admin/settings.php:333 includes/replies/template.php:49
+#: includes/replies/template.php:1676
+msgid "Reply"
+msgstr "Ответ"
+
+#: includes/admin/settings.php:354
+msgid "User Base"
+msgstr "База пользователей"
+
+#: includes/admin/settings.php:362 includes/extend/buddypress/loader.php:200
+#: includes/extend/buddypress/loader.php:293
+msgid "Topics Started"
+msgstr "Начатые темы"
+
+#: includes/admin/settings.php:370 includes/extend/buddypress/loader.php:211
+#: includes/extend/buddypress/loader.php:301
+msgid "Replies Created"
+msgstr "Созданные ответы"
+
+#: includes/admin/settings.php:378 includes/extend/buddypress/loader.php:309
+msgid "Favorite Topics"
+msgstr "Избранные темы"
+
+#: includes/admin/settings.php:399
+msgid "Enable Group Forums"
+msgstr "Разрешить форумы в группах"
+
+#: includes/admin/settings.php:407
+msgid "Group Forums Parent"
+msgstr "Родитель форумов групп"
+
+#: includes/admin/settings.php:420
+msgid "Use Akismet"
+msgstr "Использовать Akismet"
+
+#: includes/admin/settings.php:939
+msgid "Forum Index"
+msgstr "Список форумов"
+
+#: includes/admin/settings.php:942
+msgid "Topics by Freshness"
+msgstr "Список тем по свежести"
+
+#: includes/admin/settings.php:1220
+msgid "&mdash; Forum root &mdash;"
+msgstr "&mdash; Корень форума &mdash;"
+
+#: includes/admin/settings.php:1309
+msgid ""
+"Information about your previous forums database so that they can be converted. "
+"<strong>Backup your database before proceeding.</strong>"
+msgstr ""
+"Информация о вашей предыдущей базе данных форумов, чтобы они могли быть "
+"преобразованы.<strong>Создайте резервную копию вашей базы данных перед началом "
+"процесса.</strong>"
+
+#: includes/admin/settings.php:1572
+msgid "This screen provides access to all of the Forums settings."
+msgstr "Этот экран предоставляет доступ ко всем настройкам форума."
+
+#: includes/admin/settings.php:1573 includes/admin/tools.php:339
+msgid ""
+"Please see the additional help tabs for more information on each individual "
+"section."
+msgstr ""
+" Для получения большей информации о каждом индивидуальном разделе, пожалуйста, "
+"ознакомьтесь с вкладкой дополнительной помощи. "
+
+#: includes/admin/settings.php:1579
+msgid "Main Settings"
+msgstr "Основные установки"
+
+#: includes/admin/settings.php:1580
+msgid "In the Main Settings you have a number of options:"
+msgstr "В главном меню вы можете выбрать несколько вариантов настройки:"
+
+#: includes/admin/settings.php:1583
+msgid ""
+"You can choose to lock a post after a certain number of minutes. \"Locking post "
+"editing\" will prevent the author from editing some amount of time after saving a "
+"post."
+msgstr ""
+"Вы можете заблокировать сообщение через определенное количество минут. \"Запретить "
+"редактирование сообщения после \" не позволит автору редактировать сообщение через "
+"указанное количество минут после публикации."
+
+#: includes/admin/settings.php:1584
+msgid ""
+"\"Throttle time\" is the amount of time required between posts from a single "
+"author. The higher the throttle time, the longer a user will need to wait between "
+"posting to the forum."
+msgstr ""
+"\"Задержка публикации \" - количество времени, проходящее между публикациями от "
+"одного автора. Чем выше задержка, тем дольше пользователь будет ожидать публикации "
+"в форуме.."
+
+#: includes/admin/settings.php:1585
+msgid ""
+"Favorites are a way for users to save and later return to topics they favor. This "
+"is enabled by default."
+msgstr ""
+"Избранное это возможность для пользователей сохранить и позже вернуться к темам, "
+"которые их заинтересовали. Эта опция включена по умолчанию."
+
+#: includes/admin/settings.php:1586
+msgid ""
+"Subscriptions allow users to subscribe for notifications to topics that interest "
+"them. This is enabled by default."
+msgstr ""
+"Подписка позволяет пользователям подписаться на уведомления тем, которые их "
+"интересуют. Эта опция включена по умолчанию."
+
+#: includes/admin/settings.php:1587
+msgid ""
+"Topic-Tags allow users to filter topics between forums. This is enabled by default."
+msgstr ""
+"Метки тем позволяют пользователям фильтровать темы между форумами. По умолчанию "
+"разрешено."
+
+#: includes/admin/settings.php:1588
+msgid ""
+"\"Anonymous Posting\" allows guest users who do not have accounts on your site to "
+"both create topics as well as replies."
+msgstr ""
+"\"Анонимная публикация\" позволяет создавать темы и ответы пользователям, не "
+"имеющим учетной записи на вашем сайте."
+
+#: includes/admin/settings.php:1589
+msgid ""
+"The Fancy Editor brings the luxury of the Visual editor and HTML editor from the "
+"traditional WordPress dashboard into your theme."
+msgstr ""
+"Расширенный редактор привносит такую роскошь как визуальный и HTML редактор, из "
+"традиционной консоли управления WordPress в вашей теме."
+
+#: includes/admin/settings.php:1590
+msgid ""
+"Auto-embed will embed the media content from a URL directly into the replies. For "
+"example: links to Flickr and YouTube."
+msgstr ""
+"Авто-вставка позволит разместить медиа-контент из URL непосредственно в ответах. "
+"Например: ссылки на Flickr и YouTube."
+
+#: includes/admin/settings.php:1593
+msgid ""
+"You must click the Save Changes button at the bottom of the screen for new "
+"settings to take effect."
+msgstr ""
+"Вы должны нажать кнопку \"Сохранить изменения\" в нижней части экрана, чтобы новые "
+"настройки вступили в силу."
+
+#: includes/admin/settings.php:1599
+msgid "Per Page"
+msgstr "На страницу"
+
+#: includes/admin/settings.php:1600
+msgid ""
+"Per Page settings allow you to control the number of topics and replies appear on "
+"each page."
+msgstr ""
+"Настройки на страницу позволяют контролировать количество вопросов и ответов "
+"отображаемых на каждой странице."
+
+#: includes/admin/settings.php:1601
+msgid ""
+"This is comparable to the WordPress \"Reading Settings\" page, where you can set "
+"the number of posts that should show on blog pages and in feeds."
+msgstr ""
+"Это сопоставимо с \"Настройки чтения\" в WordPress , где вы можете задать "
+"количество записей, которые должны отображаться на страницах блога и в архивах."
+
+#: includes/admin/settings.php:1602
+msgid ""
+"These are broken up into two separate groups: one for what appears in your theme, "
+"another for RSS feeds."
+msgstr ""
+"Они разбиты на две группы: одна отвечает за то, что появляется в вашей теме, "
+"другая для RSS-каналов."
+
+#: includes/admin/settings.php:1608
+msgid "Slugs"
+msgstr "Ярлыки"
+
+#: includes/admin/settings.php:1609
+msgid ""
+"The Slugs section allows you to control the permalink structure for your forums."
+msgstr "Раздел Ярлыки позволяет управлять структурой постоянных ссылок форума."
+
+#: includes/admin/settings.php:1610
+msgid ""
+"\"Archive Slugs\" are used as the \"root\" for your forums and topics. If you "
+"combine these values with existing page slugs, bbPress will attempt to output the "
+"most correct title and content."
+msgstr ""
+"\"Базовые ярлыки\" используются как \"корень\" для форума и тем. Если вы введете "
+"значения, совпадающие с существующими ярлыками страниц, bbPress не сможет "
+"правильно отобразить содержимое и заголовок форума."
+
+#: includes/admin/settings.php:1611
+msgid ""
+"\"Single Slugs\" are used as a prefix when viewing an individual forum, topic, "
+"reply, user, or view."
+msgstr ""
+"\"Настраиваемые ярлыки\" используются как префикс для просмотра отдельных форумов, "
+"тем, ответов, меток, пользователей и просмотров."
+
+#: includes/admin/settings.php:1612
+msgid ""
+"In the event of a slug collision with WordPress or BuddyPress, a warning will "
+"appear next to the problem slug(s)."
+msgstr ""
+"В случае конфликта с ярлыками WordPress или BuddyPress рядом с проблемным ярлыком "
+"появится предупреждение."
+
+#: includes/admin/settings.php:1711
+msgid "Posts"
+msgstr "Сообщения"
+
+#: includes/admin/settings.php:1712
+msgid "Pages"
+msgstr "Страницы"
+
+#: includes/admin/settings.php:1714
+msgid "Attachments"
+msgstr "Вложения"
+
+#: includes/admin/settings.php:1715
+msgid "Menus"
+msgstr "Меню"
+
+#: includes/admin/settings.php:1718
+msgid "Tag base"
+msgstr "Префикс для меток"
+
+#: includes/admin/settings.php:1721
+msgid "Category base"
+msgstr "Префикс для рубрик"
+
+#: includes/admin/settings.php:1726
+msgid "Forums base"
+msgstr "Базовый префикс форумов"
+
+#: includes/admin/settings.php:1729
+msgid "Topics base"
+msgstr "Базовый префикс тем"
+
+#: includes/admin/settings.php:1732
+msgid "Forum slug"
+msgstr "Ярлык форума"
+
+#: includes/admin/settings.php:1735
+msgid "Topic slug"
+msgstr "Ярлык темы"
+
+#: includes/admin/settings.php:1738
+msgid "Reply slug"
+msgstr "Ярлык ответа"
+
+#: includes/admin/settings.php:1741
+msgid "User base"
+msgstr "Ярлык пользователя"
+
+#: includes/admin/settings.php:1744
+msgid "View base"
+msgstr "Ярлык просмотра"
+
+#: includes/admin/settings.php:1747
+msgid "Topic tag slug"
+msgstr "Ярлык метки темы"
+
+#: includes/admin/settings.php:1759
+#, php-format
+msgid "%s page"
+msgstr "%s страница"
+
+#: includes/admin/tools.php:269
+msgid ""
+"There is more detailed information available on the bbPress and BuddyPress codex "
+"for the following:"
+msgstr "Более детальная информация доступна в кодексах bbPress и BuddyPress:"
+
+#: includes/admin/tools.php:272
+msgid ""
+"BuddyPress Group Forums: <a href=\"https://codex.buddypress.org/getting-started/"
+"installing-group-and-sitewide-forums/\">Installing Group and Sitewide Forums</a> "
+"and <a href=\"https://codex.buddypress.org/getting-started/guides/migrating-from-"
+"old-forums-to-bbpress-2/\">Migrating from old forums to bbPress 2.2+</a>."
+msgstr ""
+"Форумы Сообществ BuddyPress: <a href=\"https://codex.buddypress.org/getting-"
+"started/installing-group-and-sitewide-forums/\">Установка форумов групп и общих "
+"форумов сайта</a> и <a href=\"https://codex.buddypress.org/getting-started/guides/"
+"migrating-from-old-forums-to-bbpress-2/\">Переход от старых форумов к bbPress "
+"2.2+</a>."
+
+#: includes/admin/tools.php:273
+msgid ""
+"bbPress roles: <a href=\"https://codex.bbpress.org/bbpress-user-roles-and-"
+"capabilities/\" target=\"_blank\">bbPress User Roles and Capabilities</a>"
+msgstr ""
+"Роли bbPress: <a href=\"https://codex.bbpress.org/bbpress-user-roles-and-"
+"capabilities/\" target=\"_blank\">Роли и возможности пользователей bbPress</a>"
+
+#: includes/admin/tools.php:276
+msgid ""
+"Also see <a href=\"https://codex.bbpress.org/repair-forums/\">bbPress: Repair "
+"Forums</a>."
+msgstr ""
+"Also <a href=\"https://codex.bbpress.org/repair-forums/\">bbPress: Восстановление "
+"форумов</a>."
+
+#: includes/admin/tools.php:307
+msgid ""
+"Also see <a href=\"https://codex.bbpress.org/reset-forums/\">bbPress: Reset "
+"Forums</a>."
+msgstr ""
+"Also <a href=\"https://codex.bbpress.org/reset-forums/\">bbPress: Сброс форумов</"
+"a>."
+
+#: includes/admin/tools.php:338
+msgid ""
+"This screen provides access to all of the bbPress Import Forums settings and "
+"resources."
+msgstr ""
+"Этот экран обеспечивает доступ к настройкам и ресурсам импорта всех форумов "
+"bbPress."
+
+#: includes/admin/tools.php:340
+msgid ""
+"Also see the main article on the bbPress codex <a href=\"https://codex.bbpress.org/"
+"import-forums/\">bbPress: Import Forums</a>."
+msgstr ""
+"Также смотрите основную статью в кодексе bbPress <a href=\"https://codex.bbpress."
+"org/import-forums/\">bbPress: Импорт форумов</a>."
+
+#: includes/admin/tools.php:347
+msgid "In the Database Settings you have a number of options:"
+msgstr "B Настройках Базы Данных у вас есть несколько вариантов выбора:"
+
+#: includes/admin/tools.php:350
+msgid ""
+"The settings in this section refer to the database connection strings used by your "
+"old forum software. The best way to determine the exact settings you need is to "
+"copy them from your legacy forums configuration file or contact your web hosting "
+"provider."
+msgstr ""
+"Настройки в этом разделе относятся к параметрам подключения к базе данных, "
+"используемых программным обеспечением вашего старого форума. Лучший способ "
+"определить точные параметры подключения - скопировать их из старого "
+"конфигурационного файла или обратиться к поставщику веб-хостинга."
+
+#: includes/admin/tools.php:358
+msgid "Importer Options"
+msgstr "Свойства импортера"
+
+#: includes/admin/tools.php:359
+msgid "In the Options you have a number of options:"
+msgstr "В параметрах у вас есть несколько вариантов:"
+
+#: includes/admin/tools.php:362
+msgid ""
+"Depending on your MySQL configuration you can tweak the \"Rows Limit\" and \"Delay "
+"Time\" that may help to improve the overall time it takes to perform a complete "
+"forum import."
+msgstr ""
+"В зависимости от конфигурации MySQL вы можете настроить \"Rows Limit» и «Delay Time"
+"\", которые могут помочь улучшить общее время, необходимое для выполнения полного "
+"импорта форум."
+
+#: includes/admin/tools.php:363
+msgid "\"Convert Users\" will import your legacy forum members as WordPress Users."
+msgstr ""
+"\"Преобразование Пользователей\" импортирует унаследованных участников форума, как "
+"пользователей WordPress."
+
+#: includes/admin/tools.php:364
+msgid ""
+"\"Start Over\" will start the importer fresh, if your import failed for any reason "
+"leaving this setting unchecked the importer will begin from where it left off."
+msgstr ""
+"\"Начать Снова\" запустит импортера заново, если ваш импорт не удался по какой-"
+"либо причине, импортер начнется с того где был прерван если оставить эту настройку "
+"не снятой."
+
+#: includes/admin/tools.php:365
+msgid ""
+"\"Purge Previous Import\" will remove data imported from a failed import without "
+"removing your existing forum data."
+msgstr ""
+"\"Очистить Предыдущий Импорт\" удалит данные, перенесенные из неудачного импорта, "
+"не удаляя существующих данных форума."
+
+#: includes/admin/tools.php:391
+msgid "Dismiss this notice."
+msgstr "Скрыть это уведомление."
+
+#: includes/admin/tools.php:484
+msgid "Recalculate parent topic for each reply"
+msgstr "Пересчитать родительский тему для каждого ответа"
+
+#: includes/admin/tools.php:494
+msgid "Recalculate parent forum for each topic and reply"
+msgstr "Пересчитать родительский форум для каждой темы и ответа"
+
+#: includes/admin/tools.php:504
+msgid "Recalculate private and hidden forums"
+msgstr "Пересчитать личные и скрытые форумы"
+
+#: includes/admin/tools.php:514
+msgid "Recalculate last activity in each topic and forum"
+msgstr "Пересчитать последнюю активность во всех темах и ответах"
+
+#: includes/admin/tools.php:524
+msgid "Recalculate sticky relationship of each topic"
+msgstr "Пересчитать настройки прикрепления каждой темы"
+
+#: includes/admin/tools.php:534
+msgid "Recalculate the position of each reply"
+msgstr "Пересчитать положение каждого ответа"
+
+#: includes/admin/tools.php:544
+msgid "Repair BuddyPress Group Forum relationships"
+msgstr "Восстановить связи форума групп BuddyPress"
+
+#: includes/admin/tools.php:554
+msgid "Repair closed topics"
+msgstr "Восстановить закрытые темы"
+
+#: includes/admin/tools.php:564
+msgid "Count topics in each forum"
+msgstr "Посчитать количество тем в каждом форуме"
+
+#: includes/admin/tools.php:574
+msgid "Count replies in each forum"
+msgstr "Посчитать ответы в каждом форуме"
+
+#: includes/admin/tools.php:584
+msgid "Count replies in each topic"
+msgstr "Посчитать ответы в каждой теме"
+
+#: includes/admin/tools.php:594
+msgid "Count voices in each topic"
+msgstr "Посчитать участников в каждой теме"
+
+#: includes/admin/tools.php:604
+msgid "Count pending, spammed, & trashed replies in each topic"
+msgstr ""
+"Количество ожидающих проверки, спам и отправленных в корзину ответов во всех темах"
+
+#: includes/admin/tools.php:614
+msgid "Recount topics for each user"
+msgstr "Посчитать количество тем для каждого пользователя"
+
+#: includes/admin/tools.php:624
+msgid "Recount replies for each user"
+msgstr "Пересчитать ответы каждого участника"
+
+#: includes/admin/tools.php:634
+msgid "Remove unpublished topics from user favorites"
+msgstr "Удалить неопубликованное темы из избранного пользователя"
+
+#: includes/admin/tools.php:644
+msgid "Remove unpublished topics from user subscriptions"
+msgstr "Удалить неопубликованные темы из подписок пользователя"
+
+#: includes/admin/tools.php:654
+msgid "Remove unpublished forums from user subscriptions"
+msgstr "Удалить не опубликованные форумы из подписок пользователя"
+
+#: includes/admin/tools.php:664
+msgid "Remap existing users to default forum roles"
+msgstr "Переназначить существующих пользователей к ролям форума по-умолчанию"
+
+#: includes/admin/tools.php:968
+#, php-format
+msgid "Counting the number of replies in each topic&hellip; %s"
+msgstr "Пересчитать количество ответов во всех topic&hellip; %s"
+
+#: includes/admin/tools.php:969 includes/admin/tools.php:1024
+#: includes/admin/tools.php:1072 includes/admin/tools.php:1125
+#: includes/admin/tools.php:1246 includes/admin/tools.php:1283
+#: includes/admin/tools.php:1328 includes/admin/tools.php:1380
+#: includes/admin/tools.php:1432 includes/admin/tools.php:1502
+#: includes/admin/tools.php:1571 includes/admin/tools.php:1646
+#: includes/admin/tools.php:1703 includes/admin/tools.php:1831
+#: includes/admin/tools.php:1944 includes/admin/tools.php:1968
+#: includes/admin/tools.php:2023
+msgid "Failed!"
+msgstr "Ошибка!"
+
+#: includes/admin/tools.php:1003 includes/admin/tools.php:1052
+#: includes/admin/tools.php:1089 includes/admin/tools.php:1263
+#: includes/admin/tools.php:1309 includes/admin/tools.php:1361
+#: includes/admin/tools.php:1413 includes/admin/tools.php:1483
+#: includes/admin/tools.php:1552 includes/admin/tools.php:1621
+#: includes/admin/tools.php:1809 includes/admin/tools.php:1874
+#: includes/admin/tools.php:1948 includes/admin/tools.php:2004
+#: includes/admin/tools.php:2059 includes/admin/tools.php:2116
+msgid "Complete!"
+msgstr "Готово!"
+
+#: includes/admin/tools.php:1023
+#, php-format
+msgid "Counting the number of voices in each topic&hellip; %s"
+msgstr "Посчитать количество участников во всех topic&hellip; %s"
+
+#: includes/admin/tools.php:1071
+#, php-format
+msgid "Counting the number of spammed and trashed replies in each topic&hellip; %s"
+msgstr "Посчитать количество спама и удаленных ответов во всех topic&hellip; %s"
+
+#: includes/admin/tools.php:1104
+#, php-format
+msgid "Repairing BuddyPress group-forum relationships&hellip; %s"
+msgstr "Восстановление отношений групповых форумов BuddyPress&hellip; %s"
+
+#: includes/admin/tools.php:1208
+msgid "Group Forums"
+msgstr "Форумы групп"
+
+#: includes/admin/tools.php:1209
+msgid "group-forums"
+msgstr "форумы групп"
+
+#: includes/admin/tools.php:1225
+#, php-format
+msgid "Complete! %s groups updated; %s forums updated; %s forum statuses synced."
+msgstr ""
+"Завершено! %s групп обновлено; %s форумов обновлено; %s статусов форумов "
+"синхронизировано."
+
+#: includes/admin/tools.php:1245
+#, php-format
+msgid "Counting the number of topics in each forum&hellip; %s"
+msgstr "Посчитать количество тем во всех forum&hellip; %s"
+
+#: includes/admin/tools.php:1282
+#, php-format
+msgid "Counting the number of replies in each forum&hellip; %s"
+msgstr "Посчитать количество ответов во всех forum&hellip; %s"
+
+#: includes/admin/tools.php:1327
+#, php-format
+msgid "Counting the number of topics each user has created&hellip; %s"
+msgstr "Подсчет количества тем, созданных каждым пользователем&hellip; %s"
+
+#: includes/admin/tools.php:1379
+#, php-format
+msgid "Counting the number of topics to which each user has replied&hellip; %s"
+msgstr ""
+"Посчитать количество тем в которых каждый пользователь имеет forum&hellip; %s"
+
+#: includes/admin/tools.php:1431
+#, php-format
+msgid "Removing trashed topics from user favorites&hellip; %s"
+msgstr "Удалить перемещенные в корзину пользовательские favorites&hellip; %s"
+
+#: includes/admin/tools.php:1466 includes/admin/tools.php:1535
+#: includes/admin/tools.php:1604
+msgid "Nothing to remove!"
+msgstr "Удаление невозможно!"
+
+#: includes/admin/tools.php:1501
+#, php-format
+msgid "Removing trashed topics from user subscriptions&hellip; %s"
+msgstr "Удалить перемещенные в корзину пользовательские subscriptions&hellip; %s"
+
+#: includes/admin/tools.php:1570
+#, php-format
+msgid "Removing trashed forums from user subscriptions&hellip; %s"
+msgstr "Убираю удаленные форумы из подписок пользователя&hellip; %s"
+
+#: includes/admin/tools.php:1639
+#, php-format
+msgid "Remapping forum role for each user on this site&hellip; %s"
+msgstr "Переназначение роли форума для каждого пользователя на этом сайте&hellip; %s"
+
+#: includes/admin/tools.php:1678
+#, php-format
+msgid "Complete! %s users updated."
+msgstr "Готово! %s пользователи обновлены."
+
+#: includes/admin/tools.php:1702
+#, php-format
+msgid "Recomputing latest post in every topic and forum&hellip; %s"
+msgstr "Пересчитать последние ответы в каждой теме и forum&hellip; %s"
+
+#: includes/admin/tools.php:1830
+#, php-format
+msgid "Repairing the sticky topic to the parent forum relationships&hellip; %s"
+msgstr ""
+"Восстановление прикрепленной темы по отношению к родительскому форуму&hellip; %s"
+
+#: includes/admin/tools.php:1898
+#, php-format
+msgid "Repairing closed topics&hellip; %s"
+msgstr "Восстановление закрытых тем&hellip; %s"
+
+#: includes/admin/tools.php:1899
+msgid "No closed topics to repair."
+msgstr "Нет закрытых тем для восстановления."
+
+#: includes/admin/tools.php:1940
+#, fuzzy, php-format
+msgid "Recalculating forum visibility &hellip; %s"
+msgstr "Пересчет отображаемости форума"
+
+#: includes/admin/tools.php:1967
+#, php-format
+msgid "Recalculating the forum for each post &hellip; %s"
+msgstr "Пересчитать  форум для каждого сообщения &hellip; %s"
+
+#: includes/admin/tools.php:2022
+#, php-format
+msgid "Recalculating the topic for each post &hellip; %s"
+msgstr "Пересчитать тему для каждого сообщения &hellip; %s"
+
+#: includes/admin/tools.php:2077
+#, php-format
+msgid "Recalculating reply menu order &hellip; %s"
+msgstr "Пересчет порядок меню ответов &hellip; %s"
+
+#: includes/admin/tools.php:2078
+msgid "No reply positions to recalculate!"
+msgstr "Нет позиций ответов для пересчета!"
+
+#: includes/admin/tools.php:2215
+msgid "Failed"
+msgstr "Неудача"
+
+#: includes/admin/tools.php:2216
+msgid "Success!"
+msgstr "Успешно!"
+
+#: includes/admin/tools.php:2230
+#, php-format
+msgid "Deleting Posts&hellip; %s"
+msgstr "Удаление сообщений&hellip; %s"
+
+#: includes/admin/tools.php:2244
+#, php-format
+msgid "Deleting Post Meta&hellip; %s"
+msgstr "Удаление метаданных сообщений&hellip; %s"
+
+#: includes/admin/tools.php:2253
+#, php-format
+msgid "Deleting Topic Tags&hellip; %s"
+msgstr "Удаление меток темы&hellip; %s"
+
+#: includes/admin/tools.php:2268
+#, php-format
+msgid "Deleting User&hellip; %s"
+msgstr "Удалить пользователя&hellip; %s"
+
+#: includes/admin/tools.php:2273 includes/admin/tools.php:2281
+#, php-format
+msgid "Deleting User Meta&hellip; %s"
+msgstr "Удаление метаданных пользователя&hellip; %s"
+
+#: includes/admin/tools.php:2288
+#, php-format
+msgid "Deleting Conversion Table&hellip; %s"
+msgstr "Удаление таблицы преобразования&hellip; %s"
+
+#: includes/admin/tools.php:2300
+#, php-format
+msgid "Deleting Settings&hellip; %s"
+msgstr "Удаление Настроек&hellip; %s"
+
+#: includes/admin/tools.php:2306
+#, php-format
+msgid "Deleting Roles and Capabilities&hellip; %s"
+msgstr "Удаление ролей и возможностей&hellip; %s"
+
+#: includes/admin/topics.php:138
+msgid ""
+"This screen displays the individual topics on your site. You can customize the "
+"display of this screen to suit your workflow."
+msgstr ""
+"Эта страница отображает индивидуальные темы на вашем сайте. Вы можете настраивать "
+"отображение этой страницы для удовлетворения ваших нужд."
+
+#: includes/admin/topics.php:148
+msgid ""
+"You can hide/display columns based on your needs and decide how many topics to "
+"list per screen using the Screen Options tab."
+msgstr ""
+"Вы можете скрывать / отображать столбцы в зависимости от потребностей и решить, "
+"сколько тем будет отображено на экране с помощью вкладки \"Настройки экрана\"."
+
+#: includes/admin/topics.php:149
+msgid ""
+"You can filter the list of topics by topic status using the text links in the "
+"upper left to show All, Published, Draft, Pending, Trashed, Closed, or Spam  "
+"topics. The default view is to show all topics."
+msgstr ""
+"Вы можете фильтровать список тем по состоянию, используя текстовые ссылки в "
+"верхнем левом углу, чтобы показать: все, опубликованные, на утверждении, "
+"черновики, личные, спам и в корзине. По умолчанию отображаются все темы."
+
+#: includes/admin/topics.php:150
+msgid ""
+"You can view topics in a simple title list or with an excerpt. Choose the view you "
+"prefer by clicking on the icons at the top of the list on the right."
+msgstr ""
+"Вы можете просматривать темы в виде списка(простой список) или с цитированием "
+"содержания ответа(в развернутом виде). Выберите режим, который вы предпочитаете, "
+"нажав на иконку в верхней части списка справа."
+
+#: includes/admin/topics.php:151
+msgid ""
+"You can refine the list to show only topics in a specific forum or from a specific "
+"month by using the dropdown menus above the topics list. Click the Filter button "
+"after making your selection."
+msgstr ""
+"Вы можете персонализировать отображение списка, отобразив только темы в "
+"определенном форуме или за определенный месяц с помощью выпадающих меню над "
+"списком тем. Нажмите кнопку \"Фильтр\" после того, как сделаете свой выбор."
+
+#: includes/admin/topics.php:160
+msgid ""
+"Hovering over a row in the topics list will display action links that allow you to "
+"manage your topic. You can perform the following actions:"
+msgstr ""
+"При наведении курсора на строку в списке тем будут отображены ссылки на действия, "
+"которые позволяют вам управлять вашей темой. Вы можете выполнять следующие "
+"действия:"
+
+#: includes/admin/topics.php:162
+msgid ""
+"<strong>Edit</strong> takes you to the editing screen for that topic. You can also "
+"reach that screen by clicking on the topic title."
+msgstr ""
+"<strong>Редактировать</strong> ведет на страницу редактирования этой темы. На эту "
+"страницу также можно попасть кликнув на заголовке темы."
+
+#: includes/admin/topics.php:163
+msgid ""
+"<strong>Trash</strong> removes your topic from this list and places it in the "
+"trash, from which you can permanently delete it."
+msgstr ""
+"<strong>Корзина</strong> удаляет вашу тему из этого списка и помещает его в "
+"корзину, из которой его можно удалить навсегда."
+
+#: includes/admin/topics.php:164
+msgid ""
+"<strong>Spam</strong> removes your topic from this list and places it in the spam "
+"queue, from which you can permanently delete it."
+msgstr ""
+"<strong>Спам</strong> удаляет вашу тему из этого списка и помещает её в очередь "
+"спама, из которой её можно удалить навсегда."
+
+#: includes/admin/topics.php:165
+msgid "<strong>View</strong> will take you to your live site to view the topic."
+msgstr "<strong>Просмотр</strong> приведет вас к вашему сайту для просмотра темы."
+
+#: includes/admin/topics.php:167
+msgid ""
+"<strong>Close</strong> will mark the selected topic as &#8217;closed&#8217; and "
+"disable the option to post new replies to the topic."
+msgstr ""
+"<strong>Close</strong> отметит выбранные темы как  &#8217;закрытая&#8217; и "
+"отключит возможность создавать новые ответы на эту тему."
+
+#: includes/admin/topics.php:168
+msgid ""
+"<strong>Stick</strong> will keep the selected topic &#8217;pinned&#8217; to the "
+"top the parent forum topic list."
+msgstr ""
+"<strong>Прикрепить</strong> отметит выбранную тему как  &#8217;"
+"прикрепленная&#8217; и будет размещать её вверху списка тем родительского форума."
+
+#: includes/admin/topics.php:169
+msgid ""
+"<strong>Stick <em>(to front)</em></strong> will keep the selected topic &#8217;"
+"pinned&#8217; to the top of ALL forums and be visable in any forums topics list."
+msgstr ""
+"<strong>Прикрепить <em>(на главной)</em></strong> отметит выбранную тему как "
+"&#8217;прикрепленная&#8217; и отображать её в верхней части на всех форумах и "
+"будет видна в любом списке тем форума."
+
+#: includes/admin/topics.php:178
+msgid ""
+"You can also edit or move multiple topics to the trash at once. Select the topics "
+"you want to act on using the checkboxes, then select the action you want to take "
+"from the Bulk Actions menu and click Apply."
+msgstr ""
+"Вы также можете изменить или переместить в корзину несколько тем одновременно. "
+"Отметьте темы, с которыми необходимо произвести нужные действия, затем выберите "
+"нужное в меню действий и нажмите кнопку \"Применить\"."
+
+#: includes/admin/topics.php:179
+msgid ""
+"When using Bulk Edit, you can change the metadata (categories, author, etc.) for "
+"all selected topics at once. To remove a topic from the grouping, just click the x "
+"next to its name in the Bulk Edit area that appears."
+msgstr ""
+"При использовании опции массового изменения, вы можете изменить метаданные "
+"(категории, автор и т.д.) для всех выбранных тем одновременно. Чтобы удалить тему "
+"из группы, просто нажмите на крестик рядом с её именем в появившейся области "
+"массового редактирования."
+
+#: includes/admin/topics.php:202
+msgid ""
+"The title field and the big topic editing Area are fixed in place, but you can "
+"reposition all the other boxes using drag and drop, and can minimize or expand "
+"them by clicking the title bar of each box. Use the Screen Options tab to unhide "
+"more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or "
+"to choose a 1- or 2-column layout for this screen."
+msgstr ""
+"Поле названия и большая площадь редактирования темы фиксируются на месте, но вы "
+"можете изменить все остальные блоки с помощью перетаскивания, а можно свернуть или "
+"развернуть их, щелкнув заголовок каждого окна. Щелкните на вкладке экрана, чтобы "
+"отобразить дополнительные поля (Цитата, Отправить обратные ссылки, Произвольные "
+"поля, Обсуждение, Ярлык, Автор) или выбрать 1 - или 2-колонки для этого экрана."
+
+#: includes/admin/topics.php:212
+msgid "Title and Topic Editor"
+msgstr "Редактор заголовков и тем"
+
+#: includes/admin/topics.php:214
+msgid ""
+"<strong>Title</strong> - Enter a title for your topic. After you enter a title, "
+"you&#8217;ll see the permalink below, which you can edit."
+msgstr ""
+"<strong>Заголовок</strong> - Введите название вашей темы. После ввода названия, вы "
+"увидите постоянную ссылку ниже, которые можно редактировать."
+
+#: includes/admin/topics.php:215
+msgid ""
+"<strong>Topic Editor</strong> - Enter the text for your topic. There are two modes "
+"of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. "
+"Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a "
+"second row of controls. The HTML mode allows you to enter raw HTML along with your "
+"topic text. You can insert media files by clicking the icons above the topic "
+"editor and following the directions. You can go to the distraction-free writing "
+"screen via the Fullscreen icon in Visual mode (second to last in the top row) or "
+"the Fullscreen button in HTML mode (last in the row). Once there, you can make "
+"buttons visible by hovering over the top area. Exit Fullscreen back to the regular "
+"topic editor."
+msgstr ""
+"<strong>Редактор темы</strong> - Введите текст вашей темы. Есть два режима "
+"редактирования: визуальный и HTML. Выберите режим, нажав на соответствующую "
+"вкладку. Визуальный режим предоставит вам WYSIWYG редактор. Нажмите на последнюю "
+"иконку в строке, чтобы получить вторую строку элементов управления.Режим HTML "
+"позволяет ввести чистый HTML вместе с текстом вашей темы. Вы можете вставить "
+"мультимедийные файлы, нажав на значки над редактором темы и следуя инструкциям. Вы "
+"можете перейти в полноэкранный режим, нажав на кнопку (вторая в верхнем ряду) или "
+"кнопкой на весь экран в режиме HTML (последняя в ряду). Оказавшись там, вы можете "
+"сделать видимыми кнопки, подведя курсор к верхней части. В обычный режим вернет "
+"вас обратно в редактор темы."
+
+#: includes/admin/topics.php:218
+msgid ""
+"<strong>Publish</strong> - You can set the terms of publishing your topic in the "
+"Publish box. For Status, Visibility, and Publish (immediately), click on the Edit "
+"link to reveal more options. Visibility includes options for password-protecting a "
+"topic or making it stay at the top of your blog indefinitely (sticky). Publish "
+"(immediately) allows you to set a future or past date and time, so you can "
+"schedule a topic to be published in the future or backdate a topic."
+msgstr ""
+"<strong> Публикация</strong> - Вы можете задать условия публикации вашей темы в "
+"окне публикации. Для изменения статуса, видимости, и публикации (сразу), нажмите "
+"на ссылку Изменить, чтобы отобразились дополнительные параметры. Видимость "
+"включает в себя варианты защиты паролем темы или закрепляет её в топе вашего блога "
+"на неопределенный срок (прикреплена). Публикация (сразу) позволяет установить "
+"будущее или прошлое дату и время, так что вы можете запланировать, будет ли тема "
+"опубликована в будущем, или задним числом."
+
+#: includes/admin/topics.php:221
+msgid ""
+"<strong>Featured Image</strong> - This allows you to associate an image with your "
+"topic without inserting it. This is usually useful only if your theme makes use of "
+"the featured image as a topic thumbnail on the home page, a custom header, etc."
+msgstr ""
+"<strong>Миниатюра</strong> - Позволяет связать изображение с вашей темой, не "
+"вставляя его в тело сообщения. Как правило, это полезно только если ваша тема "
+"оформления способна использовать миниатюру темы на домашней странице, в "
+"произвольном заголовке и т.д."
+
+#: includes/admin/topics.php:226 includes/admin/topics.php:265
+msgid "Topic Attributes"
+msgstr "Параметры темы"
+
+#: includes/admin/topics.php:228
+msgid "Select the attributes that your topic should have:"
+msgstr "Выберите параметры, которые должна иметь ваша тема:"
+
+#: includes/admin/topics.php:230
+msgid ""
+"<strong>Forum</strong> dropdown determines the parent forum that the topic belongs "
+"to. Select the forum or category from the dropdown, or leave the default \"No forum"
+"\" to post the topic without an assigned forum."
+msgstr ""
+"<strong>Форум</strong> — определяет родительский форум, к которому принадлежит "
+"тема. Выберите форум или категорию из списка или оставьте значение по умолчанию "
+"(вне форума), чтобы создать тему без привязки к форуму."
+
+#: includes/admin/topics.php:231
+msgid ""
+"<strong>Topic Type</strong> dropdown indicates the sticky status of the topic. "
+"Selecting the super sticky option would stick the topic to the front of your "
+"forums, i.e. the topic index, sticky option would stick the topic to its "
+"respective forum. Selecting normal would not stick the topic anywhere."
+msgstr ""
+"<strong>Тип темы</strong> — задает расположение темы. При выборе варианта «Всегда "
+"сверху» тема будет отображаться в начале списка всех тем на главной странице "
+"форумов. Вариант «Прикреплённая» будет отображать её первой в соответствующем "
+"форуме. Вариант «Обычная» не закрепляет тему."
+
+#: includes/admin/topics.php:561
+msgid "The topic was not found!"
+msgstr "Тема не найдена!"
+
+#: includes/admin/topics.php:686
+#, php-format
+msgid "There was a problem opening the topic \"%1$s\"."
+msgstr "Невозможно открыть тему \"%1$s\"."
+
+#: includes/admin/topics.php:687
+#, php-format
+msgid "Topic \"%1$s\" successfully opened."
+msgstr "Тема \"%1$s\" успешно открыта."
+
+#: includes/admin/topics.php:692
+#, php-format
+msgid "There was a problem closing the topic \"%1$s\"."
+msgstr "Невозможно закрыть тему \"%1$s\"."
+
+#: includes/admin/topics.php:693
+#, php-format
+msgid "Topic \"%1$s\" successfully closed."
+msgstr "Тема \"%1$s\" успешно закрыта."
+
+#: includes/admin/topics.php:698
+#, php-format
+msgid "There was a problem sticking the topic \"%1$s\" to front."
+msgstr "Невозможно прикрепить тему \"%1$s\" в начало."
+
+#: includes/admin/topics.php:699
+#, php-format
+msgid "Topic \"%1$s\" successfully stuck to front."
+msgstr "Тема \"%1$s\" успешно закреплена на главной."
+
+#: includes/admin/topics.php:704
+#, php-format
+msgid "There was a problem sticking the topic \"%1$s\"."
+msgstr "Невозможно прикрепить тему \"%1$s\"."
+
+#: includes/admin/topics.php:705
+#, php-format
+msgid "Topic \"%1$s\" successfully stuck."
+msgstr "Тема \"%1$s\" успешно закреплена."
+
+#: includes/admin/topics.php:710
+#, php-format
+msgid "There was a problem unsticking the topic \"%1$s\"."
+msgstr "Невозможно открепить тему  \"%1$s\"."
+
+#: includes/admin/topics.php:711
+#, php-format
+msgid "Topic \"%1$s\" successfully unstuck."
+msgstr "Тема \"%1$s\" успешно отклеена."
+
+#: includes/admin/topics.php:716
+#, php-format
+msgid "There was a problem marking the topic \"%1$s\" as spam."
+msgstr "Невозможно отметить тему \"%1$s\" как спам."
+
+#: includes/admin/topics.php:717
+#, php-format
+msgid "Topic \"%1$s\" successfully marked as spam."
+msgstr "Тема \"%1$s\" успешно помечена как спам."
+
+#: includes/admin/topics.php:722
+#, php-format
+msgid "There was a problem unmarking the topic \"%1$s\" as spam."
+msgstr "Невозможно снять отметку \\\"спам\\\" с темы \"%1$s\" ."
+
+#: includes/admin/topics.php:723
+#, php-format
+msgid "Topic \"%1$s\" successfully unmarked as spam."
+msgstr "С темы \"%1$s\" успешно снята отметка спам."
+
+#: includes/admin/topics.php:728
+#, php-format
+msgid "There was a problem approving the topic \"%1$s\"."
+msgstr "Возникла проблема при одобрении темы \"%1$s\"."
+
+#: includes/admin/topics.php:729
+#, php-format
+msgid "Topic \"%1$s\" successfully approved."
+msgstr "Тема \"%1$s\" успешно одобрена."
+
+#: includes/admin/topics.php:734
+#, php-format
+msgid "There was a problem unapproving the topic \"%1$s\"."
+msgstr "Возникла проблема при отклонении темы \"%1$s\"."
+
+#: includes/admin/topics.php:735
+#, php-format
+msgid "Topic \"%1$s\" successfully unapproved."
+msgstr "Тема \"%1$s\" успешно отклонена. "
+
+#: includes/admin/topics.php:773
+msgid "Voices"
+msgstr "Участники"
+
+#: includes/admin/topics.php:1079
+#, php-format
+msgid "Topic updated. <a href=\"%s\">View topic</a>"
+msgstr "Тема обновлена. <a href=\"%s\">Просмотр темы</a>"
+
+#: includes/admin/topics.php:1088
+msgid "Topic updated."
+msgstr "Тема обновлена."
+
+#: includes/admin/topics.php:1093
+#, php-format
+msgid "Topic restored to revision from %s"
+msgstr "Тема восстановлена до редакции %s"
+
+#: includes/admin/topics.php:1097
+#, php-format
+msgid "Topic created. <a href=\"%s\">View topic</a>"
+msgstr "Тема создана. <a href=\"%s\">Просмотр темы</a>"
+
+#: includes/admin/topics.php:1100
+msgid "Topic saved."
+msgstr "Тема сохранена."
+
+#: includes/admin/topics.php:1103
+#, php-format
+msgid "Topic submitted. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
+msgstr "Тема создана. <a target=\"_blank\" href=\"%s\">Просмотр</a>"
+
+#: includes/admin/topics.php:1106
+#, php-format
+msgid ""
+"Topic scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview topic</a>"
+msgstr ""
+"Тема запланирована на: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Просмотр темы</a>"
+
+#: includes/admin/topics.php:1113
+#, php-format
+msgid "Topic draft updated. <a target=\"_blank\" href=\"%s\">Preview topic</a>"
+msgstr "Тема обновлена <a target=\"_blank\" href=\"%s\">Просмотр темы</a>"
+
+#: includes/admin/users.php:149
+msgid "Change"
+msgstr "Изменить"
+
+#: includes/admin/users.php:228
+msgid "Site Role"
+msgstr "Роль сайта"
+
+#: includes/admin/users.php:229
+msgid "Forum Role"
+msgstr "Роль форума"
+
+#: includes/common/functions.php:113
+msgid "sometime"
+msgstr "когда-то"
+
+#: includes/common/functions.php:114
+msgid "right now"
+msgstr "прямо сейчас"
+
+#: includes/common/functions.php:115
+#, php-format
+msgid "%s ago"
+msgstr "%s назад"
+
+#: includes/common/functions.php:119
+msgid "year"
+msgstr "год"
+
+#: includes/common/functions.php:119
+msgid "years"
+msgstr "года/лет"
+
+#: includes/common/functions.php:120
+msgid "month"
+msgstr "месяц"
+
+#: includes/common/functions.php:120
+msgid "months"
+msgstr "мес."
+
+#: includes/common/functions.php:121
+msgid "week"
+msgstr "неделя"
+
+#: includes/common/functions.php:121
+msgid "weeks"
+msgstr "нед."
+
+#: includes/common/functions.php:122
+msgid "day"
+msgstr "день"
+
+#: includes/common/functions.php:122
+msgid "days"
+msgstr "дн."
+
+#: includes/common/functions.php:123
+msgid "hour"
+msgstr "час"
+
+#: includes/common/functions.php:123
+msgid "hours"
+msgstr "час."
+
+#: includes/common/functions.php:124
+msgid "minute"
+msgstr "минут"
+
+#: includes/common/functions.php:124
+msgid "minutes"
+msgstr "мин."
+
+#: includes/common/functions.php:125
+msgid "second"
+msgstr "сек."
+
+#: includes/common/functions.php:125
+msgid "seconds"
+msgstr "сек."
+
+#: includes/common/functions.php:519 includes/common/functions.php:551
+#, php-format
+msgid "Private: %s"
+msgstr "Личное: %s"
+
+#: includes/common/functions.php:520 includes/common/functions.php:552
+#, php-format
+msgid "Spammed: %s"
+msgstr "Спам: %s"
+
+#: includes/common/functions.php:521 includes/common/functions.php:553
+#, php-format
+msgid "Trashed: %s"
+msgstr "В корзине: %s"
+
+#: includes/common/functions.php:631
+msgid "<strong>ERROR</strong>: Invalid author name submitted!"
+msgstr "<strong>ОШИБКА</strong>: Добавлено неверное имя автора!"
+
+#: includes/common/functions.php:636
+msgid "<strong>ERROR</strong>: Invalid email address submitted!"
+msgstr "<strong>ОШИБКА</strong>: Добавлен неправильный адрес электронной почты!"
+
+#: includes/common/functions.php:1118
+#, php-format
+msgid ""
+"%1$s wrote:\n"
+"\n"
+"%2$s\n"
+"\n"
+"Post Link: %3$s\n"
+"\n"
+"-----------\n"
+"\n"
+"You are receiving this email because you subscribed to a forum topic.\n"
+"\n"
+"Login and visit the topic to unsubscribe from these emails."
+msgstr ""
+"%1$s написал:\n"
+"\n"
+"%2$s\n"
+"\n"
+"Ссылка на запись: %3$s\n"
+"\n"
+"-----------\n"
+"\n"
+"Вы получили это письмо, потому что Вы подписаны на тему форума.\n"
+"\n"
+"Авторизуйтесь и посетите тему, чтобы отписаться от этих писем."
+
+#: includes/common/functions.php:1275
+#, php-format
+msgid ""
+"%1$s wrote:\n"
+"\n"
+"%2$s\n"
+"\n"
+"Topic Link: %3$s\n"
+"\n"
+"-----------\n"
+"\n"
+"You are receiving this email because you subscribed to a forum.\n"
+"\n"
+"Login and visit the topic to unsubscribe from these emails."
+msgstr ""
+"%1$s написал:\n"
+"\n"
+"%2$s\n"
+"\n"
+"Ссылка на тему: %3$s\n"
+"\n"
+"-----------\n"
+"\n"
+"Вы получили это письмо, потому что вы подписаны на форум.\n"
+"\n"
+"Чтобы отписаться, войдите на сайт и зайдите в нужную тему."
+
+#: includes/common/functions.php:2085
+msgid ""
+"Conditional query tags do not work before the query is run. Before then, they "
+"always return false."
+msgstr ""
+"Условные теги запроса не работают до выполнения запроса. До этого, они всегда "
+"возвращают ложь."
+
+#: includes/common/template.php:2210
+msgid "Home"
+msgstr "Главная"
+
+#: includes/common/template.php:2284 includes/common/template.php:2399
+#: includes/core/theme-compat.php:753
+#, php-format
+msgid "Topic Tag: %s"
+msgstr "Метки Темы: %s"
+
+#: includes/common/template.php:2288 includes/forums/template.php:54
+#: includes/replies/template.php:53 includes/topics/template.php:53
+msgid "Edit"
+msgstr "Редактировать"
+
+#: includes/common/template.php:2305
+msgid "&lsaquo;"
+msgstr "&lsaquo;"
+
+#: includes/common/template.php:2305
+msgid "&rsaquo;"
+msgstr "&rsaquo;"
+
+#: includes/common/widgets.php:39
+msgid "A simple login form with optional links to sign-up and lost password pages."
+msgstr ""
+"Простая форма входа с дополнительным ссылкам, чтобы зарегистрироваться и "
+"восстановить забытый пароль."
+
+#: includes/common/widgets.php:42
+msgid "(bbPress) Login Widget"
+msgstr "(bbPress) Виджет авторизации"
+
+#: includes/common/widgets.php:89 includes/common/widgets.php:110
+msgid "Log In"
+msgstr "Войти"
+
+#: includes/common/widgets.php:92
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: includes/common/widgets.php:97
+msgid "Password"
+msgstr "Пароль"
+
+#: includes/common/widgets.php:103
+msgid "Remember Me"
+msgstr "Запомнить меня"
+
+#: includes/common/widgets.php:122
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: includes/common/widgets.php:128
+msgid "Lost Password"
+msgstr "Забыли пароль?"
+
+#: includes/common/widgets.php:185 includes/common/widgets.php:337
+#: includes/common/widgets.php:466 includes/common/widgets.php:639
+#: includes/common/widgets.php:883 includes/common/widgets.php:1037
+#: includes/common/widgets.php:1241
+msgid "Title:"
+msgstr "Название:"
+
+#: includes/common/widgets.php:190
+msgid "Register URI:"
+msgstr "URI Регистрации:"
+
+#: includes/common/widgets.php:195
+msgid "Lost Password URI:"
+msgstr "URI Напоминания пароля:"
+
+#: includes/common/widgets.php:243
+msgid "A list of registered optional topic views."
+msgstr "Настраиваемый список просмотров тем."
+
+#: includes/common/widgets.php:246
+msgid "(bbPress) Topic Views List"
+msgstr "(bbPress) Список просмотров тем"
+
+#: includes/common/widgets.php:384
+msgid "The bbPress forum search form."
+msgstr "Форма поиска по форуму bbPress."
+
+#: includes/common/widgets.php:387
+msgid "(bbPress) Forum Search Form"
+msgstr "(bbPress) Форма поиска по форуму"
+
+#: includes/common/widgets.php:484 includes/forums/template.php:59
+msgid "Search Forums"
+msgstr "Искать в форумах"
+
+#: includes/common/widgets.php:513
+msgid "A list of forums with an option to set the parent."
+msgstr "Список форумов с возможностью указать родительский форум."
+
+#: includes/common/widgets.php:516
+msgid "(bbPress) Forums List"
+msgstr "(bbPress) Список форумов"
+
+#: includes/common/widgets.php:645 includes/common/widgets.php:887
+msgid "Parent Forum ID:"
+msgstr "ID Родительского Форума:"
+
+#: includes/common/widgets.php:651 includes/common/widgets.php:893
+msgid "\"0\" to show only root - \"any\" to show all"
+msgstr "\"0\" для отображения только корня - \"any\" для отображения всех"
+
+#: includes/common/widgets.php:697
+msgid "A list of recent topics, sorted by: newness, popularity, or recent replies."
+msgstr ""
+"Список последних тем, отсортированных по: свежести, популярности, последним "
+"ответам."
+
+#: includes/common/widgets.php:700
+msgid "(bbPress) Recent Topics"
+msgstr "(bbPress) Последние темы"
+
+#: includes/common/widgets.php:884
+msgid "Maximum topics to show:"
+msgstr "Максимум тем для отображения"
+
+#: includes/common/widgets.php:896 includes/common/widgets.php:1243
+msgid "Show post date:"
+msgstr "Отображать дату ответа:"
+
+#: includes/common/widgets.php:897
+msgid "Show topic author:"
+msgstr "Показать автора темы:"
+
+#: includes/common/widgets.php:900
+msgid "Order By:"
+msgstr "Сортировать по:"
+
+#: includes/common/widgets.php:902
+msgid "Newest Topics"
+msgstr "Новые темы"
+
+#: includes/common/widgets.php:903
+msgid "Popular Topics"
+msgstr "Популярные Темы"
+
+#: includes/common/widgets.php:904
+msgid "Topics With Recent Replies"
+msgstr "Темы с последними Ответами"
+
+#: includes/common/widgets.php:921
+msgid "Recent Topics"
+msgstr "Последние темы"
+
+#: includes/common/widgets.php:955
+msgid "Some statistics from your forum."
+msgstr "Некоторая статистика для вашего форума."
+
+#: includes/common/widgets.php:958
+msgid "(bbPress) Statistics"
+msgstr "(bbPress) Статистика"
+
+#: includes/common/widgets.php:1055
+msgid "Forum Statistics"
+msgstr "Статистика форума"
+
+#: includes/common/widgets.php:1085
+msgid "A list of the most recent replies."
+msgstr "Список самых последних ответов."
+
+#: includes/common/widgets.php:1088
+msgid "(bbPress) Recent Replies"
+msgstr "(bbPress) Последние ответы"
+
+#: includes/common/widgets.php:1242
+msgid "Maximum replies to show:"
+msgstr "Максимум ответов для отображения:"
+
+#: includes/common/widgets.php:1244
+msgid "Show reply author:"
+msgstr "Показать автора ответа:"
+
+#: includes/common/widgets.php:1259
+msgid "Recent Replies"
+msgstr "Последние ответы"
+
+#: includes/core/capabilities.php:378
+msgid "Keymaster"
+msgstr "Хранитель"
+
+#: includes/core/capabilities.php:384
+msgid "Moderator"
+msgstr "Модератор"
+
+#: includes/core/capabilities.php:390
+msgid "Participant"
+msgstr "Участник"
+
+#: includes/core/capabilities.php:396
+msgid "Spectator"
+msgstr "Читатель"
+
+#: includes/core/capabilities.php:402
+msgid "Blocked"
+msgstr "Заблокирован"
+
+#: includes/core/capabilities.php:519
+msgid "Editable forum roles no longer exist."
+msgstr "Редактируемые роли форума больше не существуют."
+
+#: includes/core/sub-actions.php:152
+msgid "The current user is being initialized without using $wp->init()."
+msgstr "Текущий пользователь был инициализирован без использования $wp->init()."
+
+#: includes/core/update.php:187
+msgid "General"
+msgstr "Основной"
+
+#: includes/core/update.php:188
+msgid "General chit-chat"
+msgstr "Общий трёп"
+
+#: includes/core/update.php:189
+msgid "Hello World!"
+msgstr "Здравствуй, мир!"
+
+#: includes/core/update.php:190
+msgid "I am the first topic in your new forums."
+msgstr "Это первая тема на вашем новом форуме."
+
+#: includes/core/update.php:191
+msgid "Oh, and this is what a reply looks like."
+msgstr "Да, и это то, как выглядит ответ."
+
+#: includes/extend/akismet.php:727 includes/extend/akismet.php:737
+msgid "Akismet History"
+msgstr "История Akismet"
+
+#: includes/extend/buddypress/groups.php:343
+#: includes/extend/buddypress/groups.php:503
+#: includes/extend/buddypress/notifications.php:164 includes/forums/functions.php:123
+#: includes/forums/functions.php:424 includes/replies/functions.php:114
+#: includes/replies/functions.php:516 includes/replies/functions.php:1308
+#: includes/topics/functions.php:127 includes/topics/functions.php:539
+#: includes/topics/functions.php:1199 includes/topics/functions.php:1513
+#: includes/topics/functions.php:1869 includes/topics/functions.php:1909
+#: includes/topics/functions.php:1967 includes/users/functions.php:430
+#: includes/users/functions.php:1146 includes/users/functions.php:1251
+#: includes/users/functions.php:1344 includes/users/functions.php:1350
+#: includes/users/functions.php:1540
+msgid "<strong>ERROR</strong>: Are you sure you wanted to do that?"
+msgstr "<strong>ОШИБКА</strong>: Вы уверены, что хотите сделать это?"
+
+#: includes/extend/buddypress/loader.php:107
+msgid "Search Forums..."
+msgstr "Поиск на форуме..."
+
+#: includes/extend/buddypress/loader.php:317
+msgid "Subscribed Topics"
+msgstr "Подписки на темы"
+
+#: includes/extend/buddypress/notifications.php:52
+msgid "Topic Replies"
+msgstr "Ответы в теме"
+
+#: includes/extend/buddypress/notifications.php:55
+#, php-format
+msgid "You have %d new replies"
+msgstr "У вас %d новых ответов"
+
+#: includes/extend/buddypress/notifications.php:59
+#, php-format
+msgid "You have %d new reply to %2$s from %3$s"
+msgstr "У вас есть %d новый ответ на %2$s от %3$s"
+
+#: includes/extend/buddypress/notifications.php:61
+#, php-format
+msgid "You have %d new reply to %s"
+msgstr "У вас %d новых ответов на %s"
+
+#: includes/extend/buddypress/notifications.php:168
+msgid ""
+"<strong>ERROR</strong>: You do not have permission to mark notifications for that "
+"user."
+msgstr ""
+"<strong>ОШИБКА</strong>: У Вас нет прав чтобы отметить уведомления для этого "
+"пользователя."
+
+#: includes/forums/functions.php:137
+msgid "<strong>ERROR</strong>: You do not have permission to create new forums."
+msgstr "<strong>ОШИБКА</strong>: У вас нет разрешения на создание новых форумов."
+
+#: includes/forums/functions.php:162 includes/forums/functions.php:485
+msgid "<strong>ERROR</strong>: Your forum needs a title."
+msgstr "<strong>ОШИБКА</strong>: Вашему форуму необходимо название."
+
+#: includes/forums/functions.php:176 includes/forums/functions.php:499
+msgid "<strong>ERROR</strong>: Your forum description cannot be empty."
+msgstr "<strong>ОШИБКА</strong>: Описание вашего форума не может быть пустым."
+
+#: includes/forums/functions.php:191
+msgid "<strong>ERROR</strong>: Your forum must have a parent."
+msgstr "<strong>ОШИБКА</strong>: Ваш форум должен иметь родительский."
+
+#: includes/forums/functions.php:198
+msgid ""
+"<strong>ERROR</strong>: This forum is a category. No forums can be created in this "
+"forum."
+msgstr ""
+"<strong>ОШИБКА</strong>: Этот форум представляет собой категорию. Форумы не могут "
+"быть созданы в этом форуме."
+
+#: includes/forums/functions.php:203 includes/forums/functions.php:460
+msgid "<strong>ERROR</strong>: This forum has been closed to new forums."
+msgstr "<strong>ОШИБКА</strong>: Этот форум был закрыт для новых форумов."
+
+#: includes/forums/functions.php:208 includes/forums/functions.php:465
+msgid ""
+"<strong>ERROR</strong>: This forum is private and you do not have the capability "
+"to read or create new forums in it."
+msgstr ""
+"<strong>ОШИБКА</strong>: Это закрытый форум, вы не можете его читать или создавать "
+"в нем новые форумы."
+
+#: includes/forums/functions.php:213 includes/forums/functions.php:470
+msgid ""
+"<strong>ERROR</strong>: This forum is hidden and you do not have the capability to "
+"read or create new forums in it."
+msgstr ""
+"<strong>ОШИБКА</strong>: Это закрытый форум, вы не можете его читать или создавать "
+"в нем новые форумы."
+
+#: includes/forums/functions.php:220 includes/replies/functions.php:285
+#: includes/topics/functions.php:269
+msgid "<strong>ERROR</strong>: Slow down; you move too fast."
+msgstr "<strong>ОШИБКА</strong>: Помедленнее; вы двигаетесь слишком быстро."
+
+#: includes/forums/functions.php:226
+msgid "<strong>ERROR</strong>: This forum already exists."
+msgstr "<strong>ОШИБКА</strong>: Этот форум уже существует."
+
+#: includes/forums/functions.php:232
+msgid "<strong>ERROR</strong>: Your forum cannot be created at this time."
+msgstr "<strong>ОШИБКА</strong>: В настоящее время не может создаться ваш форум."
+
+#: includes/forums/functions.php:361 includes/forums/functions.php:638
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found with your forum:"
+msgstr ""
+
+#: includes/forums/functions.php:413
+msgid "<strong>ERROR</strong>: Forum ID not found."
+msgstr "<strong>ОШИБКА</strong>: ID форума не найдено."
+
+#: includes/forums/functions.php:429
+msgid "<strong>ERROR</strong>: The forum you want to edit was not found."
+msgstr "<strong>ОШИБКА</strong>: Форум, который вы хотите изменить не найден."
+
+#: includes/forums/functions.php:434
+msgid "<strong>ERROR</strong>: You do not have permission to edit that forum."
+msgstr "<strong>ОШИБКА</strong>: У вас нет разрешения на изменение этого форума."
+
+#: includes/forums/functions.php:505
+msgid "<strong>ERROR</strong>: Your forum cannot be edited at this time."
+msgstr "<strong>ОШИБКА</strong>: В настоящее время нельзя редактировать ваш форум."
+
+#: includes/forums/template.php:51
+msgid "All Forums"
+msgstr "Все форумы"
+
+#: includes/forums/template.php:52 includes/forums/template.php:56
+msgid "New Forum"
+msgstr "Новый форум"
+
+#: includes/forums/template.php:53
+msgid "Create New Forum"
+msgstr "Создание нового форума"
+
+#: includes/forums/template.php:55
+msgid "Edit Forum"
+msgstr "Редактировать форум"
+
+#: includes/forums/template.php:57 includes/forums/template.php:58
+msgid "View Forum"
+msgstr "Смотреть Форум"
+
+#: includes/forums/template.php:60
+msgid "No forums found"
+msgstr "Форумы не найдены"
+
+#: includes/forums/template.php:61
+msgid "No forums found in Trash"
+msgstr "В корзине форумов не найдено"
+
+#: includes/forums/template.php:62
+msgid "Parent Forum:"
+msgstr "Родительский форум:"
+
+#: includes/forums/template.php:1323
+#, php-format
+msgid " (+ %d hidden)"
+msgstr " (+ %d скрытый)"
+
+#: includes/forums/template.php:2257
+msgid "Forum Moderator"
+msgstr "Модератор форума"
+
+#: includes/forums/template.php:2258
+msgid "Search Moderators"
+msgstr "Поиск по модераторам"
+
+#: includes/forums/template.php:2259
+msgid "Popular Moderators"
+msgstr "Лучшие модераторы"
+
+#: includes/forums/template.php:2260
+msgid "All Moderators"
+msgstr "Все модераторы"
+
+#: includes/forums/template.php:2261
+msgid "Edit Moderator"
+msgstr "Редактировать модератора"
+
+#: includes/forums/template.php:2262
+msgid "Update Moderator"
+msgstr "Обновить модератора"
+
+#: includes/forums/template.php:2263
+msgid "Add New Moderator"
+msgstr "Добавить нового модератора"
+
+#: includes/forums/template.php:2264
+msgid "New Moderator Name"
+msgstr "Имя нового модератора"
+
+#: includes/forums/template.php:2265
+msgid "View Forum Moderator"
+msgstr "Просмотр модератора форума"
+
+#: includes/forums/template.php:2266
+msgid "Separate moderator names with commas"
+msgstr "Имена всех модераторов через запятую"
+
+#: includes/replies/functions.php:140
+msgid "<strong>ERROR</strong>: You do not have permission to reply."
+msgstr "<strong>ОШИБКА</strong>: У вас нет прав для ответа."
+
+#: includes/replies/functions.php:152
+msgid "<strong>ERROR</strong>: Topic ID is missing."
+msgstr "<strong>ОШИБКА</strong>: ID темы отсутствует."
+
+#: includes/replies/functions.php:156
+msgid "<strong>ERROR</strong>: Topic ID must be a number."
+msgstr "<strong>ОШИБКА</strong>: ID темы должен быть числовым"
+
+#: includes/replies/functions.php:166
+msgid "<strong>ERROR</strong>: Topic ID cannot be a negative number."
+msgstr "<strong>ОШИБКА</strong>: ID темы не может быть отрицательным"
+
+#: includes/replies/functions.php:170
+msgid "<strong>ERROR</strong>: Topic does not exist."
+msgstr "<strong>ОШИБКА</strong> Тема не существует"
+
+#: includes/replies/functions.php:189 includes/replies/functions.php:203
+#: includes/topics/functions.php:205 includes/topics/functions.php:219
+#: includes/topics/functions.php:554
+msgid "<strong>ERROR</strong>: Forum ID is missing."
+msgstr "<strong>ОШИБКА</strong>: ID форума отсутствует."
+
+#: includes/replies/functions.php:193 includes/topics/functions.php:209
+msgid "<strong>ERROR</strong>: Forum ID must be a number."
+msgstr "<strong>ОШИБКА</strong>:  ID форума должен быть числовым"
+
+#: includes/replies/functions.php:207 includes/topics/functions.php:223
+msgid "<strong>ERROR</strong>: Forum ID cannot be a negative number."
+msgstr "<strong>ОШИБКА</strong>: ID форума не может быть отрицательным числом"
+
+#: includes/replies/functions.php:211 includes/topics/functions.php:227
+msgid "<strong>ERROR</strong>: Forum does not exist."
+msgstr "<strong>ОШИБКА</strong>: Форум не существует"
+
+#: includes/replies/functions.php:225 includes/replies/functions.php:568
+msgid ""
+"<strong>ERROR</strong>: This forum is a category. No replies can be created in "
+"this forum."
+msgstr ""
+"<strong>ОШИБКА</strong>: Этот форум является категорией. Нельзя создавать ответы в "
+"этом форуме."
+
+#: includes/replies/functions.php:232 includes/replies/functions.php:575
+msgid "<strong>ERROR</strong>: This forum has been closed to new replies."
+msgstr "<strong>ОШИБКА</strong>: Этот форум закрыт для новых ответов."
+
+#: includes/replies/functions.php:238 includes/replies/functions.php:581
+msgid ""
+"<strong>ERROR</strong>: This forum is private and you do not have the capability "
+"to read or create new replies in it."
+msgstr ""
+"<strong>ОШИБКА</strong>: Это личный форум, вы не можете его читать и создавать в "
+"нем новые ответы."
+
+#: includes/replies/functions.php:244 includes/replies/functions.php:587
+msgid ""
+"<strong>ERROR</strong>: This forum is hidden and you do not have the capability to "
+"read or create new replies in it."
+msgstr ""
+"<strong>ОШИБКА</strong>: Это скрытый форум, вы не можете его читать и создавать "
+"новые ответы."
+
+#: includes/replies/functions.php:279 includes/replies/functions.php:613
+msgid "<strong>ERROR</strong>: Your reply cannot be empty."
+msgstr "<strong>ОШИБКА</strong>: Ответ не может быть пустым."
+
+#: includes/replies/functions.php:291
+msgid ""
+"<strong>ERROR</strong>: Duplicate reply detected; it looks as though you&#8217;ve "
+"already said that!"
+msgstr ""
+"<strong>ОШИБКА</strong>: Обнаружен дублирующийся ответ; он выглядит так, как будто "
+"вы уже говорили это!"
+
+#: includes/replies/functions.php:297
+msgid "<strong>ERROR</strong>: Your reply cannot be created at this time."
+msgstr "<strong>ОШИБКА</strong>: Ваш ответ сейчас не может быть создан."
+
+#: includes/replies/functions.php:322
+msgid "<strong>ERROR</strong>: Topic is closed."
+msgstr "<strong>ОШИБКА</strong>: Тема закрыта."
+
+#: includes/replies/functions.php:382 includes/replies/functions.php:707
+msgid "<strong>ERROR</strong>: There was a problem adding the tags to the topic."
+msgstr "<strong>ОШИБКА</strong>: Проблема добавления меток к этой теме."
+
+#: includes/replies/functions.php:455 includes/replies/functions.php:761
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found with your reply:"
+msgstr ""
+
+#: includes/replies/functions.php:505
+msgid "<strong>ERROR</strong>: Reply ID not found."
+msgstr "<strong>ОШИБКА</strong>: ID ответа не найден."
+
+#: includes/replies/functions.php:522
+msgid "<strong>ERROR</strong>: The reply you want to edit was not found."
+msgstr "<strong>ОШИБКА</strong>: Ответ, который вы хотите изменить не найден."
+
+#: includes/replies/functions.php:533
+msgid "<strong>ERROR</strong>: You do not have permission to edit that reply."
+msgstr "<strong>ОШИБКА</strong>: У вас нет прав для редактирования этого ответа."
+
+#: includes/replies/functions.php:619
+msgid "<strong>ERROR</strong>: Your reply cannot be edited at this time."
+msgstr "<strong>ОШИБКА</strong>: В данный момент вы не можете редактировать ответ."
+
+#: includes/replies/functions.php:1284
+msgid "<strong>ERROR</strong>: Reply ID to move not found!"
+msgstr "<strong>ОШИБКА</strong>:  Не найден ID ответа для перемещения!"
+
+#: includes/replies/functions.php:1293
+msgid "<strong>ERROR</strong>: The reply you want to move was not found."
+msgstr "<strong>ОШИБКА</strong>: Ответ, который вы хотите переместить не найден."
+
+#: includes/replies/functions.php:1303
+msgid "<strong>ERROR</strong>: The topic you want to move from was not found."
+msgstr "<strong>ОШИБКА</strong>: Тема, которую вы хотите переместить не найдена."
+
+#: includes/replies/functions.php:1314 includes/topics/functions.php:1210
+#: includes/topics/functions.php:1519
+msgid ""
+"<strong>ERROR</strong>: You do not have the permissions to edit the source topic."
+msgstr "<strong>ОШИБКА</strong>: У вас нет прав для редактирования исходной темы."
+
+#: includes/replies/functions.php:1324
+msgid "<strong>ERROR</strong>: You need to choose a valid move option."
+msgstr "<strong>ОШИБКА</strong>: Вы должны выбрать корректные параметры перемещения."
+
+#: includes/replies/functions.php:1337 includes/topics/functions.php:1542
+msgid "<strong>ERROR</strong>: Destination topic ID not found!"
+msgstr "<strong>ОШИБКА</strong>: ID темы назначения не найден!"
+
+#: includes/replies/functions.php:1347
+msgid "<strong>ERROR</strong>: The topic you want to move to was not found!"
+msgstr "<strong>ОШИБКА</strong>: Тема, которую вы хотите переместить не найдена!"
+
+#: includes/replies/functions.php:1352 includes/topics/functions.php:1557
+msgid ""
+"<strong>ERROR</strong>: You do not have the permissions to edit the destination "
+"topic!"
+msgstr "<strong>ОШИБКА</strong>: У вас нет прав на редактирование темы назначения!"
+
+#: includes/replies/functions.php:1406 includes/topics/functions.php:1595
+msgid ""
+"<strong>ERROR</strong>: There was a problem converting the reply into the topic. "
+"Please try again."
+msgstr ""
+"<strong>ОШИБКА</strong>: Невозможно преобразовать ответ в тему. Пожалуйста, "
+"повторите позднее."
+
+#: includes/replies/functions.php:1411 includes/topics/functions.php:1600
+msgid ""
+"<strong>ERROR</strong>: You do not have the permissions to create new topics. The "
+"reply could not be converted into a topic."
+msgstr ""
+"<strong>ОШИБКА</strong>: У вас нет прав для создания новых тем. Ответ не будет "
+"преобразован в тему."
+
+#: includes/replies/functions.php:1595
+msgid "<strong>ERROR:</strong> You do not have the permission to do that!"
+msgstr "<strong>ОШИБКА</strong>: У вас нет прав для осуществления данной операции!"
+
+#: includes/replies/functions.php:1608
+msgid "<strong>ERROR</strong>: There was a problem approving the reply!"
+msgstr "<strong>ОШИБКА</strong>: возникла проблема при одобрении этого ответа!"
+
+#: includes/replies/functions.php:1608
+msgid "<strong>ERROR</strong>: There was a problem unapproving the reply!"
+msgstr "<strong>ОШИБКА</strong>: Возникла проблема при отклонении этого ответа!"
+
+#: includes/replies/functions.php:1619
+msgid "<strong>ERROR</strong>: There was a problem unmarking the reply as spam!"
+msgstr "<strong>ОШИБКА</strong>: Невозможно снять отметку спам с этого ответа!"
+
+#: includes/replies/functions.php:1619
+msgid "<strong>ERROR</strong>: There was a problem marking the reply as spam!"
+msgstr "<strong>ОШИБКА</strong>: Невозможно пометить этот ответ как спам!"
+
+#: includes/replies/functions.php:1639
+msgid "<strong>ERROR</strong>: There was a problem trashing the reply!"
+msgstr "<strong>ОШИБКА</strong>: Невозможно переместить ответ в корзину!"
+
+#: includes/replies/functions.php:1647
+msgid "<strong>ERROR</strong>: There was a problem untrashing the reply!"
+msgstr "<strong>ОШИБКА</strong>: Невозможно восстановить ответ из корзины!"
+
+#: includes/replies/functions.php:1655
+msgid "<strong>ERROR</strong>: There was a problem deleting the reply!"
+msgstr "<strong>ОШИБКА</strong>: Невозможно удалить ответ!"
+
+#: includes/replies/functions.php:2191
+msgid "All Posts"
+msgstr "Все сообщения"
+
+#: includes/replies/functions.php:2193 includes/replies/template.php:50
+msgid "All Replies"
+msgstr "Все ответы"
+
+#: includes/replies/functions.php:2234
+#, php-format
+msgid "Replies: %s"
+msgstr "Ответы: %s"
+
+#: includes/replies/template.php:51 includes/replies/template.php:55
+msgid "New Reply"
+msgstr "Новый ответ"
+
+#: includes/replies/template.php:52
+msgid "Create New Reply"
+msgstr "Добавить ответ"
+
+#: includes/replies/template.php:54
+msgid "Edit Reply"
+msgstr "Редактировать Ответ"
+
+#: includes/replies/template.php:56 includes/replies/template.php:57
+msgid "View Reply"
+msgstr "Просмотреть ответ"
+
+#: includes/replies/template.php:58
+msgid "Search Replies"
+msgstr "Искать Ответы"
+
+#: includes/replies/template.php:59
+msgid "No replies found"
+msgstr "Ответов нет"
+
+#: includes/replies/template.php:60
+msgid "No replies found in Trash"
+msgstr "Ответов в корзине не найдено"
+
+#: includes/replies/template.php:61
+msgid "Topic:"
+msgstr "Тема:"
+
+#: includes/replies/template.php:577
+#, php-format
+msgid "Reply To: %s"
+msgstr "Ответ в теме: %s"
+
+#: includes/replies/template.php:1141 includes/topics/template.php:1438
+#: includes/users/template.php:184
+msgid "Anonymous"
+msgstr "Аноним"
+
+#: includes/replies/template.php:1255 includes/topics/template.php:1553
+#: includes/users/template.php:1712
+#, php-format
+msgid "View %s's profile"
+msgstr "Просмотреть профиль %s"
+
+#: includes/replies/template.php:1255 includes/topics/template.php:1553
+#: includes/users/template.php:1712
+#, php-format
+msgid "Visit %s's website"
+msgstr "Посетите %s's веб-сайт"
+
+#: includes/replies/template.php:1751
+msgid "Cancel"
+msgstr "Отмена"
+
+#: includes/replies/template.php:2115 includes/topics/template.php:2735
+msgid "Are you sure you want to delete that permanently?"
+msgstr "Вы действительно хотите удалить это навсегда?"
+
+#: includes/topics/functions.php:155
+msgid "<strong>ERROR</strong>: You do not have permission to create new topics."
+msgstr "<strong>ОШИБКА</strong>: У вас нет прав для создания новой темы."
+
+#: includes/topics/functions.php:181 includes/topics/functions.php:605
+msgid "<strong>ERROR</strong>: Your topic needs a title."
+msgstr "<strong>ОШИБКА</strong>: У вашей темы нет заголовка."
+
+#: includes/topics/functions.php:195 includes/topics/functions.php:619
+msgid "<strong>ERROR</strong>: Your topic cannot be empty."
+msgstr "<strong>ОШИБКА</strong>: Ваша тема не может быть пустой."
+
+#: includes/topics/functions.php:241
+msgid ""
+"<strong>ERROR</strong>: This forum is a category. No topics can be created in this "
+"forum."
+msgstr "<strong>ОШИБКА</strong>: Это форум - рубрика. Нельзя создавать здесь темы."
+
+#: includes/topics/functions.php:248 includes/topics/functions.php:576
+msgid "<strong>ERROR</strong>: This forum has been closed to new topics."
+msgstr "<strong>ОШИБКА</strong>: Этот форум закрыт для новых тем."
+
+#: includes/topics/functions.php:254 includes/topics/functions.php:582
+msgid ""
+"<strong>ERROR</strong>: This forum is private and you do not have the capability "
+"to read or create new topics in it."
+msgstr ""
+"<strong>ОШИБКА</strong>: Это личный форум, вы не можете его читать и создавать в "
+"нем новые темы."
+
+#: includes/topics/functions.php:260 includes/topics/functions.php:588
+msgid ""
+"<strong>ERROR</strong>: This forum is hidden and you do not have the capability to "
+"read or create new topics in it."
+msgstr ""
+"<strong>ОШИБКА</strong>: Это скрытый форум, вы не можете его читать и создавать в "
+"нем новые темы."
+
+#: includes/topics/functions.php:275
+msgid ""
+"<strong>ERROR</strong>: Duplicate topic detected; it looks as though you&#8217;ve "
+"already said that!"
+msgstr ""
+"<strong>ОШИБКА</strong>: Обнаружена дублирующаяся тема; она выглядит так, как "
+"будто вы уже говорили это!"
+
+#: includes/topics/functions.php:281
+msgid "<strong>ERROR</strong>: Your topic cannot be created at this time."
+msgstr "<strong>ОШИБКА</strong>: В данный момент ваша тема не может быть создана."
+
+#: includes/topics/functions.php:447 includes/topics/functions.php:808
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found with your topic:"
+msgstr ""
+
+#: includes/topics/functions.php:501 includes/topics/functions.php:1192
+msgid "<strong>ERROR</strong>: Topic ID not found."
+msgstr "<strong>ОШИБКА</strong>: ID темы не найден."
+
+#: includes/topics/functions.php:512
+msgid "<strong>ERROR</strong>: The topic you want to edit was not found."
+msgstr "<strong>ОШИБКА</strong>: Тема, которую вы хотите изменить не найдена."
+
+#: includes/topics/functions.php:523
+msgid "<strong>ERROR</strong>: You do not have permission to edit that topic."
+msgstr "<strong>ОШИБКА</strong>: У вас нет прав для редактирования этой темы."
+
+#: includes/topics/functions.php:569
+msgid ""
+"<strong>ERROR</strong>: This forum is a category. No topics can be created in it."
+msgstr "<strong>ОШИБКА</strong>: Этот форум - рубрика. Здесь нельзя создавать темы."
+
+#: includes/topics/functions.php:625
+msgid "<strong>ERROR</strong>: Your topic cannot be edited at this time."
+msgstr "<strong>ОШИБКА</strong>: В данный момент вы не можете редактировать тему."
+
+#: includes/topics/functions.php:1204
+msgid "<strong>ERROR</strong>: The topic you want to merge was not found."
+msgstr "<strong>ОШИБКА</strong>: Тема, которую вы хотите объединить не найдена."
+
+#: includes/topics/functions.php:1218
+msgid "<strong>ERROR</strong>: Destination topic ID not found."
+msgstr "<strong>ОШИБКА</strong>: ID темы назначения не найден.."
+
+#: includes/topics/functions.php:1225
+msgid "<strong>ERROR</strong>: The topic you want to merge to was not found."
+msgstr ""
+"<strong>ОШИБКА</strong>: Тема с которой вы хотите осуществить объединение не "
+"найдена."
+
+#: includes/topics/functions.php:1230
+msgid ""
+"<strong>ERROR</strong>: You do not have the permissions to edit the destination "
+"topic."
+msgstr "<strong>ОШИБКА</strong>: У вас нет прав для редактирования темы назначения."
+
+#: includes/topics/functions.php:1489
+msgid "<strong>ERROR</strong>: Reply ID to split the topic from not found!"
+msgstr "<strong>ОШИБКА</strong>: ID ответа для разделения не найден!"
+
+#: includes/topics/functions.php:1498
+msgid "<strong>ERROR</strong>: The reply you want to split from was not found."
+msgstr ""
+"<strong>ОШИБКА</strong>: Ответ, с которого вы хотите начать разделение не найден."
+
+#: includes/topics/functions.php:1508
+msgid "<strong>ERROR</strong>: The topic you want to split was not found."
+msgstr "<strong>ОШИБКА</strong>: Тема, которую вы хотите разделить не найдена."
+
+#: includes/topics/functions.php:1529
+msgid "<strong>ERROR</strong>: You need to choose a valid split option."
+msgstr "<strong>ОШИБКА</strong>: Вы должны выбрать правильный вариант разделения."
+
+#: includes/topics/functions.php:1552
+msgid "<strong>ERROR</strong>: The topic you want to split to was not found!"
+msgstr "<strong>ОШИБКА</strong>: Тема, которую вы хотите разделить не найдена!"
+
+#: includes/topics/functions.php:1857
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found while getting the "
+"tag: %s"
+msgstr ""
+"<strong>ОШИБКА</strong>:Следующая проблема (проблемы) была обнаружена при "
+"получении меток: %s"
+
+#: includes/topics/functions.php:1875 includes/topics/functions.php:1915
+msgid ""
+"<strong>ERROR</strong>: You do not have the permissions to edit the topic tags."
+msgstr "<strong>ОШИБКА</strong>: У вас нет прав для редактирования меток темы."
+
+#: includes/topics/functions.php:1881 includes/topics/functions.php:1921
+msgid "<strong>ERROR</strong>: You need to enter a tag name."
+msgstr "<strong>ОШИБКА</strong>: Вы должны ввести имя метки."
+
+#: includes/topics/functions.php:1892
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found while updating "
+"the tag: %s"
+msgstr ""
+"<strong>ОШИБКА</strong>: Следующая проблема (проблемы) была обнаружена при "
+"обновлении меток: %s"
+
+#: includes/topics/functions.php:1932 includes/topics/functions.php:1950
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found while merging the "
+"tags: %s"
+msgstr ""
+"<strong>ОШИБКА</strong>: Следующая проблема (проблемы) была обнаружена при "
+"объединении меток: %s"
+
+#: includes/topics/functions.php:1941
+msgid "<strong>ERROR</strong>: The tags which are being merged can not be the same."
+msgstr ""
+"<strong>ОШИБКА</strong> :Метки, выбираемые для объединения, не могут быть "
+"одинаковыми."
+
+#: includes/topics/functions.php:1973
+msgid ""
+"<strong>ERROR</strong>: You do not have the permissions to delete the topic tags."
+msgstr "<strong>ОШИБКА</strong>: У вас нет прав для удаления меток темы."
+
+#: includes/topics/functions.php:1982
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found while deleting "
+"the tag: %s"
+msgstr ""
+"<strong>ОШИБКА</strong>: Следующая проблема (проблемы) была обнаружена при "
+"удалении меток: %s"
+
+#: includes/topics/functions.php:2141
+msgid "<strong>ERROR:</strong> You do not have the permission to do that."
+msgstr "<strong>ОШИБКА</strong>: У вас нет прав для осуществления этой операции."
+
+#: includes/topics/functions.php:2154
+msgid "<strong>ERROR</strong>: There was a problem approving the topic."
+msgstr "<strong>ОШИБКА</strong>: Возникла проблема при одобрении этой темы."
+
+#: includes/topics/functions.php:2154
+msgid "<strong>ERROR</strong>: There was a problem unapproving the topic."
+msgstr "<strong>ОШИБКА</strong>: Возникла проблема при отклонении этой темы."
+
+#: includes/topics/functions.php:2164
+msgid "<strong>ERROR</strong>: There was a problem closing the topic."
+msgstr "<strong>ОШИБКА</strong>: Невозможно закрыть эту тему."
+
+#: includes/topics/functions.php:2164
+msgid "<strong>ERROR</strong>: There was a problem opening the topic."
+msgstr "<strong>ОШИБКА</strong>: Невозможно открыть эту тему."
+
+#: includes/topics/functions.php:2175
+msgid "<strong>ERROR</strong>: There was a problem unsticking the topic."
+msgstr "<strong>Ошибка</strong>: Невозможно открепить тему."
+
+#: includes/topics/functions.php:2175
+msgid "<strong>ERROR</strong>: There was a problem sticking the topic."
+msgstr "<strong>ОШИБКА</strong>: Невозможно прикрепить тему."
+
+#: includes/topics/functions.php:2185
+msgid "<strong>ERROR</strong>: There was a problem unmarking the topic as spam."
+msgstr ""
+"<strong>ОШИБКА</strong>: Возникла проблема при попытке снять с этой темы отметку "
+"спам."
+
+#: includes/topics/functions.php:2185
+msgid "<strong>ERROR</strong>: There was a problem marking the topic as spam."
+msgstr "<strong>ОШИБКА</strong>: Невозможно отметить тему как спам."
+
+#: includes/topics/functions.php:2205
+msgid "<strong>ERROR</strong>: There was a problem trashing the topic."
+msgstr "<strong>ОШИБКА</strong>: Невозможно удалить тему в корзину."
+
+#: includes/topics/functions.php:2213
+msgid "<strong>ERROR</strong>: There was a problem untrashing the topic."
+msgstr "<strong>ОШИБКА</strong>: Невозможно восстановить тему из корзины."
+
+#: includes/topics/functions.php:2221
+msgid "<strong>ERROR</strong>: There was a problem deleting the topic."
+msgstr "<strong>ОШИБКА</strong>: Невозможно удалить тему."
+
+#: includes/topics/functions.php:3793 includes/topics/template.php:50
+msgid "All Topics"
+msgstr "Все темы"
+
+#: includes/topics/template.php:51 includes/topics/template.php:55
+msgid "New Topic"
+msgstr "Новая тема"
+
+#: includes/topics/template.php:52
+msgid "Create New Topic"
+msgstr "Создать новую тему"
+
+#: includes/topics/template.php:54
+msgid "Edit Topic"
+msgstr "Изменить тему"
+
+#: includes/topics/template.php:56 includes/topics/template.php:57
+msgid "View Topic"
+msgstr "Смотреть Тему"
+
+#: includes/topics/template.php:58
+msgid "Search Topics"
+msgstr "Поиск по темам"
+
+#: includes/topics/template.php:59
+msgid "No topics found"
+msgstr "Темы не найдены"
+
+#: includes/topics/template.php:60
+msgid "No topics found in Trash"
+msgstr "В корзине темы не найдены"
+
+#: includes/topics/template.php:61
+msgid "Forum:"
+msgstr "Форум:"
+
+#: includes/topics/template.php:1007
+#, php-format
+msgid "This topic was modified %1$s by %2$s. Reason: %3$s"
+msgstr "Эта тема была изменена %1$s пользователем %2$s. Причина: %3$s"
+
+#: includes/topics/template.php:1009
+#, php-format
+msgid "This topic was modified %1$s by %2$s."
+msgstr "Эта тема была изменена %1$s пользователем %2$s."
+
+#: includes/topics/template.php:3211
+msgid "This topic is marked as spam."
+msgstr "Эта тема отмечена как спам."
+
+#: includes/topics/template.php:3216
+msgid "This topic is in the trash."
+msgstr "Эта тема перемещена в корзину."
+
+#: includes/topics/template.php:3543
+msgid "Topic Tags"
+msgstr "Метки тем"
+
+#: includes/topics/template.php:3545
+msgid "Search Tags"
+msgstr "Искать в метках"
+
+#: includes/topics/template.php:3546
+msgid "Popular Tags"
+msgstr "Популярные метки"
+
+#: includes/topics/template.php:3547
+msgid "All Tags"
+msgstr "Все метки"
+
+#: includes/topics/template.php:3548
+msgid "Edit Tag"
+msgstr "Редактировать метки"
+
+#: includes/topics/template.php:3549
+msgid "Update Tag"
+msgstr "Обновить метку"
+
+#: includes/topics/template.php:3550
+msgid "Add New Tag"
+msgstr "Добавить новую метку"
+
+#: includes/topics/template.php:3551
+msgid "New Tag Name"
+msgstr "Новое имя метки"
+
+#: includes/topics/template.php:3552
+msgid "View Topic Tag"
+msgstr "Смотреть метки темы"
+
+#: includes/topics/template.php:3553
+msgid "Separate topic tags with commas"
+msgstr "Разделяйте метки темы запятыми"
+
+#: includes/users/functions.php:426
+msgid ""
+"<strong>ERROR</strong>: No topic was found! Which topic are you marking/unmarking "
+"as favorite?"
+msgstr ""
+"<strong>ERROR</strong>: Тема не найдена! Какую тему вы добавляли/удаляли в "
+"избранное?"
+
+#: includes/users/functions.php:434 includes/users/functions.php:1150
+#: includes/users/functions.php:1255
+msgid ""
+"<strong>ERROR</strong>: You don't have the permission to edit favorites of that "
+"user!"
+msgstr ""
+"<strong>ОШИБКА</strong>: У Вас нет прав для редактирования закладок этого "
+"пользователя!"
+
+#: includes/users/functions.php:476
+msgid ""
+"<strong>ERROR</strong>: There was a problem removing that topic from favorites!"
+msgstr "<strong>ОШИБКА</strong>: Невозможно удалить эту тему из избранного!"
+
+#: includes/users/functions.php:478
+msgid "<strong>ERROR</strong>: There was a problem favoriting that topic!"
+msgstr "<strong>ОШИБКА</strong>: Невозможно добавить эту тему в избранное!"
+
+#: includes/users/functions.php:1142
+msgid ""
+"<strong>ERROR</strong>: No forum was found! Which forum are you subscribing/"
+"unsubscribing to?"
+msgstr ""
+"<strong>Ошибка</strong>: Форум не найден! На какой форум вы пытаетесь подписаться/"
+"отписаться?"
+
+#: includes/users/functions.php:1192
+msgid "<strong>ERROR</strong>: There was a problem unsubscribing from that forum!"
+msgstr ""
+"<strong>Ошибка</strong>: При попытке отписаться от данного форума произошла ошибка!"
+
+#: includes/users/functions.php:1194
+msgid "<strong>ERROR</strong>: There was a problem subscribing to that forum!"
+msgstr ""
+"<strong>Ошибка</strong>: При попытке подписаться на данный форум произошла ошибка!"
+
+#: includes/users/functions.php:1247
+msgid ""
+"<strong>ERROR</strong>: No topic was found! Which topic are you subscribing/"
+"unsubscribing to?"
+msgstr ""
+"<strong>ERROR</strong>: Тема не найдена! На какую тему вы подписывались/"
+"отписывались?"
+
+#: includes/users/functions.php:1297
+msgid "<strong>ERROR</strong>: There was a problem unsubscribing from that topic!"
+msgstr "<strong>ОШИБКА</strong>: Невозможно отменить подписку на эту тему!"
+
+#: includes/users/functions.php:1299
+msgid "<strong>ERROR</strong>: There was a problem subscribing to that topic!"
+msgstr "<strong>ОШИБКА</strong>: Невозможно подписаться на эту тему!"
+
+#: includes/users/functions.php:1356 includes/users/functions.php:1368
+msgid "<strong>ERROR</strong>: That is not a valid email address."
+msgstr "<strong>ОШИБКА</strong>: Это не верный адрес электронной почты."
+
+#: includes/users/functions.php:1374 includes/users/functions.php:1503
+msgid "<strong>ERROR</strong>: That email address is already in use."
+msgstr "<strong>ОШИБКА</strong>: Этот адрес электонной почты уже используется."
+
+#: includes/users/functions.php:1573
+msgid "<strong>ERROR</strong>: An error occurred while updating your email address."
+msgstr ""
+"<strong>ОШИБКА</strong>: Произошла ошибка при обновлении вашего адреса электронной "
+"почты."
+
+#: includes/users/functions.php:1585
+#, php-format
+msgid ""
+"%1$s\n"
+"\n"
+"Someone requested a change to the email address on your account.\n"
+"\n"
+"Please click the following link to confirm this change:\n"
+"%2$s\n"
+"\n"
+"If you did not request this, you can safely ignore and delete this notification.\n"
+"\n"
+"This email was sent to: %3$s\n"
+"\n"
+"Regards,\n"
+"The %4$s Team\n"
+"%5$s"
+msgstr ""
+"%1$s\n"
+"\n"
+"Кто-то запросил изменение адреса электронной почты на вашем аккаунте.\n"
+"\n"
+"Пожалуйста, перейдите по этой ссылке для подтверждения:\n"
+"%2$s\n"
+"\n"
+"Если вы не знаете, что это, то можете спокойно проигнорировать это оповещение и "
+"удалить его.\n"
+"\n"
+"Это сообщение было прислано на: %3$s\n"
+"\n"
+"С уважением,\n"
+"Команда %4$s\n"
+"%5$s"
+
+#: includes/users/functions.php:1620
+#, php-format
+msgid "[%s] New Email Address"
+msgstr "[%s] Новый адрес электронной почты"
+
+#: includes/users/template.php:509
+msgid "Guest"
+msgstr "Гость"
+
+#: includes/users/template.php:513
+msgid "Inactive"
+msgstr "Неактивированный"
+
+#: includes/users/template.php:523
+msgid "Member"
+msgstr "Участник"
+
+#: includes/users/template.php:565
+msgid "Admin"
+msgstr "Администратор"
+
+#: includes/users/template.php:897
+msgid "Favorite"
+msgstr "В избранное"
+
+#: includes/users/template.php:898
+msgid "Unfavorite"
+msgstr "Убрать из избранного"
+
+#: includes/users/template.php:1056
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: includes/users/template.php:1057
+msgid "Unsubscribe"
+msgstr "Отменить подписку"
+
+#: includes/users/template.php:1221
+#, php-format
+msgid "There is a pending email address change to %1$s. %2$s"
+msgstr "Ожидает изменения адреса электронной почты на %1$s. %2$s"
+
+#: includes/users/template.php:1514
+msgid "You are now logged out."
+msgstr "Вы вышли из системы."
+
+#: includes/users/template.php:1518
+msgid "New user registration is currently not allowed."
+msgstr "Регистрация нового пользователя в настоящее время не разрешена."
+
+#: includes/users/template.php:1527
+msgid "Check your e-mail for the confirmation link."
+msgstr "На ваш e-mail выслана ссылка для подтверждения."
+
+#: includes/users/template.php:1532
+msgid "Check your e-mail for your new password."
+msgstr "На ваш e-mail выслан новый пароль."
+
+#: includes/users/template.php:1537
+msgid "Registration complete. Please check your e-mail."
+msgstr "Регистрация завершена. Пожалуйста, проверьте ваш e-mail."
+
+#~ msgid "Do you really want to do this?"
+#~ msgstr "Вы действительно хотите сделать это?"
+
+#~ msgid "All %s"
+#~ msgstr "Все %s"
+
+#~ msgid "Users"
+#~ msgstr "Пользователи"
+
+#~ msgid "Filter"
+#~ msgstr "Фильтр"
+
+#~ msgid "All Components"
+#~ msgstr "Все компоненты"
+
+#~ msgid "Filter by Component"
+#~ msgstr "Фильтр по компонентам"
+
+#~ msgid "Search Tools"
+#~ msgstr "Поиск по инструментам"
+
+#~ msgid "Search Tools:"
+#~ msgstr "Поиск по инструментам:"
+
+#~ msgid "Replied"
+#~ msgstr "Ответ отправлен"
+
+#~ msgid "Forum Tools"
+#~ msgstr "Инструменты работы с форумом"
+
+#~ msgid "Unapprove"
+#~ msgstr "Отклонить"
+
+#~ msgid "Medium"
+#~ msgstr "Средний"
+
+#~ msgid "High"
+#~ msgstr "Высокий"
+
+#~ msgid "The repair was not successful"
+#~ msgstr "Восстановление не удалось"
+
+#~ msgid "The repair was completed successfully"
+#~ msgstr "Восстановление успешно выполнено"
+
+#~ msgid "Low"
+#~ msgstr "Низкий"
+
+#~ msgid "No repair tools match this criteria."
+#~ msgstr "Нет инструментов восстановления, подходящих вашему запросу"
+
+#~ msgid "Show more details"
+#~ msgstr "Показать больше"
+
+#~ msgid "Run %s"
+#~ msgstr "Запустить %s"
+
+#~ msgid "Overhead"
+#~ msgstr "Перегруз"
+
+#~ msgid "Components"
+#~ msgstr "Компоненты"
+
+#~ msgid "Description"
+#~ msgstr "Описание"
+
+#~ msgid "Apply"
+#~ msgstr "Применить"
+
+#~ msgid "Select All"
+#~ msgstr "Выбрать всё"
+
+#~ msgid "Select bulk action"
+#~ msgstr "Выбрать несколько"
+
+#~ msgid "Run"
+#~ msgstr "Запустить"
+
+#~ msgid "Last Post"
+#~ msgstr "Последняя запись"
+
+#~ msgid "Forum Moderators:"
+#~ msgstr "Модераторы форума:"
+
+#~ msgid "&mdash;"
+#~ msgstr "&mdash; "
+
+#~ msgid "Allow forums to have dedicated moderators"
+#~ msgstr "Разрешить форумам иметь отдельных модераторов"
+
+#~ msgid "Moderators:"
+#~ msgstr "Модераторы:"
+
+#~ msgctxt "tag delimiter"
+#~ msgid ","
+#~ msgstr ", "
+
+#~ msgid "The bbPress Contributors"
+#~ msgstr "Участники разработки bbPress"
+
+#~ msgid "New topic in %s titled:"
+#~ msgstr "Новая тема в %s с названием:"
+
+#~ msgid "in: %1$s"
+#~ msgstr "в: %1$s"
+
+#~ msgid "Here are the statistics and popular topics of our forums."
+#~ msgstr "Статистика и популярные темы на форуме."
+
+#~ msgid "This is a collection of tags that are currently popular on our forums."
+#~ msgstr ""
+#~ "Это коллекция тегов, которые в настоящее время популярны на наших форумах."
+
+#~ msgid "You may use these %s tags and attributes:"
+#~ msgstr "Вы можете использовать эти %s теги и атрибуты:"
+
+#~ msgid "Complete! %d closed topic repaired."
+#~ msgid_plural "Complete! %d closed topics repaired."
+#~ msgstr[0] "Готово! %d закрытая тема восстановлена."
+#~ msgstr[1] "Готово! %d закрытых темы восстановлено."
+#~ msgstr[2] "Готово! %d закрытых тем восстановлено."
+
+#~ msgctxt "Dismiss pending user email address change"
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgctxt "Approve Topic"
+#~ msgid "Approve"
+#~ msgstr "Одобрить"
+
+#~ msgctxt "Unapprove Topic"
+#~ msgid "Unapprove"
+#~ msgstr "Отклонить"
+
+#~ msgid "Approve this topic"
+#~ msgstr "Одобрить эту тему"
+
+#~ msgid "Unapprove this topic"
+#~ msgstr "Отклонить эту тему"
+
+#~ msgctxt "Mark reply as pending"
+#~ msgid "Pending"
+#~ msgstr "Ожидает проверки"
+
+#~ msgctxt "Trash the reply"
+#~ msgid "Trash"
+#~ msgstr "В корзину"
+
+#~ msgctxt "Spam the reply"
+#~ msgid "Spam"
+#~ msgstr "В спам"
+
+#~ msgctxt "Close a Forum"
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#~ msgctxt "Open a Forum"
+#~ msgid "Open"
+#~ msgstr "Открыть"
+
+#~ msgid "Unapprove this reply"
+#~ msgstr "Отклонить этот ответ"
+
+#~ msgctxt "Unapprove reply"
+#~ msgid "Unapprove"
+#~ msgstr "Отклонить"
+
+#~ msgid "Approve this reply"
+#~ msgstr "Одобрить этот ответ"
+
+#~ msgctxt "Approve reply"
+#~ msgid "Approve"
+#~ msgstr "Одобрить"
+
+#~ msgctxt "Pending Status"
+#~ msgid "Approve"
+#~ msgstr "Одобрено"
+
+#~ msgctxt "Pending Status"
+#~ msgid "Unapprove"
+#~ msgstr "Отклонено"
+
+#~ msgid "Reply Status:"
+#~ msgstr "Статус ответа:"
+
+#~ msgid ""
+#~ "Replies to both topics are merged chronologically, ordered by the time and date "
+#~ "they were published. Topics may be updated to a 1 second difference to maintain "
+#~ "chronological order based on the merge direction."
+#~ msgstr ""
+#~ "Ответы в обеих темах объединяются в хронологическом порядке, согласно даты и "
+#~ "времени их публикации. Темы могут быть обновлены с разницей в 1 секунду для "
+#~ "поддержания хронологического порядка на основе направления слияния."
+
+#~ msgid "%d Topic Tag"
+#~ msgid_plural "%d Topic Tags"
+#~ msgstr[0] "%d метка темы"
+#~ msgstr[1] "%d меток тем"
+#~ msgstr[2] "%d меток тем"
+
+#~ msgctxt "Publish the reply"
+#~ msgid "Publish"
+#~ msgstr "Опубликовать"
+
+#~ msgid "Reply #%1$s in %2$s"
+#~ msgstr "Ответ #%1$s на %2$s"
+
+#~ msgid "Select what status to give the reply."
+#~ msgstr "Выберите статус ответа"
+
+#~ msgid "Description:"
+#~ msgstr "Описание"
+
+#~ msgid "%d Forum"
+#~ msgid_plural "%d Forums"
+#~ msgstr[0] "%d Форум"
+#~ msgstr[1] "%d Форума"
+#~ msgstr[2] "%d Форумов"
+
+#~ msgid "%d Topic"
+#~ msgid_plural "%d Topics"
+#~ msgstr[0] "%d тема"
+#~ msgstr[1] "%d темы"
+#~ msgstr[2] "%d тем"
+
+#~ msgid "%d Reply"
+#~ msgid_plural "%d Replies"
+#~ msgstr[0] "%d ответ"
+#~ msgstr[1] "%d ответа"
+#~ msgstr[2] "%d ответов"
+
+#~ msgid "Close this forum"
+#~ msgstr "Закрыть этот форум"
+
+#~ msgid "Open this forum"
+#~ msgstr "Открыть форум"
+
+#~ msgctxt "User viewing another users profile"
+#~ msgid "%s's"
+#~ msgstr "%s's"
+
+#~ msgid "%s Topics"
+#~ msgstr "%s Темы"
+
+#~ msgid "%s Replies"
+#~ msgstr "%s Ответы"
+
+#~ msgid "%s Favorites"
+#~ msgstr "%s Избранное"
+
+#~ msgid "%s Subscriptions"
+#~ msgstr "%s Подписки"
+
+#~ msgid "%s Profile"
+#~ msgstr "%s Профиль"
+
+#~ msgctxt "admin color scheme"
+#~ msgid "Mint"
+#~ msgstr "Салатовый"
+
+#~ msgctxt "admin color scheme"
+#~ msgid "Evergreen"
+#~ msgstr "Зеленый"
+
+#~ msgid "Allow users to subscribe to forums and topics"
+#~ msgstr "Разрешить пользователям подписываться на форумы и темы"
+
+#~ msgid "Converters"
+#~ msgstr "Конвертеры"
+
+#~ msgid ""
+#~ "We&#8217;re all abuzz about the hive of new importers, AEF, Drupal, FluxBB, "
+#~ "Kunena Forums for Joomla, MyBB, Phorum, PHPFox, PHPWind, PunBB, SMF, Xenforo "
+#~ "and XMB. Existing importers are now sweeter than honey with improved importing "
+#~ "stickies, topic tags, forum categories and the sting is now gone if you need to "
+#~ "remove imported users."
+#~ msgstr ""
+#~ "Мы все обсуждаем новых импортеров, AEF, Drupal, FluxBB, Kunena Forums для "
+#~ "Joomla, MyBB, Phorum, PHPFox, PHPWind, PunBB, SMF, Xenforo и XMB. Новые "
+#~ "импортеры теперь еще слаще с улучшеным импортерством закреплений, тэгов тем, "
+#~ "категорий форумов и функция, применяемая, если вы хотите удалить "
+#~ "импортированных пользователей."
+
+#~ msgid "bbPress fully supports automatic translation updates."
+#~ msgstr "bbPress полностью поддерживает автоматическое обновление переводов."
+
+#~ msgid ""
+#~ "Thank you for updating! bbPress %s is bundled up and ready to weather the storm "
+#~ "of users in your community!"
+#~ msgstr ""
+#~ "Спасибо что обновились! bbPress %s уже есть в комплекте и готов к тому чтобы "
+#~ "выдержать волну пользователей вашего форума!"
+
+#~ msgid "Forum Subscriptions"
+#~ msgstr "Подписки на форум"
+
+#~ msgid "Subscribe to Forums"
+#~ msgstr "Подписаться на форум"
+
+#~ msgid "Now your users can subscribe to new topics in specific forums."
+#~ msgstr ""
+#~ "Теперь ваши пользователи могут подписаться на новые темы в определенных форумах."
+
+#~ msgid "Manage Subscriptions"
+#~ msgstr "Управление подписками"
+
+#~ msgid ""
+#~ "Your users can manage all of their subscriptions in one convenient location."
+#~ msgstr "Ваши пользователи могут управлять всеми своими подписками в одном месте."
+
+#~ msgid "Theme Compatibility"
+#~ msgstr "Совместимость темы"
+
+#~ msgid "Better handling of styles and scripts in the template stack."
+#~ msgstr "Улучшенная обработка стилей и скриптов в стеке шаблона."
+
+#~ msgid "Core Contributors to bbPress 2.5"
+#~ msgstr "Основные участвовавшие в bbPress 2.5"
+
+#~ msgid "Delete imported users?"
+#~ msgstr "Удалить импортированных пользователей?"
+
+#~ msgid ""
+#~ "This option will delete all previously imported users, and cannot be undone."
+#~ msgstr ""
+#~ "Эта опция удалит всех ранее импортированных пользователей, и не может быть "
+#~ "отменена."
+
+#~ msgid ""
+#~ "Note: Resetting without this checked will delete the meta-data necessary to "
+#~ "delete these users."
+#~ msgstr ""
+#~ "Примечание: Сброс без этой проверки удалит мета-данные, необходимые для "
+#~ "удаления этих пользователей."
+
+#~ msgid "About bbPress"
+#~ msgstr "О bbPress"
+
+#~ msgid ""
+#~ "Thank you for updating! bbPress %s is waxed, polished, and ready for you to "
+#~ "take it for a lap or two around the block!"
+#~ msgstr ""
+#~ "Спасибо, что обновили! bbPress %s чистый, полированный и с нетерпением ждет "
+#~ "ваших команд и пожеланий!"
+
+#~ msgid "Polyglot support"
+#~ msgstr "Поддержка многоязычности"
+
+#~ msgid "User capabilities"
+#~ msgstr "Права пользователей"
+
+#~ msgid ""
+#~ "Roles and capabilities have been swept through, cleaned up, and simplified."
+#~ msgstr "Роли и права пользователей были пересмотрены, почищены и упрощены."
+
+#~ msgid "Feature Developer"
+#~ msgstr "Разработчик функций"
+
+#~ msgid "Converter Specialist"
+#~ msgstr "Специалист по конвертеру"
+
+#~ msgid "Bug Testing"
+#~ msgstr "Тестирование ошибок"
+
+#~ msgid "Select whether to open or close the topic."
+#~ msgstr "Выберите: открыть или закрыть тему."
+
+#~ msgid ""
+#~ "Revert your forums back to a brand new installation. This process cannot be "
+#~ "undone."
+#~ msgstr "Сбросить форум до состояния новой установки. Этот процесс необратим."
+
+#~ msgid "Backup your database before proceeding."
+#~ msgstr "Сделайте резервное копирование базы данных прежде чем продолжить."
+
+#~ msgid "(to front)"
+#~ msgstr "(всегда сверху)"
+
+#~ msgctxt "User viewing his/her own profile"
+#~ msgid "Your"
+#~ msgstr "Ваш"
+
+#~ msgctxt "Open the forum"
+#~ msgid "Open"
+#~ msgstr "Открыт"
+
+#~ msgctxt "Close the forum"
+#~ msgid "Closed"
+#~ msgstr "Закрыт"
+
+#~ msgctxt "Forum accepts new topics"
+#~ msgid "Forum"
+#~ msgstr "Форум"
+
+#~ msgctxt "Forum is a category"
+#~ msgid "Category"
+#~ msgstr "Категория"
+
+#~ msgctxt "Make forum public"
+#~ msgid "Public"
+#~ msgstr "Сделать общим"
+
+#~ msgctxt "Make forum private"
+#~ msgid "Private"
+#~ msgstr "Сделать приватным"
+
+#~ msgctxt "Make forum hidden"
+#~ msgid "Hidden"
+#~ msgstr "Сделать скрытым"
+
+#~ msgctxt "Open the topic"
+#~ msgid "Open"
+#~ msgstr "Открыта"
+
+#~ msgctxt "Close the topic"
+#~ msgid "Closed"
+#~ msgstr "Закрыта"
+
+#~ msgctxt "Spam the topic"
+#~ msgid "Spam"
+#~ msgstr "Спам"
+
+#~ msgctxt "Trash the topic"
+#~ msgid "Trash"
+#~ msgstr "Удалена"
+
+#~ msgctxt "Mark topic as pending"
+#~ msgid "Pending"
+#~ msgstr "На удтверждении"
+
+#~ msgctxt "Unstick a topic"
+#~ msgid "Normal"
+#~ msgstr "Обычная"
+
+#~ msgctxt "Make topic sticky"
+#~ msgid "Sticky"
+#~ msgstr "Прикреплённая"
+
+#~ msgctxt "Make topic super sticky"
+#~ msgid "Super Sticky"
+#~ msgstr "Всегда сверху"
+
+#~ msgid "Topic Status:"
+#~ msgstr "Статус темы:"
+
+#~ msgid "Subscribed Forums"
+#~ msgstr "Подписки на форумы"
+
+#~ msgid "You are not currently subscribed to any forums."
+#~ msgstr "Вы в настоящее время не подписаны ни на один форум."
+
+#~ msgid "This user is not currently subscribed to any forums."
+#~ msgstr "Этот пользователь пока не подписан ни на один форум."
+
+#~ msgid "Please login to subscribe to this forum."
+#~ msgstr "Пожалуйста войдите для того чтобы подписаться на этот форум."
+
+#~ msgid "The forum could not be found."
+#~ msgstr "Форум не найден."
+
+#~ msgid "Akismet cleared this post as not spam"
+#~ msgstr "Akismet считает, что данное сообщение - не спам"
+
+#~ msgid "No recorded history. Akismet has not checked this post."
+#~ msgstr "Нет записанной истории. Akismet не проверил эту запись."
+
+#~ msgid "ID:"
+#~ msgstr "ID:"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Forum Edit: %s"
+#~ msgstr "Редактировать форум: %s"
+
+#~ msgid "Topic Edit: %s"
+#~ msgstr "Редактировать тему: %s"
+
+#~ msgid "Reply Edit: %s"
+#~ msgstr "Редактировать ответ: %s"
+
+#~ msgid "Topic Tag Edit: %s"
+#~ msgstr "Редактировать метки темы:  %s"
+
+#~ msgid "Allow forum wide search"
+#~ msgstr "Разрешить расширенный поиск форума"
+
+#~ msgid "Setting time limits and other user posting capabilities"
+#~ msgstr ""
+#~ "Установка временных ограничений и других возможностей публикации для "
+#~ "пользователей"
+
+#~ msgid "Forum features that can be toggled on and off"
+#~ msgstr "Параметры форума,которые можно включать и выключать."
+
+#~ msgid "Add toolbar & buttons to textareas to help with HTML formatting"
+#~ msgstr ""
+#~ "Добавить панель инструментов и кнопки для текстовых областей, чтобы помочь с "
+#~ "HTML форматированием"
+
+#~ msgid "Automatically give registered visitors the %s forum role"
+#~ msgstr "Автоматически назначить зарегистрированным пользователям роль форума %s"
+
+#~ msgid "Enable threaded (nested) replies %s levels deep"
+#~ msgstr "Разрешить древовидные (вложенные) ответы с числом уровней %s"
+
+#~ msgid "Possible %1$s conflict: %2$s"
+#~ msgstr "Возможен конфликт с %1$s : %2$s"
+
+#~ msgid "Reply To:"
+#~ msgstr "В ответ на:"
+
+#~ msgid "Reply To"
+#~ msgstr "В ответ на"
+
+#~ msgid ""
+#~ "Customize your Forums root. Partner with a WordPress Page and use Shortcodes "
+#~ "for more flexibility."
+#~ msgstr ""
+#~ "Настройте корень ваших форумов. Комбинируйте со страницами WordPress и "
+#~ "используйте шорткоды для большей гибкости."
+
+#~ msgid "Prefix all forum content with the Forum Root slug (Recommended)"
+#~ msgstr ""
+#~ "Использовать корневой ярлык форума в качестве префикса для всего содержимого "
+#~ "форума (рекомендуется)"
+
+#~ msgid "Customize your user profile slugs."
+#~ msgstr "Настройте ярлыки профиля вашего пользователя."
+
+#~ msgid "Custom slugs for single forums, topics, replies, tags, views, and search."
+#~ msgstr ""
+#~ "Произвольные ярлыки для отдельных форумов, ответов, тем, меток, просмотров и "
+#~ "поиска."
+
+#~ msgid "Viewing %1$s reply thread"
+#~ msgid_plural "Viewing %1$s reply threads"
+#~ msgstr[0] "Просмотр %1$s ветки ответов"
+#~ msgstr[1] "Просмотр %1$s веток ответов"
+#~ msgstr[2] "Просмотр %1$s веток ответов"
+
+#~ msgid "Group Forum Settings"
+#~ msgstr "Настройки форума группы"
+
+#~ msgid "Group Forum:"
+#~ msgstr "Форум группы:"
+
+#~ msgid "Network administrators can reconfigure which forum belongs to this group."
+#~ msgstr ""
+#~ "Сетевые администраторы могут перенастроить какой форум принадлежит к этой "
+#~ "группе."
+
+#~ msgctxt "group admin edit screen"
+#~ msgid "Discussion Forum"
+#~ msgstr "Форум"
+
+#~ msgid "This group does not currently have a forum."
+#~ msgstr "В настоящее время в этой группе нет форума."
+
+#~ msgid "Oh bother! No search results were found here!"
+#~ msgstr "К сожалению, поиск не дал результатов!"
+
+#~ msgctxt "post"
+#~ msgid "Closed <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Closed <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Закрыто <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Закрыто <span class=\"count\">(%s)</span>"
+#~ msgstr[2] "Закрыто <span class=\"count\">(%s)</span>"
+
+#~ msgctxt "post"
+#~ msgid "Spam <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Spam <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Спам <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Спам <span class=\"count\">(%s)</span>"
+#~ msgstr[2] "Спам <span class=\"count\">(%s)</span>"
+
+#~ msgctxt "post"
+#~ msgid "Orphan <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Orphans <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Одиночных <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Одиночных <span class=\"count\">(%s)</span>"
+#~ msgstr[2] "Одиночных <span class=\"count\">(%s)</span>"
+
+#~ msgctxt "post"
+#~ msgid "Hidden <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Hidden <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Скрытых <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Скрытых <span class=\"count\">(%s)</span>"
+#~ msgstr[2] "Скрытых <span class=\"count\">(%s)</span>"
+
+#~ msgid "&mdash; No role for these forums &mdash;"
+#~ msgstr "&mdash; Нет ролей для этих форумов &mdash;"
+
+#~ msgid "New forum topic"
+#~ msgstr "Новая тема форума"
+
+#~ msgid "New forum reply"
+#~ msgstr "Новый ответ форума"
+
+#~ msgid "Move"
+#~ msgstr "Переместить"
+
+#~ msgid "Move this reply"
+#~ msgstr "Переместить этот ответ"
+
+#~ msgid "Search Results for '%s'"
+#~ msgstr "Результаты поиска для '%s'"
+
+#~ msgid "Viewing %1$s result"
+#~ msgid_plural "Viewing %1$s results"
+#~ msgstr[0] "Просмотр %1$s результата"
+#~ msgstr[1] "Просмотр %1$s результатов"
+#~ msgstr[2] "Просмотр %1$s результатов"
+
+#~ msgid "Viewing %2$s results (of %4$s total)"
+#~ msgid_plural "Viewing %1$s results - %2$s through %3$s (of %4$s total)"
+#~ msgstr[0] "Просмотр %1$s результата - с %2$s по %3$s (всего %4$s)"
+#~ msgstr[1] "Просмотр %1$s результатов - с %2$s по %3$s (всего %4$s)"
+#~ msgstr[2] "Просмотр %1$s результатов - с %2$s по %3$s (всего %4$s)"
+
+#~ msgid "Move reply \"%s\""
+#~ msgstr "Переместить ответ \"%s\""
+
+#~ msgid ""
+#~ "You can either make this reply a new topic with a new title, or merge it into "
+#~ "an existing topic."
+#~ msgstr ""
+#~ "Вы можете создать из этого ответа новую тему, с новым названием, или объединить "
+#~ "его с уже существующей темой."
+
+#~ msgid ""
+#~ "If you choose an existing topic, replies will be ordered by the time and date "
+#~ "they were created."
+#~ msgstr ""
+#~ "Если вы выберете существующую тему, ответы будут отсортированы по времени и "
+#~ "дате их создания."
+
+#~ msgid "Move Method"
+#~ msgstr "Способ перемещения"
+
+#~ msgid "Moved: %s"
+#~ msgstr "Перемещено: %s"
+
+#~ msgid "You do not have the permissions to edit this reply!"
+#~ msgstr "У вас нет прав для редактирования этого ответа!"
+
+#~ msgid "You cannot edit this reply."
+#~ msgstr "Вы не можете редактировать этот ответ."
+
+#~ msgid "Search for:"
+#~ msgstr "Поиск:"
+
+#~ msgid "Last updated %s"
+#~ msgstr "Последнее обновление %s"
+
+#~ msgid "Forum: "
+#~ msgstr "Форум:"
+
+#~ msgid "In reply to: "
+#~ msgstr "В ответ на:"
+
+#~ msgid "Topic: "
+#~ msgstr "Тема:"
+
+#~ msgid "in group forum "
+#~ msgstr "в форуме группы"
+
+#~ msgid "in forum "
+#~ msgstr "в форуме"
+
+#~ msgid "Search Results"
+#~ msgstr "Результаты поиска"
+
+#~ msgid "Something went wrong. Refresh your browser and try again."
+#~ msgstr "Что-то пошло не так. Обновите страницу в браузере и попробуйте еще раз."
+
+#~ msgid "Favorites are no longer active."
+#~ msgstr "Избранное больше не активно."
+
+#~ msgid "Please login to make this topic a favorite."
+#~ msgstr "Пожалуйста, авторизуйтесь для добавления темы в избранное."
+
+#~ msgid "You do not have permission to do this."
+#~ msgstr "У вас нет разрешений для этого действия."
+
+#~ msgid "The topic could not be found."
+#~ msgstr "Тема не найдена."
+
+#~ msgid "Are you sure you meant to do that?"
+#~ msgstr "Вы уверены, что хотите это сделать?"
+
+#~ msgid "The request was unsuccessful. Please try again."
+#~ msgstr "Запрос оказался неудачным. Пожалуйста, попробуйте ещё раз."
+
+#~ msgid "Subscriptions are no longer active."
+#~ msgstr "Подписки больше не активны."
+
+#~ msgid "Please login to subscribe to this topic."
+#~ msgstr "Пожалуйста, авторизуйтесь для подписки на эту тему."
+
+#~ msgid "Forum Replies Created"
+#~ msgstr "Созданные ответы форума"
+
+#~ msgid "%s's Favorites"
+#~ msgstr "%s Избранное"
+
+#~ msgid "%s's Topics Started"
+#~ msgstr "%s Начатые темы"
+
+#~ msgid "in reply to: "
+#~ msgstr "в ответ на:"
+
+#~ msgid "User Role"
+#~ msgstr "Роль пользователя"
+
+#~ msgid "Display Name"
+#~ msgstr "Отображаемое имя"
+
+#~ msgid "%s's Replies Created"
+#~ msgstr "%s Созданные ответы"
+
+#~ msgid "No response"
+#~ msgstr "Нет ответа"
+
+#~ msgid "%s - %s"
+#~ msgstr "%s - %s"
+
+#~ msgid "Email:"
+#~ msgstr "Email:"
+
+#~ msgid "IP:"
+#~ msgstr "IP:"
+
+#~ msgid "No template packages available."
+#~ msgstr "Пакеты тем недоступны."
+
+#~ msgid "You cannot create new forums."
+#~ msgstr "Вы не можете создавать новые форумы."
+
+#~ msgid "This user has not replied to any topics."
+#~ msgstr "Пользователь не ответил ни на одну тему."
+
+#~ msgid "You have not replied to any topics."
+#~ msgstr "Вы ещё не отвечали в темах."
+
+#~ msgid "You cannot create new topics."
+#~ msgstr "Вы не можете создать новую тему."
+
+#~ msgid "Replies Created: %s"
+#~ msgstr "Созданные ответы: %s"
+
+#~ msgid "%s's Subscriptions"
+#~ msgstr "%s Подписки"
+
+#~ msgid "Network Role"
+#~ msgstr "Роль сети"
+
+#~ msgid ""
+#~ "Your password should be at least ten characters long. Use upper and lower case "
+#~ "letters, numbers, and symbols to make it even stronger."
+#~ msgstr ""
+#~ "Ваш пароль должен быть не менее десяти символов. Используйте верхний и нижний "
+#~ "регистр букв, цифр и символов, чтобы сделать его еще надежнее."
+
+#~ msgid "Blog Role"
+#~ msgstr "Роль блога"
+
+#~ msgid "Profile"
+#~ msgstr "Профиль"
+
+#~ msgid "Topics Started: %s"
+#~ msgstr "Тема начата: %s"
+
+#~ msgid "Forum Role: %s"
+#~ msgstr "Роль форума: %s"
+
+#~ msgid "Forum Topics Started"
+#~ msgstr "Начатые темы форума"
+
+#~ msgid "bbPress is created by a worldwide swarm of busy, busy bees."
+#~ msgstr "bbPress создается по всему миру роем занятых, занятых пчёл."
+
+#~ msgid "Project Leaders"
+#~ msgstr "Руководители проекта"
+
+#~ msgid "Founding Developer"
+#~ msgstr "Основатель проекта"
+
+#~ msgid "Lead Developer"
+#~ msgstr "Ведущий разработчик"
+
+#~ msgid "Contributing Developers"
+#~ msgstr "Помощники разработчиков"
+
+#~ msgid "Forums Settings"
+#~ msgstr "Настройки форума"
+
+#~ msgid "Change forum role to&hellip;"
+#~ msgstr "Изменить роль форума на &hellip;"
+
+#~ msgid "Saying no will not delete existing forum content."
+#~ msgstr "Снятие отметки не приведет к удалению существующего контента форума."
+
+#~ msgid "Save Settings"
+#~ msgstr "Сохранить настройки"
+
+#~ msgid "Group Forum"
+#~ msgstr "Форум группы"
+
+#~ msgid "Some optional parameters to help tune the conversion process."
+#~ msgstr ""
+#~ "Некоторые дополнительные параметры, помогающие настроить процесс преобразования."
+
+#~ msgid "Use this if an import failed and you want to remove that incomplete data."
+#~ msgstr ""
+#~ "Используйте это если произошла ошибка импорта, и вы хотите удалить неполные "
+#~ "данные."
+
+#~ msgid "You should clean old conversion information before starting over."
+#~ msgstr "Вам нужно очистить информацию старого преобразования, прежде чем начать."
+
+#~ msgid "Start a fresh conversion from the beginning"
+#~ msgstr "Начать новое преобразование с самого сначала"
+
+#~ msgctxt "widgets"
+#~ msgid "by %1$s"
+#~ msgstr "опубликовано %1$s"
+
+#~ msgctxt "widgets"
+#~ msgid "%1$s on %2$s %3$s"
+#~ msgstr "%1$s в %2$s %3$s"
+
+#~ msgctxt "widgets"
+#~ msgid "%1$s %2$s"
+#~ msgstr "%1$s %2$s"
+
+#~ msgctxt "widgets"
+#~ msgid "%1$s"
+#~ msgstr "%1$s"
+
+#~ msgctxt "date at time"
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s в %2$s"
+
+#~ msgid "Go to Forum Settings"
+#~ msgstr "Перейти к настройкам форума"
+
+#~ msgid "Welcome to bbPress %s"
+#~ msgstr "Добро пожаловать в bbPress %s"
+
+#~ msgid "Credits"
+#~ msgstr "Создатели"
+
+#~ msgid "What&#8217;s New"
+#~ msgstr "Что нового"
+
+#~ msgid ""
+#~ "Embed media (YouTube, Twitter, Flickr, etc...) directly into topics and replies"
+#~ msgstr ""
+#~ "Вставлять медиа контент (YouTube, Twitter, Flickr, и т.д...) непосредственно в "
+#~ "темы и ответы"
+
+#~ msgid "Allow topics to have tags"
+#~ msgstr "Разрешить использовать метки тем"
+
+#~ msgid "Starting Conversion"
+#~ msgstr "Начать преобразование"
+
+#~ msgid "About"
+#~ msgstr "О плагине"
+
+#~ msgid "Oh bother! No replies were found here!"
+#~ msgstr "К сожалению,  ответы здесь не найдены!"
+
+#~ msgid "The following data will be removed:"
+#~ msgstr "Следующие данные будут удалены:"
+
+#~ msgid "All Topic Tags"
+#~ msgstr "Все метки темы"
+
+#~ msgid "Related Meta Data"
+#~ msgstr "Мета данные тем"
+
+#~ msgid "Forum Settings"
+#~ msgstr "Настройки форума"
+
+#~ msgid "Forum Activity"
+#~ msgstr "Активность форума"
+
+#~ msgid "Forum User Roles"
+#~ msgstr "Роли пользователей форума"
+
+#~ msgid "Importer Helper Data"
+#~ msgstr "Помощник импортера данных"
+
+#~ msgid "Say it ain't so!"
+#~ msgstr "Скажи, что это не так!"
+
+#~ msgid "This process cannot be undone."
+#~ msgstr "Этот процесс не может быть отменен."
+
+#~ msgid "Reset bbPress"
+#~ msgstr "Обнулить bbPress"
+
+#~ msgid "Reset My Password"
+#~ msgstr "Сбросить мой пароль"
+
+#~ msgid ""
+#~ "bbPress keeps track of relationships between forums, topics, replies, and topic "
+#~ "tags, and users. Occasionally these relationships become out of sync, most "
+#~ "often after an import or migration. Use the tools below to manually recalculate "
+#~ "these relationships."
+#~ msgstr ""
+#~ "bbPress отслеживает связи между форумами, темами, ответами, меткими тем и "
+#~ "пользователями. Иногда эти значения выпадают из синхронизации, чаще всего после "
+#~ "импорта или миграции. Используйте инструменты ниже, чтобы вручную пересчитать "
+#~ "эти значения."
+
+#~ msgid ""
+#~ "Some of these tools create substantial database overhead. Use caution when "
+#~ "running more than 1 repair at a time."
+#~ msgstr ""
+#~ "Некоторые из этих инструментов создают существенные нагрузки на базу данных. Не "
+#~ "следует запускать более 1 восстановления одновременно."
+
+#~ msgid "IP or hostname"
+#~ msgstr "IP или имя хоста"
+
+#~ msgid "Use default 3306 if unsure"
+#~ msgstr "Если не уверены, используйте порт по умолчанию 3306"
+
+#~ msgid "User for your database connection"
+#~ msgstr "Пользователь для соединения с базой данных"
+
+#~ msgid "Password to access the database"
+#~ msgstr "Пароль для доступа к базе данных"
+
+#~ msgid "Name of the database with your old forum data"
+#~ msgstr "Имя базы данных с вашими старыми данными форума"
+
+#~ msgid "rows to process at a time"
+#~ msgstr "строк обрабатывать за один раз"
+
+#~ msgid "Keep this low if you experience out-of-memory issues."
+#~ msgstr "Уменьшите это значение при возникновении проблемы с нехваткой памяти."
+
+#~ msgid "second(s) delay between each group of rows"
+#~ msgstr "секунд (ы) задержки между каждой группой строк"
+
+#~ msgid "Keep this high to prevent too-many-connection issues."
+#~ msgstr ""
+#~ "Задайте это значение большим, чтобы предотвратить проблемы с большим "
+#~ "количеством соединений."
+
+#~ msgid "Purge all information from a previously attempted import"
+#~ msgstr "Очистить всю информацию о ранее производившемся импорте"
+
+#~ msgid ""
+#~ "Non-bbPress passwords cannot be automatically converted. They will be converted "
+#~ "as each user logs in."
+#~ msgstr ""
+#~ "Не bbPress пароли не могут быть автоматически преобразованы. Они будут "
+#~ "преобразованы при входе пользователя в систему."
+
+#~ msgid "This category contains %1$s, and was last updated by %2$s %3$s."
+#~ msgstr "В этой категории %1$s, последнее обновление %2$s %3$s."
+
+#~ msgid "This forum contains %1$s, and was last updated by %2$s %3$s."
+#~ msgstr "В этом форуме %1$s, последнее обновление %2$s %3$s."
+
+#~ msgid "This category contains %1$s."
+#~ msgstr "В этой категории %1$s."
+
+#~ msgid "This forum contains %1$s."
+#~ msgstr "В этом форуме %1$s."
+
+#~ msgid "This forum is empty."
+#~ msgstr "Этот форум пуст."
+
+#~ msgid "This topic has no replies."
+#~ msgstr "У этой темы нет ответов."
+
+#~ msgid "This category contains %1$s and %2$s, and was last updated by %3$s %4$s."
+#~ msgstr "В этой категории %1$s и %2$s, последнее обновление %3$s %4$s."
+
+#~ msgid "This forum contains %1$s and %2$s, and was last updated by %3$s %4$s."
+#~ msgstr "В этом форуме %1$s и %2$s, последнее обновление %3$s %4$s."
+
+#~ msgid "This reply was modified %1$s by %2$s. Reason: %3$s"
+#~ msgstr "Этот ответ был изменен %1$s от %2$s. Причина: %3$s"
+
+#~ msgid "This reply was modified %1$s by %2$s."
+#~ msgstr "Этот ответ был изменен %1$s от %2$s."
+
+#~ msgid "This topic contains %1$s, has %2$s, and was last updated by %3$s %4$s."
+#~ msgstr "В этой теме %1$s, %2$s, последнее обновление %3$s %4$s."
+
+#~ msgctxt "Separator in time since"
+#~ msgid ","
+#~ msgstr ","
+
+#~ msgid ""
+#~ "Create a discussion forum to allow members of this group to communicate in a "
+#~ "structured, bulletin-board style fashion."
+#~ msgstr ""
+#~ "Создайте дискуссионный форум, чтобы позволить членам этой группы общаться в "
+#~ "структурированной форме,  в виде доски объявления."
+
+#~ msgid "Yes. I want this group to have a forum."
+#~ msgstr "Да. Я хочу включить форум в этой группе."
+
+#~ msgid "Viewing %2$s replies (of %4$s total)"
+#~ msgid_plural "Viewing %1$s replies - %2$s through %3$s (of %4$s total)"
+#~ msgstr[0] "Просмотр %1$s ответа - с %2$s по %3$s (всего %4$s)"
+#~ msgstr[1] "Просмотр %1$s ответов - с %2$s по %3$s (всего %4$s)"
+#~ msgstr[2] "Просмотр %1$s ответов - с %2$s по %3$s (всего %4$s)"
+
+#~ msgid "Viewing %2$s post (of %4$s total)"
+#~ msgid_plural "Viewing %1$s posts - %2$s through %3$s (of %4$s total)"
+#~ msgstr[0] "Просмотр %1$s сообщения - с %2$s по %3$s (всего %4$s)"
+#~ msgstr[1] "Просмотр %1$s сообщений  - с %2$s по %3$s (из %4$s всего)"
+#~ msgstr[2] "Просмотр %1$s сообщений  - с %2$s по %3$s (из %4$s всего)"
+
+#~ msgctxt "Topic Status"
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#~ msgctxt "Topic Status"
+#~ msgid "Open"
+#~ msgstr "Открыть"
+
+#~ msgid "Viewing topic %2$s (of %4$s total)"
+#~ msgid_plural "Viewing %1$s topics - %2$s through %3$s (of %4$s total)"
+#~ msgstr[0] "Просмотр %1$s темы - с %2$s по %3$s (%4$s всего)"
+#~ msgstr[1] "Просмотр %1$s тем - с %2$s по %3$s (%4$s всего)"
+#~ msgstr[2] "Просмотр %1$s тем - с %2$s по %3$s (%4$s всего)"
+
+#~ msgid "This topic contains %1$s and has %2$s."
+#~ msgstr "В этой теме %1$s и  %2$s."
+
+#~ msgid "Create New Forum in &ldquo;%s&rdquo;"
+#~ msgstr "Создать новый форум в &ldquo;%s&rdquo;"
+
+#~ msgid ""
+#~ "This forum is closed to new content, however your account still allows you to "
+#~ "do so."
+#~ msgstr ""
+#~ "Этот форум закрыт для нового содержания, однако ваши права по-прежнему "
+#~ "позволяет сделать это."
+
+#~ msgid "Forum Name (Maximum Length: %d):"
+#~ msgstr "Название форума (Максимальная длина %d):"
+
+#~ msgid "Forum Type:"
+#~ msgstr "Тип форума:"
+
+#~ msgid "The forum &#8216;%s&#8217; is closed to new content."
+#~ msgstr "Форум &#8216;%s&#8217; закрыт для нового содержания."
+
+#~ msgid "You must be logged in to create new forums."
+#~ msgstr "Вы должны войти на сайт, чтобы создать новые форумы."
+
+#~ msgid "Update Forum"
+#~ msgstr "Обновление форума"
+
+#~ msgid "All done!"
+#~ msgstr "Все сделано!"
+
+#~ msgid "You can update your forum through this page. Hit the link below to update."
+#~ msgstr ""
+#~ "Вы можете обновить ваш форум через эту страницу. Нажмите на ссылку ниже для "
+#~ "обновления."
+
+#~ msgid ""
+#~ "If your browser doesn&#8217;t start loading the next page automatically, click "
+#~ "this link:"
+#~ msgstr ""
+#~ "Если ваш браузер не загружает следующую страницу автоматически, нажмите на "
+#~ "ссылку:"
+
+#~ msgid "Next Forums"
+#~ msgstr "Следующие форумы"
+
+#~ msgid ""
+#~ "You can update all the forums on your network through this page. It works by "
+#~ "calling the update script of each site automatically. Hit the link below to "
+#~ "update."
+#~ msgstr ""
+#~ "Вы можете обновить все форумы в сети на этой странице. Она работает путем "
+#~ "вызова скрипт а обновления для каждого сайта автоматически. Нажмите на ссылку "
+#~ "ниже, чтобы обновить."
+
+#~ msgid "Topic Type"
+#~ msgstr "Тип темы"
+
+#~ msgid "Allow users to mark topics as favorites"
+#~ msgstr "Разрешить пользователям отмечать темы как избранное"
+
+#~ msgid "How your forum content is displayed within your existing theme."
+#~ msgstr "Как контент вашего форума отображается в вашей текущей теме."
+
+#~ msgid "%1$s - %2$s"
+#~ msgstr "%1$s - %2$s"
+
+#~ msgid "will serve all bbPress templates"
+#~ msgstr "будет обслуживать все шаблоны bbPress"
+
+#~ msgid "How many topics and replies to show per page"
+#~ msgstr "Количество тем и ответов, отображаемых на одну страницу"
+
+#~ msgid "How many topics and replies to show per RSS page"
+#~ msgstr "Количество тем и ответов, отображаемых на одну страницу RSS ленты"
+
+#~ msgid "Forum settings for BuddyPress"
+#~ msgstr "Настройки форума для BuddyPress"
+
+#~ msgid "Allow BuddyPress Groups to have their own forums"
+#~ msgstr "Разрешить группам BuddyPress иметь собственные форумы"
+
+#~ msgid "is the parent for all group forums"
+#~ msgstr "является родительским для всех форумов групп"
+
+#~ msgid ""
+#~ "Using the Forum Root is not recommended. Changing this does not move existing "
+#~ "forums."
+#~ msgstr ""
+#~ "Использование корня форума не рекомендуется. Это изменение не коснется уже "
+#~ "существующих форумов."
+
+#~ msgid "Forum settings for Akismet"
+#~ msgstr "Настройки форума для Akismet"
+
+#~ msgid "Allow Akismet to actively prevent forum spam."
+#~ msgstr "Разрешить Akismet активно предотвращать спам форума."
+
+#~ msgid "is the previous forum software"
+#~ msgstr "это предыдущее программное обеспечение форума"
+
+#~ msgid ""
+#~ "(If converting from BuddyPress Forums, use \"wp_bb_\" or your custom prefix)"
+#~ msgstr ""
+#~ "(Если конвертируются форумы BuddyPress, используйте \"wp_bb_\" или ваш особый "
+#~ "префикс)"
+
+#~ msgid "Attempt to import user accounts from previous forums"
+#~ msgstr "Попытка импортировать учетные записи пользователей из предыдущих форумов"
+
+#~ msgid "Start"
+#~ msgstr "Старт(Начать)"
+
+#~ msgid "Stop"
+#~ msgstr "Стоп"
+
+#~ msgctxt "Close a Topic"
+#~ msgid "Close"
+#~ msgstr "Закрыть тему"
+
+#~ msgctxt "Open a Topic"
+#~ msgid "Open"
+#~ msgstr "Открыть тему"
+
+#~ msgctxt "widgets"
+#~ msgid "%1$s on %2$s"
+#~ msgstr "%1$s в %2$s"
+
+#~ msgid "Allow topic and reply revision logging"
+#~ msgstr "Разрешить вести журнал редакций для тем"
+
+#~ msgid "The topic &#8216;%s&#8217; is closed to new replies."
+#~ msgstr "Тема &#8216;%s&#8217; закрыта для новых сообщений."
+
+#~ msgid "Now Editing &ldquo;%s&rdquo;"
+#~ msgstr "Редактирование &ldquo;%s&rdquo;"
+
+#~ msgid "Users &amp; Moderation"
+#~ msgstr "Пользователи и модерация"
+
+#~ msgid "Create New Topic in &ldquo;%s&rdquo;"
+#~ msgstr "Создать новую тему в &ldquo;%s&rdquo;"
+
+#~ msgid "%1$s started the topic %2$s in the forum %3$s"
+#~ msgstr "%1$s создана тема %2$s в форуме %3$s"
+
+#~ msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+#~ msgstr "Форум &#8216;%s&#8217; закрыт для новых тем и сообщений."
+
+#~ msgid "%1$s replied to the topic %2$s in the forum %3$s"
+#~ msgstr "%1$s ответил(а) на тему %2$s в форуме %3$s"
+
+#~ msgid "This forum contains %1$s and %2$s."
+#~ msgstr "В этом форуме %1$s и %2$s."
+
+#~ msgid "You are already logged in."
+#~ msgstr "Вы уже вошли."
+
+#~ msgid "Topic Title (Maximum Length: %d):"
+#~ msgstr "Заголовок темы (Максимальная длина: %d):"
+
+#~ msgid "Your account has the ability to post unrestricted HTML content."
+#~ msgstr "Вашей учетной записи разрешено публиковать любое HTML-содержимое."
+
+#~ msgid "This category contains %1$s and %2$s."
+#~ msgstr "В этой рубрике %1$s и %2$s."
+
+#~ msgid "Empty Spam"
+#~ msgstr "Очистить спам"
+
+#~ msgid "Post status was changed to %s"
+#~ msgstr "Статус сообщения изменён на %s"
+
+#~ msgid "Akismet caught this post as spam"
+#~ msgstr "Akismet пометил это сообщение как спам"
+
+#~ msgid "%1$s reported this %2$s as not spam"
+#~ msgstr "%1$s пометил этот %2$s как не спам"
+
+#~ msgid "(Mismatch)"
+#~ msgstr "(Несоответствие)"
+
+#~ msgid "No Topic"
+#~ msgstr "Вне темы"
+
+#~ msgid "%1$s reported this %2$s as spam"
+#~ msgstr "%1$s пометил этот %2$s как спам"
+
+#~ msgid ""
+#~ "Akismet was unable to check this post (response: %s), will automatically retry "
+#~ "again later."
+#~ msgstr ""
+#~ "Akismet не смог проверить это сообщение (ответ: %s), позже будет предпринята "
+#~ "повторная попытка."
+
+#~ msgid "Close this topic"
+#~ msgstr "Закрыть эту тему"
+
+#~ msgid "Open this topic"
+#~ msgstr "Открыть эту тему"
+
+#~ msgid "Unstick this topic"
+#~ msgstr "Открепить эту тему"
+
+#~ msgid "Stick this topic to its forum"
+#~ msgstr "Прикрепить тему в форум."
+
+#~ msgid "Stick this topic to front"
+#~ msgstr "Прикрепить тему в начало"
+
+#~ msgid "Mark the topic as not spam"
+#~ msgstr "Эта тема не спам."
+
+#~ msgid "Mark this topic as spam"
+#~ msgstr "Отметить тему как спам"
+
+#~ msgid "bbPress"
+#~ msgstr "bbPress"
+
+#~ msgid "https://bbpress.org"
+#~ msgstr "http://bbpress.org"
+
+#~ msgid "bbPress is forum software with a twist from the creators of WordPress."
+#~ msgstr "bbPress — форум от разработчиков WordPress."
+
+#~ msgid "Keep me signed in"
+#~ msgstr "Запомнить меня"
+
+#~ msgid "Type your new password again."
+#~ msgstr "Введите новый пароль еще раз."
+
+#~ msgid "Last Name"
+#~ msgstr "Фамилия"
+
+#~ msgid "First Name"
+#~ msgstr "Имя"
+
+#~ msgid "Keep a log of this edit:"
+#~ msgstr "Сохранить в журнал это изменение:"
+
+#~ msgid "Stick"
+#~ msgstr "Прикрепить"
+
+#~ msgid "Split Method"
+#~ msgstr "Способ деления"
+
+#~ msgid ""
+#~ "If you use the existing topic option, replies within both topics will be merged "
+#~ "chronologically. The order of the merged replies is based on the time and date "
+#~ "they were posted."
+#~ msgstr ""
+#~ "При использовании существующего варианта темы, ответы обеих тем будут "
+#~ "объединены в хронологическом порядке. Порядок объединения ответов зависит от "
+#~ "времени и даты их размещения."
+
+#~ msgid "Any links to this tag will no longer function."
+#~ msgstr "Любые ссылки на эту метку не будут работать."
+
+#~ msgid "This user has no favorite topics."
+#~ msgstr "Этот пользователь не добавлял темы в избранное."
+
+#~ msgid "Favorite Forum Topics"
+#~ msgstr "Избранные темы форума"
+
+#~ msgid "You currently have no favorite topics."
+#~ msgstr "Вы ещё не добавили в избранное ни одной темы."
+
+#~ msgid "Viewing %1$s post"
+#~ msgid_plural "Viewing %1$s posts"
+#~ msgstr[0] "Просмотр %1$s записи"
+#~ msgstr[1] "Просмотр %1$s записей"
+#~ msgstr[2] "Просмотр %1$s записей"
+
+#~ msgid "This user is not currently subscribed to any topics."
+#~ msgstr "У этого пользователя нет подписок на темы."
+
+#~ msgid "You are not currently subscribed to any topics."
+#~ msgstr "Вы в настоящее время не подписаны ни на одну тему."
+
+#~ msgid "Optional reason for editing:"
+#~ msgstr "Причина редактирования:"
+
+#~ msgid "Submit"
+#~ msgstr "Готово"
+
+#~ msgid "Username or Email"
+#~ msgstr "Имя пользователя или Email"
+
+#~ msgid "You must be logged in to reply to this topic."
+#~ msgstr "Для ответа в этой теме необходимо авторизоваться."
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid ""
+#~ "Are you sure you want to delete the \"%s\" tag? This is permanent and cannot be "
+#~ "undone."
+#~ msgstr ""
+#~ "Вы действительно хотите удалить метку \"%s\" ? Это действие не может быть "
+#~ "отменено."
+
+#~ msgid "Topic Extras"
+#~ msgstr "Дополнительно"
+
+#~ msgid "Split: %s"
+#~ msgstr "Отделено: %s"
+
+#~ msgid "Use an existing topic in this forum:"
+#~ msgstr "Использовать существующую тему в текущем форуме:"
+
+#~ msgid "Started by: %1$s"
+#~ msgstr "Автор: %1$s"
+
+#~ msgid "This user has not created any topics."
+#~ msgstr "Этот пользователь ещё не создавал тем."
+
+#~ msgid "You have not created any topics."
+#~ msgstr "Вы еще не создали ни одной темы."
+
+#~ msgid "Website:"
+#~ msgstr "Сайт:"
+
+#~ msgid ""
+#~ "If you would like to change the password type a new one. Otherwise leave this "
+#~ "blank."
+#~ msgstr ""
+#~ "Если вы хотите изменить пароль, введите новый. В противном случае оставьте это "
+#~ "поле пустым."
+
+#~ msgid "New Password"
+#~ msgstr "Новый Пароль"
+
+#~ msgid "Account"
+#~ msgstr "Учётная запись"
+
+#~ msgid "Nickname"
+#~ msgstr "Ник"
+
+#~ msgid "Contact Info"
+#~ msgstr "Контакты"
+
+#~ msgid "Website"
+#~ msgstr "Сайт"
+
+#~ msgid "About Yourself"
+#~ msgstr "Обо мне"
+
+#~ msgid "About the user"
+#~ msgstr "О пользователе"
+
+#~ msgid "Biographical Info"
+#~ msgstr "Биография"
+
+#~ msgid "Move this item to the Trash"
+#~ msgstr "Переместить запись в корзину"
+
+#~ msgid "(Edit)"
+#~ msgstr "(Изменить)"
+
+#~ msgid "Notify me of follow-up replies via email"
+#~ msgstr "Информировать меня о новых ответах по электронной почте."
+
+#~ msgid "Notify the author of follow-up replies via email"
+#~ msgstr "Сообщать автору ответа о дальнейшей активности по электронной почте"
+
+#~ msgid "Topic Type:"
+#~ msgstr "Тип темы:"
+
+#~ msgid "Topic Tags:"
+#~ msgstr "Метки темы:"
+
+#~ msgid ""
+#~ "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+#~ "and attributes:"
+#~ msgstr ""
+#~ "Вы можете использовать эти <abbr title=\"HyperText Markup Language\">HTML</"
+#~ "abbr>теги и атрибуты:"
+
+#~ msgid ""
+#~ "This forum is marked as closed to new topics, however your posting capabilities "
+#~ "still allow you to do so."
+#~ msgstr ""
+#~ "Этот форум закрыт для новых тем, но Ваше сообщение еще можно опубликовать."
+
+#~ msgid "Oh bother! No forums were found here!"
+#~ msgstr "К сожалению,форумов здесь нет!"
+
+#~ msgid "Oh bother! No topics were found here!"
+#~ msgstr "К сожалению, обсуждений нет!"
+
+#~ msgid "Hidden Replies"
+#~ msgstr "Скрытые ответы"
+
+#~ msgid "Hidden Topics"
+#~ msgstr "Скрытые темы"
+
+#~ msgid "Empty Topic Tags"
+#~ msgstr "Пустые метки тем"
+
+#~ msgid "Registered Users"
+#~ msgstr "Зарегистрированные пользователи"
+
+#~ msgctxt "post"
+#~ msgid "Hidden"
+#~ msgstr "Скрытое"
+
+#~ msgctxt "post"
+#~ msgid "Orphan"
+#~ msgstr "Потерянный объект"
+
+#~ msgctxt "post"
+#~ msgid "Spam"
+#~ msgstr "Спам"
+
+#~ msgctxt "post"
+#~ msgid "Closed"
+#~ msgstr "Закрытые"
+
+#~ msgid ""
+#~ "When you split a topic, you are slicing it in half starting with the reply you "
+#~ "just selected. Choose to use that reply as a new topic with a new title, or "
+#~ "merge those replies into an existing topic."
+#~ msgstr ""
+#~ "При разделении темы, вы делите её на две части, начиная с выбранного вами "
+#~ "ответа. Выберите ответ, используемый в качестве новой темы с новым заголовком, "
+#~ "или соедините эти ответы с существующей темой."
+
+#~ msgid "Split topic \"%s\""
+#~ msgstr "Отделение темы \"%s\""
+
+#~ msgid "Update User"
+#~ msgstr "Обновить Пользователя"
+
+#~ msgid "Grant this user super admin privileges for the Network."
+#~ msgstr "Предоставить этому пользователю права Супер Администратора сети."
+
+#~ msgid "Save Changes"
+#~ msgstr "Сохранить изменения"
+
+#~ msgid "Update Profile"
+#~ msgstr "Обновить профиль"
+
+#~ msgid "Spam"
+#~ msgstr "Спам"
+
+#~ msgid "Delete this item permanently"
+#~ msgstr "Удалить навсегда"
+
+#~ msgid "Create an Account"
+#~ msgstr "Создать аккаунт"
+
+#~ msgid "Your username must be unique, and cannot be changed later."
+#~ msgstr ""
+#~ "Ваше имя пользователя должно быть уникальным и не может быть изменено позднее."
+
+#~ msgid ""
+#~ "We use your email address to email you a secure password and verify your "
+#~ "account."
+#~ msgstr ""
+#~ "На вашу электронную почту отправлено письмо с безопасным паролем и ссылкой для "
+#~ "активации аккаунта."
+
+#~ msgid "Viewing %1$s reply"
+#~ msgid_plural "Viewing %1$s replies"
+#~ msgstr[0] "Просмотр %1$s ответа"
+#~ msgstr[1] "Просмотр %1$s ответов"
+#~ msgstr[2] "Просмотр %1$s ответов"
+
+#~ msgid "Split the topic from this reply"
+#~ msgstr "Отделить тему и этот ответ"
+
+#~ msgid "Split"
+#~ msgstr "Отделить"
+
+#~ msgid "Unspam"
+#~ msgstr "Не спам"
+
+#~ msgid "Private"
+#~ msgstr "Личный"
+
+#~ msgid "You do not have permission to view this forum."
+#~ msgstr "У вас нет прав для просмотра этого форума."
+
+#~ msgid "Copy subscribers to the new topic"
+#~ msgstr "Скопировать подписчиков в новую тему"
+
+#~ msgid "Copy favoriters to the new topic"
+#~ msgstr "Копировать добавивших в избранное в новую тему"
+
+#~ msgid "Copy topic tags to the new topic"
+#~ msgstr "Скопировать метки темы в новую тему"
+
+#~ msgid "You do not have the permissions to edit this topic!"
+#~ msgstr "У вас нет прав для редактирования этой темы!"
+
+#~ msgid "You cannot edit this topic."
+#~ msgstr "Вы не можете редактировать эту тему."
+
+#~ msgid "Merge topic \"%s\""
+#~ msgstr "Объединить тему \"%s\""
+
+#~ msgid ""
+#~ "Select the topic to merge this one into. The destination topic will remain the "
+#~ "lead topic, and this one will change into a reply."
+#~ msgstr ""
+#~ "Выберите тему для объединения с текущей. Тема назначения будет оставаться "
+#~ "ведущей темой, и эта будет меняться в ответ."
+
+#~ msgid ""
+#~ "To keep this topic as the lead, go to the other topic and use the merge tool "
+#~ "from there instead."
+#~ msgstr ""
+#~ "Чтобы сохранить эту тему в качестве ведущей, перейдите на другую тему и "
+#~ "использовать средство объединения оттуда."
+
+#~ msgid "Destination"
+#~ msgstr "Назначение"
+
+#~ msgid "Merge with this topic:"
+#~ msgstr "Объединить с этой темой:"
+
+#~ msgid "There are no other topics in this forum to merge with."
+#~ msgstr "В этом форуме нет доступных для объединения тем."
+
+#~ msgid "Merge topic subscribers"
+#~ msgstr "Объединить подписчиков тем"
+
+#~ msgid "Merge topic favoriters"
+#~ msgstr "Объединить добавивших темы в избранное"
+
+#~ msgid "Merge topic tags"
+#~ msgstr "Объединить метки тем"
+
+#~ msgid "Tagged:"
+#~ msgstr "Помечено:"
+
+#~ msgid "%s reply"
+#~ msgid_plural "%s replies"
+#~ msgstr[0] "%s ответ"
+#~ msgstr[1] "%s ответа"
+#~ msgstr[2] "%s ответов"
+
+#~ msgid "No Replies"
+#~ msgstr "Ответов Нет"
+
+#~ msgid "Trash"
+#~ msgstr "Удалить"
+
+#~ msgid "Restore"
+#~ msgstr "Восстановить"
+
+#~ msgid "Restore this item from the Trash"
+#~ msgstr "Восстановить эту запись из корзины"
+
+#~ msgid "You cannot reply to this topic."
+#~ msgstr "Вы не можете ответить в этой теме."
+
+#~ msgid "Tags:"
+#~ msgstr "Метки:"
+
+#~ msgid ""
+#~ "This topic is marked as closed to new replies, however your posting "
+#~ "capabilities still allow you to do so."
+#~ msgstr ""
+#~ "Эта тема закрыта для новых ответов, но ваши права всё же позволяют вам сделать "
+#~ "публикацию."
+
+#~ msgid "You must be logged in to create new topics."
+#~ msgstr "Вы должны войти, чтобы создавать новые темы."
+
+#~ msgid "Mail (will not be published) (required):"
+#~ msgstr "E-mail (не публикуется) (обязательно):"
+
+#~ msgid "Name (required):"
+#~ msgstr "Имя (обязательно):"
+
+#~ msgid "Your information:"
+#~ msgstr "Ваша информация:"
+
+#~ msgid "Manage Tag: \"%s\""
+#~ msgstr "Управление Метками: \"%s\""
+
+#~ msgid "Protected"
+#~ msgstr "Защищено"
+
+#~ msgid "Name:"
+#~ msgstr "Имя:"
+
+#~ msgid "Rename"
+#~ msgstr "Переименовать"
+
+#~ msgid "Leave the slug empty to have one automatically generated."
+#~ msgstr "Оставьте ярлык пустым для автоматической генерации."
+
+#~ msgid ""
+#~ "Changing the slug affects its permalink. Any links to the old slug will stop "
+#~ "working."
+#~ msgstr ""
+#~ "Изменение ярлыка влияет на его постоянную ссылку. Любые ссылки со старым "
+#~ "ярлыком перестанут работать."
+
+#~ msgid "Deleting a tag cannot be undone."
+#~ msgstr "Удаление меток не может быть отменено."
+
+#~ msgid "This does not delete your topics. Only the tag itself is deleted."
+#~ msgstr "Это не удалит ваши темы. Только метка удаляется."
+
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#~ msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+#~ msgstr "Вы уверены, что хотите объединить метку  \"%s\" с указанной меткой?"
+
+#~ msgid "Existing tag:"
+#~ msgstr "Существующие метки:"
+
+#~ msgid "Merging tags together cannot be undone."
+#~ msgstr "Слияние меток не может быть отменено."
+
+#~ msgid "Merge"
+#~ msgstr "Объединить"
+
+#~ msgid "Update"
+#~ msgstr "Обновить"
+
+#~ msgid "Slug:"
+#~ msgstr "Ярлык:"
+
+#~ msgid "Unstick"
+#~ msgstr "Открепить"
+
+#~ msgid "Viewing %1$s topic"
+#~ msgid_plural "Viewing %1$s topics"
+#~ msgstr[0] "Просмотр %1$s темы"
+#~ msgstr[1] "Просмотр %1$s тем"
+#~ msgstr[2] "Просмотр %1$s тем"
+
+#~ msgid "%s voice"
+#~ msgid_plural "%s voices"
+#~ msgstr[0] "%s участник"
+#~ msgstr[1] "%s участника"
+#~ msgstr[2] "%s участников"
+
+#~ msgid "No topics available"
+#~ msgstr "Нет доступных тем"
+
+#~ msgid "No forums available"
+#~ msgstr "Нет доступных форумов"
+
+#~ msgid "None available"
+#~ msgstr "Недоступно"
+
+#~ msgid "Log Out"
+#~ msgstr "Выйти"
+
+#~ msgid "%s's Profile"
+#~ msgstr "%s's Профиль"
+
+#~ msgid "Edit Your Profile"
+#~ msgstr "Изменить Ваш Профиль"
+
+#~ msgid "Edit %s's Profile"
+#~ msgstr "Изменить %s's Профиль"
+
+#~ msgid "Forum: %s"
+#~ msgstr "Форум: %s"
+
+#~ msgid "Topic: %s"
+#~ msgstr "Тема: %s"
+
+#~ msgid "View: %s"
+#~ msgstr "Просмотр: %s"
+
+#~ msgid "User updated."
+#~ msgstr "Пользователь обновлён."
+
+#~ msgid "You have super admin privileges."
+#~ msgstr "У вас права супер администратора."
+
+#~ msgid "This user has super admin privileges."
+#~ msgstr "У пользователя права суперадминистратора."
+
+#~ msgid "&mdash; No role for this site &mdash;"
+#~ msgstr "&mdash;  Нет роли на этом сайте &mdash;"
+
+#~ msgid "No Topics"
+#~ msgstr "Нет тем"
+
+#~ msgid "%s topic"
+#~ msgid_plural "%s topics"
+#~ msgstr[0] "%s тема"
+#~ msgstr[1] "%s темы"
+#~ msgstr[2] "%s тем"
+
+#~ msgid "Content"
+#~ msgstr "Содержимое"
+
+#~ msgid "Discussion"
+#~ msgstr "Обсуждение"
+
+#~ msgid "User"
+#~ msgid_plural "Users"
+#~ msgstr[0] "Пользователь"
+#~ msgstr[1] "Пользователя"
+#~ msgstr[2] "Пользователей"
+
+#~ msgid "Hidden Topic"
+#~ msgid_plural "Hidden Topics"
+#~ msgstr[0] "Скрытая тема"
+#~ msgstr[1] "Скрытые темы"
+#~ msgstr[2] "Скрытых тем"
+
+#~ msgid "Hidden Reply"
+#~ msgid_plural "Hidden Replies"
+#~ msgstr[0] "Скрытый ответ"
+#~ msgstr[1] "Скрытых ответа"
+#~ msgstr[2] "Скрытых ответов"
+
+#~ msgid "Empty Topic Tag"
+#~ msgid_plural "Empty Topic Tags"
+#~ msgstr[0] "Пустая метка темы"
+#~ msgstr[1] "Пустые метки тем"
+#~ msgstr[2] "Пустых меток тем"
+
+#~ msgid "Type:"
+#~ msgstr "Тип:"
+
+#~ msgid "Status:"
+#~ msgstr "Статус:"
+
+#~ msgid "Visibility:"
+#~ msgstr "Видимость:"
+
+#~ msgid "Parent:"
+#~ msgstr "Родитель:"
+
+#~ msgid "Forum Parent"
+#~ msgstr "Родительский Форум"
+
+#~ msgid "Order:"
+#~ msgstr "Порядок:"
+
+#~ msgid "Forum Order"
+#~ msgstr "Порядок Форума"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "IP Address"
+#~ msgstr "IP Адрес"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Go Back"
+#~ msgstr "Назад"
+
+#~ msgid "Allow guest users without accounts to create topics and replies"
+#~ msgstr "Разрешить неавторизированным пользователям создавать ответы в темах"
+
+#~ msgid "per page"
+#~ msgstr "на страницу"
+
+#~ msgid "View"
+#~ msgstr "Посмотреть"
+
+#~ msgid "Mark the reply as not spam"
+#~ msgstr "Отметить ответ, как не спам."
+
+#~ msgid "Not spam"
+#~ msgstr "Не спам"
+
+#~ msgid "Mark this reply as spam"
+#~ msgstr "Пометить как спам"
+
+#~ msgid "Delete Permanently"
+#~ msgstr "Удалить навсегда"
